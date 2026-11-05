@@ -1,0 +1,8 @@
+# docs/evidence/ is committed on purpose. It is the raw proof for the defense.
+# Read each file before committing it. It holds account IDs and role ARNs, never credentials.
+# generated policy documents
+build/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
