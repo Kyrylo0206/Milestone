@@ -1,0 +1,7 @@
+COMMAND: aws sts get-caller-identity --region us-east-1 --output json
+
+{
+    "UserId": "AROAXJGZQC4CE6PKLPMSG:user5670344=kshykhalov@kse.org.ua",
+    "Account": "500819826436",
+    "Arn": "arn:aws:sts::500819826436:assumed-role/voclabs/user5670344=kshykhalov@kse.org.ua"
+}

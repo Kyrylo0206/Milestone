@@ -1,0 +1,15 @@
+== cfn-lint ==
+cfn-lint clean
+== JSON parameter files ==
+parses: infra/params/iam-readonly-example.json
+parses: infra/params/network-sandbox.json
+== CIDR plan test ==
+ok public-a   10.20.0.0/24    total   256 usable 251
+ok public-b   10.20.1.0/24    total   256 usable 251
+ok private-a  10.20.16.0/20   total  4096 usable 4091
+ok private-b  10.20.32.0/20   total  4096 usable 4091
+all assertions passed
+== pytest ==
+................                                                         [100%]
+16 passed in 0.20s
+LINT RESULT: PASS

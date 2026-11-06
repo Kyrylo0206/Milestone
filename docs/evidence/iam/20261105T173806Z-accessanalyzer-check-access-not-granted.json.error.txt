@@ -1,0 +1,5 @@
+COMMAND: aws accessanalyzer check-access-not-granted --policy-type IDENTITY_POLICY --policy-document file://build/readonly-policy.json --access [{"actions":["s3:PutObject","ec2:RunInstances","ec2:CreateVpc","iam:CreateRole","dynamodb:PutItem","dynamodb:Scan","s3:GetObject"]}] --output json
+EXIT: 254
+ERROR:
+
+aws: [ERROR]: An error occurred (AccessDeniedException) when calling the CheckAccessNotGranted operation: User: arn:aws:sts::500819826436:assumed-role/voclabs/user5670344=kshykhalov@kse.org.ua is not authorized to perform: access-analyzer:CheckAccessNotGranted on resource: arn:aws:access-analyzer:us-east-1:500819826436:* because no identity-based policy allows the access-analyzer:CheckAccessNotGranted action

@@ -1,0 +1,167 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >-
+  kvs-iam-readonly. Customer managed read-only policy (metadata only, data
+  reads denied) and a role that one trusted principal can assume with an
+  ExternalId. Real account only. The Learner Lab sandbox refuses IAM writes.
+
+Parameters:
+  ProjectName:
+    Type: String
+    Default: kvs
+  TrustedPrincipalArn:
+    Type: String
+    Description: The one principal allowed to assume the role, for example arn:aws:iam::<audit account>:root.
+    AllowedPattern: '^arn:aws:iam::[0-9]{12}:(root|role/[\w+=,.@/-]+|user/[\w+=,.@/-]+)$'
+    ConstraintDescription: Must be a root, role or user ARN of an AWS account. A wildcard is not allowed.
+  ExternalId:
+    Type: String
+    MinLength: 8
+    MaxLength: 1224
+    AllowedPattern: '^[\w+=,.@:/-]+$'
+    Description: Shared identifier against the confused deputy problem. Not a secret.
+  RequireMfa:
+    Type: String
+    Default: 'false'
+    AllowedValues: ['true', 'false']
+    Description: Use true when the assuming principal is a human IAM user. A role session cannot present MFA.
+  MaxSessionDuration:
+    Type: Number
+    Default: 3600
+    MinValue: 3600
+    MaxValue: 43200
+    Description: Role limit in seconds. IAM accepts 3600 to 43200. A caller can still ask for a shorter session with --duration-seconds 900.
+
+Conditions:
+  RequireMfaCondition: !Equals [!Ref RequireMfa, 'true']
+
+Resources:
+  # No intrinsic functions on purpose, so scripts/extract-policy.py can emit plain JSON.
+  ReadOnlyViewPolicy:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      ManagedPolicyName: !Sub '${ProjectName}-readonly-view'
+      Description: View resource metadata only. Data plane reads and secrets are explicitly denied.
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Sid: ViewInfrastructureMetadata
+            Effect: Allow
+            Action:
+              - ec2:Describe*
+              - elasticloadbalancing:Describe*
+              - autoscaling:Describe*
+              - cloudformation:Describe*
+              - cloudformation:List*
+              - cloudformation:GetTemplate
+              - cloudformation:GetTemplateSummary
+              - lambda:ListFunctions
+              - lambda:ListEventSourceMappings
+              - lambda:ListTags
+              - lambda:GetFunctionConfiguration
+              - lambda:GetAccountSettings
+              - dynamodb:ListTables
+              - dynamodb:DescribeTable
+              - dynamodb:DescribeTimeToLive
+              - dynamodb:DescribeContinuousBackups
+              - dynamodb:DescribeLimits
+              - dynamodb:ListTagsOfResource
+              - s3:ListAllMyBuckets
+              - s3:ListBucket
+              - s3:GetBucketLocation
+              - s3:GetBucketPolicy
+              - s3:GetBucketTagging
+              - s3:GetBucketVersioning
+              - s3:GetEncryptionConfiguration
+              - s3:GetBucketPublicAccessBlock
+              - ecs:Describe*
+              - ecs:List*
+              - ecr:DescribeRepositories
+              - ecr:DescribeImages
+              - ecr:ListImages
+              - apigateway:GET
+              - cloudwatch:Describe*
+              - cloudwatch:Get*
+              - cloudwatch:List*
+              - logs:DescribeLogGroups
+              - logs:DescribeLogStreams
+              - logs:DescribeMetricFilters
+              - logs:ListTagsForResource
+              - sqs:ListQueues
+              - sqs:GetQueueAttributes
+              - sns:ListTopics
+              - sns:GetTopicAttributes
+              - iam:GetRole
+              - iam:GetPolicy
+              - iam:GetPolicyVersion
+              - iam:GetRolePolicy
+              - iam:ListRoles
+              - iam:ListPolicies
+              - iam:ListAttachedRolePolicies
+              - iam:ListRolePolicies
+              - iam:ListInstanceProfiles
+              - iam:GetAccountSummary
+              - servicequotas:Get*
+              - servicequotas:List*
+              - tag:GetResources
+              - budgets:ViewBudget
+              - ce:GetCostAndUsage
+              - ce:GetCostForecast
+            Resource: "*"
+          - Sid: DenyDataPlaneReadsAndSecrets
+            Effect: Deny
+            Action:
+              - s3:GetObject
+              - s3:GetObjectVersion
+              - dynamodb:GetItem
+              - dynamodb:BatchGetItem
+              - dynamodb:Query
+              - dynamodb:Scan
+              - dynamodb:PartiQLSelect
+              - secretsmanager:GetSecretValue
+              - ssm:GetParameter
+              - ssm:GetParameters
+              - ssm:GetParametersByPath
+              - kms:Decrypt
+              - lambda:InvokeFunction
+              - lambda:GetFunction
+              - logs:GetLogEvents
+              - logs:FilterLogEvents
+              - logs:StartQuery
+              - ecr:BatchGetImage
+              - ecr:GetDownloadUrlForLayer
+              - sqs:ReceiveMessage
+            Resource: "*"
+
+  ReadOnlyViewRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub '${ProjectName}-readonly-viewer'
+      Description: Read-only viewer role. The same policy is attached and set as permissions boundary.
+      MaxSessionDuration: !Ref MaxSessionDuration
+      ManagedPolicyArns:
+        - !Ref ReadOnlyViewPolicy
+      PermissionsBoundary: !Ref ReadOnlyViewPolicy
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Sid: AllowTrustedPrincipalWithExternalId
+            Effect: Allow
+            Principal:
+              AWS: !Ref TrustedPrincipalArn
+            Action: sts:AssumeRole
+            Condition: !If
+              - RequireMfaCondition
+              - StringEquals:
+                  'sts:ExternalId': !Ref ExternalId
+                Bool:
+                  'aws:MultiFactorAuthPresent': 'true'
+              - StringEquals:
+                  'sts:ExternalId': !Ref ExternalId
+
+Outputs:
+  PolicyArn:
+    Value: !Ref ReadOnlyViewPolicy
+  RoleArn:
+    Value: !GetAtt ReadOnlyViewRole.Arn
+  AssumeRoleCommand:
+    Value: !Sub 'aws sts assume-role --role-arn ${ReadOnlyViewRole.Arn} --role-session-name audit --external-id <ExternalId>'

@@ -1,0 +1,22 @@
+COMMAND: aws cloudformation describe-stack-resources --stack-name kvs-network --region us-east-1 --query StackResources[].[LogicalResourceId,ResourceType,ResourceStatus] --output table
+
+-----------------------------------------------------------------------------------------------------
+|                                      DescribeStackResources                                       |
++--------------------------------------+-----------------------------------------+------------------+
+|  InternetGateway                     |  AWS::EC2::InternetGateway              |  CREATE_COMPLETE |
+|  InternetGatewayAttachment           |  AWS::EC2::VPCGatewayAttachment         |  CREATE_COMPLETE |
+|  PrivateRouteTable1                  |  AWS::EC2::RouteTable                   |  CREATE_COMPLETE |
+|  PrivateRouteTable2                  |  AWS::EC2::RouteTable                   |  CREATE_COMPLETE |
+|  PrivateSubnet1                      |  AWS::EC2::Subnet                       |  CREATE_COMPLETE |
+|  PrivateSubnet1RouteTableAssociation |  AWS::EC2::SubnetRouteTableAssociation  |  CREATE_COMPLETE |
+|  PrivateSubnet2                      |  AWS::EC2::Subnet                       |  CREATE_COMPLETE |
+|  PrivateSubnet2RouteTableAssociation |  AWS::EC2::SubnetRouteTableAssociation  |  CREATE_COMPLETE |
+|  PublicDefaultRoute                  |  AWS::EC2::Route                        |  CREATE_COMPLETE |
+|  PublicRouteTable                    |  AWS::EC2::RouteTable                   |  CREATE_COMPLETE |
+|  PublicSubnet1                       |  AWS::EC2::Subnet                       |  CREATE_COMPLETE |
+|  PublicSubnet1RouteTableAssociation  |  AWS::EC2::SubnetRouteTableAssociation  |  CREATE_COMPLETE |
+|  PublicSubnet2                       |  AWS::EC2::Subnet                       |  CREATE_COMPLETE |
+|  PublicSubnet2RouteTableAssociation  |  AWS::EC2::SubnetRouteTableAssociation  |  CREATE_COMPLETE |
+|  S3GatewayEndpoint                   |  AWS::EC2::VPCEndpoint                  |  CREATE_COMPLETE |
+|  Vpc                                 |  AWS::EC2::VPC                          |  CREATE_COMPLETE |
++--------------------------------------+-----------------------------------------+------------------+

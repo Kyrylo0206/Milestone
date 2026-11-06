@@ -1,0 +1,253 @@
+{
+    "Quotas": [
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-F7858A77",
+            "QuotaCode": "L-F7858A77",
+            "QuotaName": "Global Secondary Indexes per table",
+            "Value": 20.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "The maximum number of global secondary indexes that can be created for a table. For more information, see, https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-secondary-indexes"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-B0A68893",
+            "QuotaCode": "L-B0A68893",
+            "QuotaName": "Maximum number of objects per BulkPutItems operation",
+            "Value": 50000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "The maximum limit on total number of objects for a BulkPutItems operation. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-bulk-put-items"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-AB614373",
+            "QuotaCode": "L-AB614373",
+            "QuotaName": "Table-level write throughput limit",
+            "Value": 40000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "The maximum number of write throughput allocated for a table or global secondary index. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-923BEB7A",
+            "QuotaCode": "L-923BEB7A",
+            "QuotaName": "Write throughput limit for DynamoDB Streams (Provisioned mode)",
+            "Value": 40000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "The maximum number of write capacity units allowed for a table with streams enabled; applicable only for tables in provisioned read/write capacity mode. Other quotas might also apply. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-dynamodb-streams"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-FBBCE3E7",
+            "QuotaCode": "L-FBBCE3E7",
+            "QuotaName": "Concurrent BulkPutItems operations (Accelerated performance tier)",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "The maximum number of BulkPutItems operations that can run concurrently at the Accelerated performance tier. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-bulk-put-items"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-34F8CCC8",
+            "QuotaCode": "L-34F8CCC8",
+            "QuotaName": "Account-level write throughput limit (Provisioned mode)",
+            "Value": 80000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "AccountProvisionedWriteCapacityUnits",
+                    "Service": "DynamoDB",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Description": "The maximum number of write capacity units allocated for the account; applicable only for tables (including all associated global secondary indexes) in provisioned read/write capacity mode. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-B32F4AF0",
+            "QuotaCode": "L-B32F4AF0",
+            "QuotaName": "Maximum BulkPutItems data size (Standard performance tier)",
+            "Value": 100.0,
+            "Unit": "Gigabytes",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "The maximum limit on total input size for a single BulkPutItems operation at the Standard performance tier. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-bulk-put-items"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-F98FE922",
+            "QuotaCode": "L-F98FE922",
+            "QuotaName": "Maximum number of tables",
+            "Value": 2500.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TableCount",
+                    "Service": "DynamoDB",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Description": "The maximum number of tables that can be created per region. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-tables"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-CF0CBE56",
+            "QuotaCode": "L-CF0CBE56",
+            "QuotaName": "Table-level read throughput limit",
+            "Value": 40000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "The maximum number of read throughput allocated for a table or global secondary index. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-1BB77E89",
+            "QuotaCode": "L-1BB77E89",
+            "QuotaName": "Concurrent control plane operations",
+            "Value": 500.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "The maximum number of allowed concurrent control plane operations. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#limits-api"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-34F6A552",
+            "QuotaCode": "L-34F6A552",
+            "QuotaName": "Account-level read throughput limit (Provisioned mode)",
+            "Value": 80000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "AccountProvisionedReadCapacityUnits",
+                    "Service": "DynamoDB",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Description": "The maximum number of read capacity units allocated for the account; applicable only for tables (including all associated global secondary indexes) in provisioned read/write capacity mode. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#default-limits-throughput-capacity-modes"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-2AFF8965",
+            "QuotaCode": "L-2AFF8965",
+            "QuotaName": "Maximum BulkPutItems data size (Accelerated performance tier)",
+            "Value": 1.0,
+            "Unit": "Terabytes",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "The maximum limit on total input size for a single BulkPutItems operation at the Accelerated performance tier. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-bulk-put-items"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-F3CA5463",
+            "QuotaCode": "L-F3CA5463",
+            "QuotaName": "Provisioned capacity decreases per day",
+            "Value": 27.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "A decrease is allowed up to four times any time per day (GMT time zone). Also, if there was no decrease in the past hour, an additional decrease is allowed, effectively bringing the maximum number of decreases in a day to 27 times. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-0726A3CF",
+            "QuotaCode": "L-0726A3CF",
+            "QuotaName": "Concurrent BulkPutItems operations (Standard performance tier)",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "The maximum number of BulkPutItems operations that can run concurrently at the Standard performance tier. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-bulk-put-items"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-6F30DCE1",
+            "QuotaCode": "L-6F30DCE1",
+            "QuotaName": "Maximum Incremental Export period window",
+            "Value": 24.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "Description": "The limit on the maximum export period (in hours) for an incremental export request. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-table-export"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-C2098644",
+            "QuotaCode": "L-C2098644",
+            "QuotaName": "Minimum Incremental Export period window",
+            "Value": 15.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "Description": "The limit on the minimum export period (in minutes) for an incremental export request. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-table-export"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-2A593B99",
+            "QuotaCode": "L-2A593B99",
+            "QuotaName": "Maximum Incremental Export concurrent data size",
+            "Value": 100.0,
+            "Unit": "Terabytes",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "Maximum limit on size of in flight incremental export requests. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-table-export"
+        },
+        {
+            "ServiceCode": "dynamodb",
+            "ServiceName": "Amazon DynamoDB",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1::dynamodb/L-D98E8184",
+            "QuotaCode": "L-D98E8184",
+            "QuotaName": "Maximum Incremental Export concurrent requests",
+            "Value": 300.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "Description": "Maximum limit on number of in flight incremental export requests. For more information, see https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ServiceQuotas.html#limits-table-export"
+        }
+    ]
+}

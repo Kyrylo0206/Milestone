@@ -1,0 +1,61 @@
+COMMAND: aws cloudformation describe-stack-events --stack-name kvs-network --region us-east-1 --query reverse(StackEvents)[].[Timestamp,LogicalResourceId,ResourceStatus] --output table
+
+---------------------------------------------------------------------------------------------------
+|                                       DescribeStackEvents                                       |
++-----------------------------------+---------------------------------------+---------------------+
+|  2026-11-05T17:42:15.371000+00:00 |  kvs-network                          |  REVIEW_IN_PROGRESS |
+|  2026-11-05T17:42:26.919000+00:00 |  kvs-network                          |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:29.066000+00:00 |  InternetGateway                      |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:29.070000+00:00 |  Vpc                                  |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:30.134000+00:00 |  InternetGateway                      |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:30.646000+00:00 |  Vpc                                  |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:30.654000+00:00 |  InternetGateway                      |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:42.627000+00:00 |  Vpc                                  |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:43.006000+00:00 |  PublicSubnet1                        |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:43.042000+00:00 |  PrivateRouteTable2                   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:43.042000+00:00 |  PrivateSubnet2                       |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:43.045000+00:00 |  PublicRouteTable                     |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:43.046000+00:00 |  PrivateRouteTable1                   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:43.053000+00:00 |  PrivateSubnet1                       |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:43.054000+00:00 |  InternetGatewayAttachment            |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:43.065000+00:00 |  PublicSubnet2                        |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:43.884000+00:00 |  InternetGatewayAttachment            |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:43.938000+00:00 |  PrivateSubnet2                       |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:44.044000+00:00 |  PublicRouteTable                     |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:44.050000+00:00 |  PrivateRouteTable2                   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:44.066000+00:00 |  PrivateRouteTable1                   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:44.147000+00:00 |  PublicSubnet1                        |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:44.185000+00:00 |  PrivateSubnet1                       |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:44.520000+00:00 |  PublicRouteTable                     |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:44.584000+00:00 |  PrivateRouteTable1                   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:44.628000+00:00 |  PrivateRouteTable2                   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:44.895000+00:00 |  S3GatewayEndpoint                    |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:45.913000+00:00 |  InternetGateway                      |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:45.961000+00:00 |  InternetGatewayAttachment            |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:46.923000+00:00 |  PublicSubnet2                        |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:47.209000+00:00 |  PrivateSubnet1                       |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:47.241000+00:00 |  PrivateSubnet2                       |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:47.479000+00:00 |  PublicSubnet1                        |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:47.583000+00:00 |  PrivateSubnet1RouteTableAssociation  |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:47.667000+00:00 |  PrivateSubnet2RouteTableAssociation  |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:47.879000+00:00 |  PublicSubnet1RouteTableAssociation   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:48.036000+00:00 |  S3GatewayEndpoint                    |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:48.682000+00:00 |  S3GatewayEndpoint                    |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:48.832000+00:00 |  PrivateSubnet1RouteTableAssociation  |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:48.906000+00:00 |  PrivateSubnet2RouteTableAssociation  |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:49.270000+00:00 |  PublicSubnet1RouteTableAssociation   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:49.457000+00:00 |  PrivateSubnet1RouteTableAssociation  |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:49.463000+00:00 |  PrivateSubnet2RouteTableAssociation  |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:49.892000+00:00 |  PublicSubnet1RouteTableAssociation   |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:50.501000+00:00 |  PublicSubnet2                        |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:50.875000+00:00 |  PublicSubnet2RouteTableAssociation   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:52.053000+00:00 |  PublicSubnet2RouteTableAssociation   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:52.699000+00:00 |  PublicSubnet2RouteTableAssociation   |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:54.837000+00:00 |  PublicRouteTable                     |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:54.849000+00:00 |  PrivateRouteTable2                   |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:54.857000+00:00 |  PrivateRouteTable1                   |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:55.256000+00:00 |  PublicDefaultRoute                   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:56.365000+00:00 |  PublicDefaultRoute                   |  CREATE_IN_PROGRESS |
+|  2026-11-05T17:42:56.912000+00:00 |  PublicDefaultRoute                   |  CREATE_COMPLETE    |
+|  2026-11-05T17:42:59.987000+00:00 |  kvs-network                          |  CREATE_COMPLETE    |
++-----------------------------------+---------------------------------------+---------------------+

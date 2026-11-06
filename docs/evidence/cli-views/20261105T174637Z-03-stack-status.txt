@@ -1,0 +1,9 @@
+COMMAND: aws cloudformation describe-stacks --stack-name kvs-network --region us-east-1 --query Stacks[0].[StackName,StackStatus,CreationTime] --output table
+
+--------------------------------------
+|           DescribeStacks           |
++------------------------------------+
+|  kvs-network                       |
+|  CREATE_COMPLETE                   |
+|  2026-11-05T17:42:15.371000+00:00  |
++------------------------------------+

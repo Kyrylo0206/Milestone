@@ -1,0 +1,5 @@
+COMMAND: aws organizations describe-organization --output json
+EXIT: 254
+ERROR:
+
+aws: [ERROR]: An error occurred (AccessDeniedException) when calling the DescribeOrganization operation: You don't have permissions to access this resource.

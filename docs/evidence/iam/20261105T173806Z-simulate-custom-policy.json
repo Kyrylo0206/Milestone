@@ -1,0 +1,26 @@
+[
+    [
+        "ec2:DescribeVpcs",
+        "allowed"
+    ],
+    [
+        "ec2:CreateVpc",
+        "implicitDeny"
+    ],
+    [
+        "s3:ListAllMyBuckets",
+        "allowed"
+    ],
+    [
+        "s3:GetObject",
+        "explicitDeny"
+    ],
+    [
+        "dynamodb:Scan",
+        "explicitDeny"
+    ],
+    [
+        "iam:CreateRole",
+        "implicitDeny"
+    ]
+]

@@ -1,0 +1,8 @@
+COMMAND: aws service-quotas get-service-quota --service-code vpc --quota-code L-FE5A380F --region us-east-1 --query Quota.[QuotaName,Value] --output table
+
+----------------------------------------
+|            GetServiceQuota           |
++--------------------------------------+
+|  NAT gateways per Availability Zone  |
+|  5.0                                 |
++--------------------------------------+

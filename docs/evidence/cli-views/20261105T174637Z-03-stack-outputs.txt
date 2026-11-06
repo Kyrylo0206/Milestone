@@ -1,0 +1,19 @@
+COMMAND: aws cloudformation describe-stacks --stack-name kvs-network --region us-east-1 --query Stacks[0].Outputs[].[OutputKey,OutputValue] --output table
+
+-------------------------------------------------------------------------------
+|                               DescribeStacks                                |
++-----------------------+-----------------------------------------------------+
+|  S3GatewayEndpointId  |  vpce-071693423aeb86b33                             |
+|  PublicSubnetIds      |  subnet-0a0ab3bea681452b2,subnet-0e108783373942f2f  |
+|  AvailabilityZones    |  us-east-1a,us-east-1b                              |
+|  PrivateRouteTable1Id |  rtb-063f7bcf109792622                              |
+|  PrivateRouteTable2Id |  rtb-0dac39d96dcc69fa7                              |
+|  PrivateSubnet2Id     |  subnet-0ccb0e0d5b7265020                           |
+|  PrivateSubnet1Id     |  subnet-0803ad4e1834c1483                           |
+|  PublicRouteTableId   |  rtb-020eeb2d3641e8e06                              |
+|  PrivateSubnetIds     |  subnet-0803ad4e1834c1483,subnet-0ccb0e0d5b7265020  |
+|  VpcId                |  vpc-08e4bf4ba6cdd7a96                              |
+|  VpcCidr              |  10.20.0.0/16                                       |
+|  PublicSubnet1Id      |  subnet-0a0ab3bea681452b2                           |
+|  PublicSubnet2Id      |  subnet-0e108783373942f2f                           |
++-----------------------+-----------------------------------------------------+

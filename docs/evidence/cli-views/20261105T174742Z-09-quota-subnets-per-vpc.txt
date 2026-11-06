@@ -1,0 +1,8 @@
+COMMAND: aws service-quotas get-service-quota --service-code vpc --quota-code L-407747CB --region us-east-1 --query Quota.[QuotaName,Value] --output table
+
+---------------------
+|  GetServiceQuota  |
++-------------------+
+|  Subnets per VPC  |
+|  200.0            |
++-------------------+

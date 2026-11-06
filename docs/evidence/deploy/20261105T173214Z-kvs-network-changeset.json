@@ -1,0 +1,239 @@
+{
+    "Changes": [
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "InternetGatewayAttachment",
+                "ResourceType": "AWS::EC2::VPCGatewayAttachment",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "InternetGateway",
+                "ResourceType": "AWS::EC2::InternetGateway",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PrivateRouteTable1",
+                "ResourceType": "AWS::EC2::RouteTable",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PrivateRouteTable2",
+                "ResourceType": "AWS::EC2::RouteTable",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PrivateSubnet1RouteTableAssociation",
+                "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PrivateSubnet1",
+                "ResourceType": "AWS::EC2::Subnet",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PrivateSubnet2RouteTableAssociation",
+                "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PrivateSubnet2",
+                "ResourceType": "AWS::EC2::Subnet",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PublicDefaultRoute",
+                "ResourceType": "AWS::EC2::Route",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PublicRouteTable",
+                "ResourceType": "AWS::EC2::RouteTable",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PublicSubnet1RouteTableAssociation",
+                "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PublicSubnet1",
+                "ResourceType": "AWS::EC2::Subnet",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PublicSubnet2RouteTableAssociation",
+                "ResourceType": "AWS::EC2::SubnetRouteTableAssociation",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "PublicSubnet2",
+                "ResourceType": "AWS::EC2::Subnet",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "S3GatewayEndpoint",
+                "ResourceType": "AWS::EC2::VPCEndpoint",
+                "Scope": [],
+                "Details": []
+            }
+        },
+        {
+            "Type": "Resource",
+            "ResourceChange": {
+                "Action": "Add",
+                "LogicalResourceId": "Vpc",
+                "ResourceType": "AWS::EC2::VPC",
+                "Scope": [],
+                "Details": []
+            }
+        }
+    ],
+    "ChangeSetName": "kvs-network-cs-20261105T173223Z",
+    "ChangeSetId": "arn:aws:cloudformation:us-east-1:500819826436:changeSet/kvs-network-cs-20261105T173223Z/908e375f-22e6-436f-b4a7-21b7667eb58d",
+    "StackId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-network/dcfeec90-d93e-11f1-b690-0affd3f543c9",
+    "StackName": "kvs-network",
+    "Description": null,
+    "Parameters": [
+        {
+            "ParameterKey": "PrivateSubnet1Cidr",
+            "ParameterValue": "10.20.16.0/20"
+        },
+        {
+            "ParameterKey": "PublicSubnet2Cidr",
+            "ParameterValue": "10.20.1.0/24"
+        },
+        {
+            "ParameterKey": "VpcCidr",
+            "ParameterValue": "10.20.0.0/16"
+        },
+        {
+            "ParameterKey": "ProjectName",
+            "ParameterValue": "kvs"
+        },
+        {
+            "ParameterKey": "PrivateSubnet2Cidr",
+            "ParameterValue": "10.20.32.0/20"
+        },
+        {
+            "ParameterKey": "EnableNatGateway",
+            "ParameterValue": "false"
+        },
+        {
+            "ParameterKey": "PublicSubnet1Cidr",
+            "ParameterValue": "10.20.0.0/24"
+        }
+    ],
+    "CreationTime": "2026-11-05T17:32:24.471000+00:00",
+    "ExecutionStatus": "AVAILABLE",
+    "Status": "CREATE_COMPLETE",
+    "StatusReason": null,
+    "NotificationARNs": [],
+    "RollbackConfiguration": {},
+    "Capabilities": [],
+    "Tags": [
+        {
+            "Key": "Project",
+            "Value": "kvs-capstone"
+        },
+        {
+            "Key": "Owner",
+            "Value": "kyrylo"
+        },
+        {
+            "Key": "ManagedBy",
+            "Value": "cloudformation"
+        },
+        {
+            "Key": "Milestone",
+            "Value": "m1"
+        },
+        {
+            "Key": "Environment",
+            "Value": "sandbox"
+        }
+    ],
+    "ParentChangeSetId": null,
+    "IncludeNestedStacks": false,
+    "RootChangeSetId": null,
+    "OnStackFailure": null,
+    "ImportExistingResources": null,
+    "StackDriftStatus": null,
+    "DeploymentMode": null,
+    "DeploymentConfig": {
+        "Mode": "STANDARD",
+        "DisableRollback": false
+    }
+}

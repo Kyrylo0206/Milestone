@@ -1,0 +1,5 @@
+COMMAND: aws iam create-policy --policy-name kvs-probe --policy-document {"Version":"2012-10-17","Statement":[{"Effect":"Allow","Action":"s3:ListAllMyBuckets","Resource":"*"}]} --output json
+EXIT: 254
+ERROR:
+
+aws: [ERROR]: An error occurred (AccessDenied) when calling the CreatePolicy operation: User: arn:aws:sts::500819826436:assumed-role/voclabs/user5670344=kshykhalov@kse.org.ua is not authorized to perform: iam:CreatePolicy on resource: policy kvs-probe because no identity-based policy allows the iam:CreatePolicy action. Go to https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-1#/authorization-details/c1qvzl929hnp0orqxvdtdepz7 for complete details, or call the GetRequestAuthorizationDetails API with the following authorization id: c1qvzl929hnp0orqxvdtdepz7

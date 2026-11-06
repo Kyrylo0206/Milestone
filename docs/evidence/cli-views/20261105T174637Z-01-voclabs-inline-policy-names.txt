@@ -1,0 +1,9 @@
+COMMAND: aws iam list-role-policies --role-name voclabs --output table
+
+------------------
+|ListRolePolicies|
++----------------+
+||  PolicyNames ||
+|+--------------+|
+||  Pvoclabs    ||
+|+--------------+|

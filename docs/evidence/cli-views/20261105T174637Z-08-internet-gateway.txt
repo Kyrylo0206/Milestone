@@ -1,0 +1,7 @@
+COMMAND: aws ec2 describe-internet-gateways --filters Name=attachment.vpc-id,Values=vpc-08e4bf4ba6cdd7a96 --region us-east-1 --query InternetGateways[].[InternetGatewayId,Attachments[0].State,Tags[?Key=='Name']|[0].Value] --output table
+
+---------------------------------------------------
+|            DescribeInternetGateways             |
++------------------------+-------------+----------+
+|  igw-0bdee82bbd679b415 |  available  |  kvs-igw |
++------------------------+-------------+----------+

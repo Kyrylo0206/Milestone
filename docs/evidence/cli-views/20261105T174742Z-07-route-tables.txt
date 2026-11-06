@@ -1,0 +1,52 @@
+COMMAND: aws ec2 describe-route-tables --filters Name=vpc-id,Values=vpc-08e4bf4ba6cdd7a96 --region us-east-1 --query RouteTables[].[Tags[?Key=='Name']|[0].Value,Routes[].[DestinationCidrBlock||DestinationPrefixListId,GatewayId]] --output json
+
+[
+    [
+        "kvs-rt-public",
+        [
+            [
+                "10.20.0.0/16",
+                "local"
+            ],
+            [
+                "0.0.0.0/0",
+                "igw-0bdee82bbd679b415"
+            ]
+        ]
+    ],
+    [
+        null,
+        [
+            [
+                "10.20.0.0/16",
+                "local"
+            ]
+        ]
+    ],
+    [
+        "kvs-rt-private-a",
+        [
+            [
+                "10.20.0.0/16",
+                "local"
+            ],
+            [
+                "pl-63a5400a",
+                "vpce-071693423aeb86b33"
+            ]
+        ]
+    ],
+    [
+        "kvs-rt-private-b",
+        [
+            [
+                "10.20.0.0/16",
+                "local"
+            ],
+            [
+                "pl-63a5400a",
+                "vpce-071693423aeb86b33"
+            ]
+        ]
+    ]
+]

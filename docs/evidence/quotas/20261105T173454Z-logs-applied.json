@@ -1,0 +1,1441 @@
+{
+    "Quotas": [
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-3F243AD0",
+            "QuotaCode": "L-3F243AD0",
+            "QuotaName": "DescribeLogStreams throttle limit in transactions per second",
+            "Value": 25.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeLogStreams",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of describe-log-streams calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-FB8CE9B0",
+            "QuotaCode": "L-FB8CE9B0",
+            "QuotaName": "PutBearerTokenAuthentication throttle limit in transactions per second in a burst",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of put-bearer-token-authentication calls per second per account/per region in a burst"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-29A639F6",
+            "QuotaCode": "L-29A639F6",
+            "QuotaName": "Batch size",
+            "Value": 1.0,
+            "Unit": "Megabytes",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum batch size in MB of a put-log-events request"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-F738B5C5",
+            "QuotaCode": "L-F738B5C5",
+            "QuotaName": "DeleteDataProtectionPolicy throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of delete-data-protection-policy calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-4A1D48B1",
+            "QuotaCode": "L-4A1D48B1",
+            "QuotaName": "Log groups scanned per Live Tail session",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of log groups that can be scanned per Live Tail session"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-0397E41F",
+            "QuotaCode": "L-0397E41F",
+            "QuotaName": "PutRetentionPolicy throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "PutRetentionPolicy",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of put-retention-policy calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-AF821D83",
+            "QuotaCode": "L-AF821D83",
+            "QuotaName": "DescribeImportTasks throttle limit in transactions per second in a burst",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeImportTasks calls per second per account/per region in a burst"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-E5FB5933",
+            "QuotaCode": "L-E5FB5933",
+            "QuotaName": "PutMetricFilter throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "PutMetricFilter",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of put-metric-filter calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-FAF0999A",
+            "QuotaCode": "L-FAF0999A",
+            "QuotaName": "GetQueryResults  throttle limit in transactions per second",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of get-query-results calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-C7B9AAAB",
+            "QuotaCode": "L-C7B9AAAB",
+            "QuotaName": "Log groups",
+            "Value": 1000000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of log groups an account can have"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-F28F0852",
+            "QuotaCode": "L-F28F0852",
+            "QuotaName": "CancelImportTask throttle limit in transactions per second in a burst",
+            "Value": 1.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CancelImportTask calls per second per account/per region in a burst"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-035ED7CA",
+            "QuotaCode": "L-035ED7CA",
+            "QuotaName": "DisassociateSourceFromS3TableIntegration throttle limit in transactions per second in a burst",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DisassociateSourceFromS3TableIntegration calls per second per account/per region in a burst"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-66F5762A",
+            "QuotaCode": "L-66F5762A",
+            "QuotaName": "DeleteRetentionPolicy throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteRetentionPolicy",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of delete-retention-policy calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-91470774",
+            "QuotaCode": "L-91470774",
+            "QuotaName": "Event size",
+            "Value": 1024.0,
+            "Unit": "Kilobytes",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum log event size in KB"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-3E4C85B1",
+            "QuotaCode": "L-3E4C85B1",
+            "QuotaName": "ListTagsLogGroup throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListTagsLogGroup",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of list-tags-log-group calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-D6990B80",
+            "QuotaCode": "L-D6990B80",
+            "QuotaName": "Live Tail concurrent sessions limit",
+            "Value": 15.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of concurrent active Live Tail sessions per account"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-7E1FAE88",
+            "QuotaCode": "L-7E1FAE88",
+            "QuotaName": "PutLogEvents throttle limit in transactions per second",
+            "Value": 5000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "PutLogEvents",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of put-log-events calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-EEC839DF",
+            "QuotaCode": "L-EEC839DF",
+            "QuotaName": "Active export task",
+            "Value": 1.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The number of active (running or pending) export tasks per account"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-309BA0AF",
+            "QuotaCode": "L-309BA0AF",
+            "QuotaName": "PutTransformer throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "PutTransformer",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of put-transformer calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-69BF6BAC",
+            "QuotaCode": "L-69BF6BAC",
+            "QuotaName": "DescribeMetricFilters throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeMetricFilters",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of describe-metric-filters calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-B53B9649",
+            "QuotaCode": "L-B53B9649",
+            "QuotaName": "logs anomaly detectors",
+            "Value": 500.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of active log anomaly detectors"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-E6EF8674",
+            "QuotaCode": "L-E6EF8674",
+            "QuotaName": "ListTagsForResource throttle limit in transactions per second",
+            "Value": 30.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListTagsForResource",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of list-tags-for-resource calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-5D08A28D",
+            "QuotaCode": "L-5D08A28D",
+            "QuotaName": "PutBearerTokenAuthentication throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of put-bearer-token-authentication calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-C4B2839B",
+            "QuotaCode": "L-C4B2839B",
+            "QuotaName": "DescribeImportTaskBatches throttle limit in transactions per second",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeImportTaskBatches calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-4284EEDE",
+            "QuotaCode": "L-4284EEDE",
+            "QuotaName": "DescribeLogGroups throttle limit in transactions per second",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeLogGroups",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of describe-log-groups calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-1CD226BD",
+            "QuotaCode": "L-1CD226BD",
+            "QuotaName": "TestMetricFilter throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TestMetricFilter",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of test-metric-filter calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-78EF23F2",
+            "QuotaCode": "L-78EF23F2",
+            "QuotaName": "PutDataProtectionPolicy throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of put-data-protection-policy calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-32B765B8",
+            "QuotaCode": "L-32B765B8",
+            "QuotaName": "DisassociateSourceFromS3TableIntegration throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DisassociateSourceFromS3TableIntegration calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-39FFB556",
+            "QuotaCode": "L-39FFB556",
+            "QuotaName": "StartLiveTail throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of start-live-tail calls per second per account/per region. This limit applies independently to both console and API"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-6FDAA596",
+            "QuotaCode": "L-6FDAA596",
+            "QuotaName": "CreateImportTask throttle limit in transactions per second",
+            "Value": 1.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CreateImportTask calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-4FC2190A",
+            "QuotaCode": "L-4FC2190A",
+            "QuotaName": "StartQuery throttle limit in transactions per second",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of start-query calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-97393AE2",
+            "QuotaCode": "L-97393AE2",
+            "QuotaName": "CancelExportTask throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CancelExportTask",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of cancel-export-task calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-4D2D08B8",
+            "QuotaCode": "L-4D2D08B8",
+            "QuotaName": "DescribeImportTasks throttle limit in transactions per second",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeImportTasks calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-07A912D5",
+            "QuotaCode": "L-07A912D5",
+            "QuotaName": "DeleteLogGroup throttle limit in transactions per second",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteLogGroup",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of delete-log-group calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-A5D79081",
+            "QuotaCode": "L-A5D79081",
+            "QuotaName": "PutSubscriptionFilter throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "PutSubscriptionFilter",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of put-subscription-filter calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-27BFBEA7",
+            "QuotaCode": "L-27BFBEA7",
+            "QuotaName": "TestTransformer throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TestTransformer",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of test-transformer calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-4FE15505",
+            "QuotaCode": "L-4FE15505",
+            "QuotaName": "GetLogEvents throttle limit in transactions per second",
+            "Value": 25.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "GetLogEvents",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of get-log-events calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-C029A21C",
+            "QuotaCode": "L-C029A21C",
+            "QuotaName": "DeleteLogStream throttle limit in transactions per second",
+            "Value": 15.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteLogStream",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of delete-log-stream calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-3D5753EA",
+            "QuotaCode": "L-3D5753EA",
+            "QuotaName": "Metrics filters per log group",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The number of metric filters per log group"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-D2832119",
+            "QuotaCode": "L-D2832119",
+            "QuotaName": "CreateLogGroup throttle limit in transactions per second",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CreateLogGroup",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of create-log-group calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-ACAEE94E",
+            "QuotaCode": "L-ACAEE94E",
+            "QuotaName": "DescribeExportTasks throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeExportTasks",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of describe-export-tasks calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-55E3CA17",
+            "QuotaCode": "L-55E3CA17",
+            "QuotaName": "FilterLogEvents throttle limit in transactions per second",
+            "Value": 25.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "FilterLogEvents",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of filter-log-events calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-B501C43C",
+            "QuotaCode": "L-B501C43C",
+            "QuotaName": "UntagResource throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "UntagResource",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of untag-resource calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-EEEC3365",
+            "QuotaCode": "L-EEEC3365",
+            "QuotaName": "UntagLogGroup throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "UntagLogGroup",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of untag-log-group calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-170E7F59",
+            "QuotaCode": "L-170E7F59",
+            "QuotaName": "ListSourcesForS3TableIntegration throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListSourcesForS3TableIntegration calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-9AE6F36A",
+            "QuotaCode": "L-9AE6F36A",
+            "QuotaName": "CreateImportTask throttle limit in transactions per second in a burst",
+            "Value": 1.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CreateImportTask calls per second per account/per region in a burst"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-87E7D306",
+            "QuotaCode": "L-87E7D306",
+            "QuotaName": "Subscription filters per log group",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The number of subscription filters per log group"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-7EB1C513",
+            "QuotaCode": "L-7EB1C513",
+            "QuotaName": "PutDestinationPolicy throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "PutDestinationPolicy",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of put-destination-policy calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-C68057D1",
+            "QuotaCode": "L-C68057D1",
+            "QuotaName": "DeleteTransformer throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteTransformer",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of delete-transformer calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-363FC8B0",
+            "QuotaCode": "L-363FC8B0",
+            "QuotaName": "DeleteMetricFilter throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteMetricFilter",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of delete-metric-filter calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-D750499E",
+            "QuotaCode": "L-D750499E",
+            "QuotaName": "GetDataProtectionPolicy throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of get-data-protection-policy calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-BD9DB0EB",
+            "QuotaCode": "L-BD9DB0EB",
+            "QuotaName": "CreateExportTask throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CreateExportTask",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of create-export-task calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-89892494",
+            "QuotaCode": "L-89892494",
+            "QuotaName": "Resource policies",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of resource policies per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-15F83CC1",
+            "QuotaCode": "L-15F83CC1",
+            "QuotaName": "GetTransformer throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "GetTransformer",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of get-transformer calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-A33040DC",
+            "QuotaCode": "L-A33040DC",
+            "QuotaName": "Data archiving",
+            "Value": 5.0,
+            "Unit": "Gigabytes",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum size in GB of free data archiving"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-09AD5E48",
+            "QuotaCode": "L-09AD5E48",
+            "QuotaName": "AssociateSourceToS3TableIntegration throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of AssociateSourceToS3TableIntegration calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-76507CEF",
+            "QuotaCode": "L-76507CEF",
+            "QuotaName": "CreateLogStream throttle limit in transactions per second",
+            "Value": 50.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CreateLogStream",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of create-log-stream calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-7A9B3427",
+            "QuotaCode": "L-7A9B3427",
+            "QuotaName": "PutDestination throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "PutDestination",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of put-destination calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-7A4B5D2F",
+            "QuotaCode": "L-7A4B5D2F",
+            "QuotaName": "AssociateKmsKey throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "AssociateKmsKey",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of associate-kms-key calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-56B91A0A",
+            "QuotaCode": "L-56B91A0A",
+            "QuotaName": "DeleteSubscriptionFilter throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteSubscriptionFilter",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of delete-subscription-filter calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-896CA7CF",
+            "QuotaCode": "L-896CA7CF",
+            "QuotaName": "ListSourcesForS3TableIntegration throttle limit in transactions per second in a burst",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListSourcesForS3TableIntegration calls per second per account/per region in a burst"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-BE2A59B1",
+            "QuotaCode": "L-BE2A59B1",
+            "QuotaName": "DeleteDestination throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteDestination",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of delete-destination calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-E3553944",
+            "QuotaCode": "L-E3553944",
+            "QuotaName": "CancelImportTask throttle limit in transactions per second",
+            "Value": 1.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CancelImportTask calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-BBECF742",
+            "QuotaCode": "L-BBECF742",
+            "QuotaName": "TagLogGroup throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TagLogGroup",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of tag-log-group calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-956BB71D",
+            "QuotaCode": "L-956BB71D",
+            "QuotaName": "TagResource throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TagResource",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of tag-resource calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-BEB90E24",
+            "QuotaCode": "L-BEB90E24",
+            "QuotaName": "DescribeDestinations throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeDestinations",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of describe-destinations calls per second per account/per region"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-F3B54F77",
+            "QuotaCode": "L-F3B54F77",
+            "QuotaName": "AssociateSourceToS3TableIntegration throttle limit in transactions per second in a burst",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of AssociateSourceToS3TableIntegration calls per second per account/per region in a burst"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-A68978AA",
+            "QuotaCode": "L-A68978AA",
+            "QuotaName": "DescribeImportTaskBatches throttle limit in transactions per second in a burst",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeImportTaskBatches calls per second per account/per region in a burst"
+        },
+        {
+            "ServiceCode": "logs",
+            "ServiceName": "Amazon CloudWatch Logs",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:logs/L-9D43025B",
+            "QuotaCode": "L-9D43025B",
+            "QuotaName": "DescribeSubscriptionFilters throttle limit in transactions per second",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeSubscriptionFilters",
+                    "Service": "Logs",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of describe-subscription-filters calls per second per account/per region"
+        }
+    ]
+}

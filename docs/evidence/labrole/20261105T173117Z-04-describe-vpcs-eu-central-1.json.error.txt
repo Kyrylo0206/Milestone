@@ -1,0 +1,5 @@
+COMMAND: aws ec2 describe-vpcs --region eu-central-1 --output json
+EXIT: 254
+ERROR:
+
+aws: [ERROR]: An error occurred (UnauthorizedOperation) when calling the DescribeVpcs operation: You are not authorized to perform this operation. User: arn:aws:sts::500819826436:assumed-role/voclabs/user5670344=kshykhalov@kse.org.ua is not authorized to perform: ec2:DescribeVpcs with an explicit deny in a service control policy: arn:aws:organizations::616729071712:policy/o-8xngl69ixz/service_control_policy/p-g6fv5hby

@@ -1,0 +1,5 @@
+COMMAND: aws iam list-attached-role-policies --role-name LabRole --output json
+EXIT: 254
+ERROR:
+
+aws: [ERROR]: An error occurred (NoSuchEntity) when calling the ListAttachedRolePolicies operation: The role with name LabRole cannot be found.

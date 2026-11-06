@@ -1,0 +1,22 @@
+{
+    "StackResourceDrifts": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-network/3d325880-d940-11f1-8d19-0affecfb5f95",
+            "LogicalResourceId": "Vpc",
+            "PhysicalResourceId": "vpc-08e4bf4ba6cdd7a96",
+            "ResourceType": "AWS::EC2::VPC",
+            "ExpectedProperties": "{\"CidrBlock\":\"10.20.0.0/16\",\"EnableDnsSupport\":true,\"EnableDnsHostnames\":true,\"Tags\":[{\"Value\":\"kvs-vpc\",\"Key\":\"Name\"},{\"Key\":\"Project\",\"Value\":\"kvs-capstone\"},{\"Key\":\"Owner\",\"Value\":\"kyrylo\"},{\"Key\":\"ManagedBy\",\"Value\":\"cloudformation\"},{\"Key\":\"Milestone\",\"Value\":\"m1\"},{\"Key\":\"Environment\",\"Value\":\"sandbox\"}]}",
+            "ActualProperties": "{\"CidrBlock\":\"10.20.0.0/16\",\"EnableDnsSupport\":true,\"EnableDnsHostnames\":true,\"Tags\":[{\"Key\":\"Owner\",\"Value\":\"kyrylo\"},{\"Key\":\"ManagedBy\",\"Value\":\"cloudformation\"},{\"Key\":\"Project\",\"Value\":\"kvs-capstone\"},{\"Key\":\"Environment\",\"Value\":\"sandbox\"},{\"Key\":\"Milestone\",\"Value\":\"m1\"},{\"Key\":\"Name\",\"Value\":\"drift-demo-changed-by-hand\"}]}",
+            "PropertyDifferences": [
+                {
+                    "PropertyPath": "/Tags/0/Value",
+                    "ExpectedValue": "kvs-vpc",
+                    "ActualValue": "drift-demo-changed-by-hand",
+                    "DifferenceType": "NOT_EQUAL"
+                }
+            ],
+            "StackResourceDriftStatus": "MODIFIED",
+            "Timestamp": "2026-11-05T17:52:48.837000+00:00"
+        }
+    ]
+}

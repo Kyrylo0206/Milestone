@@ -1,0 +1,11 @@
+COMMAND: aws iam list-attached-role-policies --role-name voclabs --output table
+
+----------------------------------------------------------------
+|                   ListAttachedRolePolicies                   |
++--------------------------------------------------------------+
+||                      AttachedPolicies                      ||
+|+-----------------------------------------+------------------+|
+||                PolicyArn                |   PolicyName     ||
+|+-----------------------------------------+------------------+|
+||  arn:aws:iam::aws:policy/ReadOnlyAccess |  ReadOnlyAccess  ||
+|+-----------------------------------------+------------------+|

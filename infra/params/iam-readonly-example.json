@@ -1,0 +1,7 @@
+[
+  {"ParameterKey": "ProjectName", "ParameterValue": "kvs"},
+  {"ParameterKey": "TrustedPrincipalArn", "ParameterValue": "arn:aws:iam::111111111111:root"},
+  {"ParameterKey": "ExternalId", "ParameterValue": "kvs-example-external-id-change-me"},
+  {"ParameterKey": "RequireMfa", "ParameterValue": "false"},
+  {"ParameterKey": "MaxSessionDuration", "ParameterValue": "3600"}
+]

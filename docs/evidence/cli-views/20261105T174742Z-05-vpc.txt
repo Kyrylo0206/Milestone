@@ -1,0 +1,7 @@
+COMMAND: aws ec2 describe-vpcs --vpc-ids vpc-08e4bf4ba6cdd7a96 --region us-east-1 --query Vpcs[].[VpcId,CidrBlock,State,Tags[?Key=='Name']|[0].Value] --output table
+
+-------------------------------------------------------------------
+|                          DescribeVpcs                           |
++------------------------+---------------+------------+-----------+
+|  vpc-08e4bf4ba6cdd7a96 |  10.20.0.0/16 |  available |  kvs-vpc  |
++------------------------+---------------+------------+-----------+

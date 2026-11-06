@@ -1,0 +1,2552 @@
+{
+    "Quotas": [
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-28B8E003",
+            "QuotaCode": "L-28B8E003",
+            "QuotaName": "Throttle rate limit for DeleteStackInstances",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteStackInstances",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DeleteStackInstances requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-36B104FB",
+            "QuotaCode": "L-36B104FB",
+            "QuotaName": "Throttle rate limit for DescribeOrganizationsAccess",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeOrganizationsAccess",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeOrganizationsAccess requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-86064319",
+            "QuotaCode": "L-86064319",
+            "QuotaName": "Throttle rate limit for ListStackInstances",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListStackInstances",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListStackInstances requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-5019DE71",
+            "QuotaCode": "L-5019DE71",
+            "QuotaName": "Throttle rate limit for ListImports",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListImports",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListImports requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-DCC58E6D",
+            "QuotaCode": "L-DCC58E6D",
+            "QuotaName": "Module limit per account",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ModulesPerAccount",
+                    "Service": "CloudFormation",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Period": {
+                "PeriodValue": 5,
+                "PeriodUnit": "MINUTE"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of module types you are allowed to register."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-72B9A393",
+            "QuotaCode": "L-72B9A393",
+            "QuotaName": "Template Parameters",
+            "Value": 200.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of parameters per CloudFormation template"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-0485CB21",
+            "QuotaCode": "L-0485CB21",
+            "QuotaName": "Stacks",
+            "Value": 2000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "Stack",
+                    "Service": "CloudFormation",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Period": {
+                "PeriodValue": 5,
+                "PeriodUnit": "MINUTE"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of active stacks; an active stack is any stack with a status other than DELETE_COMPLETE"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-2C86E8BE",
+            "QuotaCode": "L-2C86E8BE",
+            "QuotaName": "Throttle rate limit for ListStackResources",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListStackResources",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListStackResources requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-E141E579",
+            "QuotaCode": "L-E141E579",
+            "QuotaName": "Throttle rate limit for UpdateStackSet",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "UpdateStackSet",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of UpdateStackSet requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-9643581C",
+            "QuotaCode": "L-9643581C",
+            "QuotaName": "Throttle rate limit for RegisterType",
+            "Value": 0.5,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "RegisterType",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of RegisterType requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-7E146E2E",
+            "QuotaCode": "L-7E146E2E",
+            "QuotaName": "Version limit per module",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of versions per module type you are allowed to register."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-F5B7238C",
+            "QuotaCode": "L-F5B7238C",
+            "QuotaName": "Throttle rate limit for UpdateTerminationProtection",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "UpdateTerminationProtection",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of UpdateTerminationProtection requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-05123385",
+            "QuotaCode": "L-05123385",
+            "QuotaName": "Nested modules",
+            "Value": 3.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Number of levels of nesting per module."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-091DF7D9",
+            "QuotaCode": "L-091DF7D9",
+            "QuotaName": "Versions per hook",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of versions you can create per Hook."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-940CC882",
+            "QuotaCode": "L-940CC882",
+            "QuotaName": "Throttle rate limit for RollbackStack",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "RollbackStack",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of RollbackStack requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-8AC284BF",
+            "QuotaCode": "L-8AC284BF",
+            "QuotaName": "Throttle rate limit for ListStackInstanceResourceDrifts",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListStackInstanceResourceDrifts",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListStackInstanceResourceDrifts requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-1FFB6C73",
+            "QuotaCode": "L-1FFB6C73",
+            "QuotaName": "Template Mapping Attributes",
+            "Value": 200.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of attributes per CloudFormation template mapping"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-255FC6A0",
+            "QuotaCode": "L-255FC6A0",
+            "QuotaName": "Maximum dependencies per stack set",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "Period": {
+                "PeriodValue": 5,
+                "PeriodUnit": "MINUTE"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of auto-deployment dependencies allowed per stack set."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-255CB302",
+            "QuotaCode": "L-255CB302",
+            "QuotaName": "Throttle rate limit for DescribeTypeRegistration",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeTypeRegistration",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeTypeRegistration requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-E4780309",
+            "QuotaCode": "L-E4780309",
+            "QuotaName": "Throttle rate limit for SignalResource",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "SignalResource",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of SignalResource requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-6AD11AD7",
+            "QuotaCode": "L-6AD11AD7",
+            "QuotaName": "Throttle rate limit for GetStackPolicy",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "GetStackPolicy",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of GetStackPolicy requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-D2B2F0FF",
+            "QuotaCode": "L-D2B2F0FF",
+            "QuotaName": "Stacks imported using inline stack ids per stack set operation",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of stacks you can import using inline stack ids per stack set operation."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-330C21EA",
+            "QuotaCode": "L-330C21EA",
+            "QuotaName": "Throttle rate limit for ListStackSetOperations",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListStackSetOperations",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListStackSetOperations requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-4731FE6F",
+            "QuotaCode": "L-4731FE6F",
+            "QuotaName": "Hooks per resource",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Hooks that can be configured per resource."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-B8580123",
+            "QuotaCode": "L-B8580123",
+            "QuotaName": "Throttle rate limit for DescribeStackResources",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeStackResources",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeStackResources requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-476C2455",
+            "QuotaCode": "L-476C2455",
+            "QuotaName": "Throttle rate limit for DescribeStackSet",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeStackSet",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeStackSet requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-63D096B8",
+            "QuotaCode": "L-63D096B8",
+            "QuotaName": "Template Mappings",
+            "Value": 200.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of mappings per CloudFormation template"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-A2C10225",
+            "QuotaCode": "L-A2C10225",
+            "QuotaName": "Throttle rate limit for DescribeStackResourceDrifts",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeStackResourceDrifts",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeStackResourceDrifts requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-722F1E58",
+            "QuotaCode": "L-722F1E58",
+            "QuotaName": "Template Mapping Name and Mapping Attribute Name Length",
+            "Value": 255.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum length of a CloudFormation template mapping name and mapping attribute name"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-C870E9A3",
+            "QuotaCode": "L-C870E9A3",
+            "QuotaName": "Throttle rate limit for DescribeChangeSet",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeChangeSet",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeChangeSet requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-38FD7965",
+            "QuotaCode": "L-38FD7965",
+            "QuotaName": "Template Output Name Length",
+            "Value": 255.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum length of a CloudFormation template output name"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-87D14FB7",
+            "QuotaCode": "L-87D14FB7",
+            "QuotaName": "Template Outputs",
+            "Value": 200.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of outputs per CloudFormation template"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-E388DB0A",
+            "QuotaCode": "L-E388DB0A",
+            "QuotaName": "Hook configuration size",
+            "Value": 204.8,
+            "Unit": "Kilobytes",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum amount of configuration data a Hook can store."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-3B2D14A7",
+            "QuotaCode": "L-3B2D14A7",
+            "QuotaName": "Template Parameter Name Length",
+            "Value": 255.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum length of a CloudFormation template parameter name"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-84B50260",
+            "QuotaCode": "L-84B50260",
+            "QuotaName": "Template Logical Resource ID Length",
+            "Value": 255.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum length of a CloudFormation template logical resource ID"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-1DFD712D",
+            "QuotaCode": "L-1DFD712D",
+            "QuotaName": "Throttle rate limit for DescribeAccountLimits",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeAccountLimits",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeAccountLimits requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-24E9F9ED",
+            "QuotaCode": "L-24E9F9ED",
+            "QuotaName": "Hooks per account",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "HooksPerAccount",
+                    "Service": "CloudFormation",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Period": {
+                "PeriodValue": 5,
+                "PeriodUnit": "MINUTE"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Hooks allowed for this account in the current Region."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-20C6DAFE",
+            "QuotaCode": "L-20C6DAFE",
+            "QuotaName": "Throttle rate limit for PublishType",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "PublishType",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of PublishType requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-6C32EB43",
+            "QuotaCode": "L-6C32EB43",
+            "QuotaName": "Throttle rate limit for DescribeStackDriftDetectionStatus",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeStackDriftDetectionStatus",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeStackDriftDetectionStatus requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-40DA9BBE",
+            "QuotaCode": "L-40DA9BBE",
+            "QuotaName": "Throttle rate limit for UpdateStackInstances",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "UpdateStackInstances",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of UpdateStackInstances requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-146A985F",
+            "QuotaCode": "L-146A985F",
+            "QuotaName": "Throttle rate limit for ExecuteChangeSet",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ExecuteChangeSet",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ExecuteChangeSet requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-85EB5DEC",
+            "QuotaCode": "L-85EB5DEC",
+            "QuotaName": "Throttle rate limit for ListStackSetAutoDeploymentTargets",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListStackSetAutoDeploymentTargets",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListStackSetAutoDeploymentTargets requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-AD7355DC",
+            "QuotaCode": "L-AD7355DC",
+            "QuotaName": "Throttle rate limit for CancelUpdateStack",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CancelUpdateStack",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CancelUpdateStack requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-F0B38CF3",
+            "QuotaCode": "L-F0B38CF3",
+            "QuotaName": "Throttle rate limit for CreateStackSet",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CreateStackSet",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CreateStackSet requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-EC62D81A",
+            "QuotaCode": "L-EC62D81A",
+            "QuotaName": "Stack sets per administrator account",
+            "Value": 1000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "StackSets",
+                    "Service": "CloudFormation",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of AWS CloudFormation stack sets you can create in your administrator account."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-CF64D430",
+            "QuotaCode": "L-CF64D430",
+            "QuotaName": "Throttle rate limit for UpdateGeneratedTemplate",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "UpdateGeneratedTemplate",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of UpdateGeneratedTemplate requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-1A14E2E4",
+            "QuotaCode": "L-1A14E2E4",
+            "QuotaName": "Throttle rate limit for StartResourceScan",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "StartResourceScan",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of StartResourceScan requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-AC58B440",
+            "QuotaCode": "L-AC58B440",
+            "QuotaName": "Queued operations per stack set",
+            "Value": 10000.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of queued operations for a stack set at a given time."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-6CD0CA38",
+            "QuotaCode": "L-6CD0CA38",
+            "QuotaName": "Throttle rate limit for ContinueUpdateRollback",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ContinueUpdateRollback",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ContinueUpdateRollback requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-AF3916A4",
+            "QuotaCode": "L-AF3916A4",
+            "QuotaName": "Throttle rate limit for ListTypeRegistrations",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListTypeRegistrations",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListTypeRegistrations requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-9C5C273A",
+            "QuotaCode": "L-9C5C273A",
+            "QuotaName": "Throttle rate limit for SetStackPolicy",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "SetStackPolicy",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of SetStackPolicy requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-314F0FAF",
+            "QuotaCode": "L-314F0FAF",
+            "QuotaName": "Throttle rate limit for ListResourceScanRelatedResources",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListResourceScanRelatedResources",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListResourceScanRelatedResources requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-F4BB1228",
+            "QuotaCode": "L-F4BB1228",
+            "QuotaName": "Throttle rate limit for DescribeStackEvents",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeStackEvents",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeStackEvents requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-0BF4426F",
+            "QuotaCode": "L-0BF4426F",
+            "QuotaName": "Throttle rate limit for DescribeResourceScan",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeResourceScan",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeResourceScan requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-EFC95CFF",
+            "QuotaCode": "L-EFC95CFF",
+            "QuotaName": "Template Parameter Value Length",
+            "Value": 4096.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum length of a CloudFormation template parameter value"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-CCAA7E63",
+            "QuotaCode": "L-CCAA7E63",
+            "QuotaName": "Throttle rate limit for DeleteChangeSet",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteChangeSet",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DeleteChangeSet requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-98DE792C",
+            "QuotaCode": "L-98DE792C",
+            "QuotaName": "Throttle rate limit for StopStackSetOperation",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "StopStackSetOperation",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of StopStackSetOperation requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-24484098",
+            "QuotaCode": "L-24484098",
+            "QuotaName": "Maximum stack set dependencies per account",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "StackSetDependencies",
+                    "Service": "CloudFormation",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Period": {
+                "PeriodValue": 5,
+                "PeriodUnit": "MINUTE"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of auto-deployment dependencies allowed across all stack sets in your account."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-81A7E618",
+            "QuotaCode": "L-81A7E618",
+            "QuotaName": "Throttle rate limit for DetectStackSetDrift",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DetectStackSetDrift",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DetectStackSetDrift requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-125EDA8C",
+            "QuotaCode": "L-125EDA8C",
+            "QuotaName": "Template Size",
+            "Value": 1.0,
+            "Unit": "Megabytes",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum size of a CloudFormation template; a template of size greater than 50 KiB must be stored in an Amazon S3 bucket and submitted in requests as an Amazon S3 object URL"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-BC67E796",
+            "QuotaCode": "L-BC67E796",
+            "QuotaName": "Throttle rate limit for ListTypes",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListTypes",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListTypes requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-F9FF79DB",
+            "QuotaCode": "L-F9FF79DB",
+            "QuotaName": "Throttle rate limit for DescribeStackInstance",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeStackInstance",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeStackInstance requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-084D8074",
+            "QuotaCode": "L-084D8074",
+            "QuotaName": "Throttle rate limit for DescribeGeneratedTemplate",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeGeneratedTemplate",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeGeneratedTemplate requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-E466BCCD",
+            "QuotaCode": "L-E466BCCD",
+            "QuotaName": "Throttle rate limit for CreateGeneratedTemplate",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CreateGeneratedTemplate",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CreateGeneratedTemplate requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-D76C738E",
+            "QuotaCode": "L-D76C738E",
+            "QuotaName": "Throttle rate limit for ListResourceScanResources",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListResourceScanResources",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListResourceScanResources requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-6286B93B",
+            "QuotaCode": "L-6286B93B",
+            "QuotaName": "Throttle rate limit for DescribeStackSetOperation",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeStackSetOperation",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeStackSetOperation requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-9C92580D",
+            "QuotaCode": "L-9C92580D",
+            "QuotaName": "Throttle rate limit for GetTemplate",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "GetTemplate",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of GetTemplate requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-24CF89C9",
+            "QuotaCode": "L-24CF89C9",
+            "QuotaName": "Throttle rate limit for DetectStackDrift",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DetectStackDrift",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DetectStackDrift requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-7460249E",
+            "QuotaCode": "L-7460249E",
+            "QuotaName": "Throttle rate limit for DescribeType",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeType",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeType requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-C5C9D8DB",
+            "QuotaCode": "L-C5C9D8DB",
+            "QuotaName": "Throttle rate limit for EstimateTemplateCost",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "EstimateTemplateCost",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of EstimateTemplateCost requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-7D45582C",
+            "QuotaCode": "L-7D45582C",
+            "QuotaName": "Throttle rate limit for DeleteGeneratedTemplate",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteGeneratedTemplate",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DeleteGeneratedTemplate requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-BDAD37B8",
+            "QuotaCode": "L-BDAD37B8",
+            "QuotaName": "Throttle rate limit for CreateStack",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CreateStack",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CreateStack requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-DCDA1233",
+            "QuotaCode": "L-DCDA1233",
+            "QuotaName": "Throttle rate limit for ListExports",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListExports",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListExports requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-D663BAB9",
+            "QuotaCode": "L-D663BAB9",
+            "QuotaName": "Template Dynamic References",
+            "Value": 60.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of dynamic references per CloudFormation template"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-56D7F024",
+            "QuotaCode": "L-56D7F024",
+            "QuotaName": "Throttle rate limit for DeleteStackSet",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteStackSet",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DeleteStackSet requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-2780AB78",
+            "QuotaCode": "L-2780AB78",
+            "QuotaName": "Throttle rate limit for GetGeneratedTemplate",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "GetGeneratedTemplate",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of GetGeneratedTemplate requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-421EA159",
+            "QuotaCode": "L-421EA159",
+            "QuotaName": "Throttle rate limit for BatchDescribeTypeConfigurations",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "BatchDescribeTypeConfigurations",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of BatchDescribeTypeConfigurations requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-D5FE38FA",
+            "QuotaCode": "L-D5FE38FA",
+            "QuotaName": "Throttle rate limit for DescribeStacks",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeStacks",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeStacks requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-E7256C02",
+            "QuotaCode": "L-E7256C02",
+            "QuotaName": "Throttle rate limit for ListTypeVersions",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListTypeVersions",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListTypeVersions requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-600058B9",
+            "QuotaCode": "L-600058B9",
+            "QuotaName": "Stacks imported using S3 object per stack set operation",
+            "Value": 200.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of stacks you can import using S3 object per stack set operation."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-CD7C16FE",
+            "QuotaCode": "L-CD7C16FE",
+            "QuotaName": "Throttle rate limit for CreateStackInstances",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CreateStackInstances",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CreateStackInstances requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-9013C9F2",
+            "QuotaCode": "L-9013C9F2",
+            "QuotaName": "Throttle rate limit for ListStackSets",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListStackSets",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListStackSets requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-9DE8E4FB",
+            "QuotaCode": "L-9DE8E4FB",
+            "QuotaName": "Resource limit per account",
+            "Value": 50.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ResourceTypesPerAccount",
+                    "Service": "CloudFormation",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Period": {
+                "PeriodValue": 5,
+                "PeriodUnit": "MINUTE"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of resource types you are allowed to register."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-23572CD8",
+            "QuotaCode": "L-23572CD8",
+            "QuotaName": "Throttle rate limit for ListChangeSets",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListChangeSets",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListChangeSets requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-3D1500B6",
+            "QuotaCode": "L-3D1500B6",
+            "QuotaName": "Throttle rate limit for CreateChangeSet",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CreateChangeSet",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CreateChangeSet requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-6A4B2F69",
+            "QuotaCode": "L-6A4B2F69",
+            "QuotaName": "Stack instance operations per administrator account",
+            "Value": 10000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "StackInstanceOperations",
+                    "Service": "CloudFormation",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of stack instances, across all stack sets, that you can run operations on in each Region at the same time, per administrator account."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-BD33AD4A",
+            "QuotaCode": "L-BD33AD4A",
+            "QuotaName": "Throttle rate limit for ListResourceScans",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListResourceScans",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListResourceScans requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-AF237941",
+            "QuotaCode": "L-AF237941",
+            "QuotaName": "Throttle rate limit for DeleteStack",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeleteStack",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DeleteStack requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-96426F7F",
+            "QuotaCode": "L-96426F7F",
+            "QuotaName": "Throttle rate limit for GetTemplateSummary",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "GetTemplateSummary",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of GetTemplateSummary requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-5E5E4FDB",
+            "QuotaCode": "L-5E5E4FDB",
+            "QuotaName": "Throttle rate limit for DescribeStackResource",
+            "Value": 20.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribeStackResource",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribeStackResource requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-507712A5",
+            "QuotaCode": "L-507712A5",
+            "QuotaName": "Throttle rate limit for DetectStackResourceDrift",
+            "Value": 3.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DetectStackResourceDrift",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DetectStackResourceDrift requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-F3F1561B",
+            "QuotaCode": "L-F3F1561B",
+            "QuotaName": "Throttle rate limit for DeregisterType",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DeregisterType",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DeregisterType requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-7C7532D4",
+            "QuotaCode": "L-7C7532D4",
+            "QuotaName": "Template Description Length",
+            "Value": 1024.0,
+            "Unit": "Bytes",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum length of a CloudFormation template description"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-87E26E99",
+            "QuotaCode": "L-87E26E99",
+            "QuotaName": "Throttle rate limit for UpdateStack",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "UpdateStack",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of UpdateStack requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-C8225BA5",
+            "QuotaCode": "L-C8225BA5",
+            "QuotaName": "Stack instances per stack set",
+            "Value": 100000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of stack instances you can create per stack set."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-5F6B90AB",
+            "QuotaCode": "L-5F6B90AB",
+            "QuotaName": "Throttle rate limit for ActivateOrganizationsAccess",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ActivateOrganizationsAccess",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ActivateOrganizationsAccess requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-B3EB153E",
+            "QuotaCode": "L-B3EB153E",
+            "QuotaName": "Throttle rate limit for SetTypeDefaultVersion",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "SetTypeDefaultVersion",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of SetTypeDefaultVersion requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-87CC5A1D",
+            "QuotaCode": "L-87CC5A1D",
+            "QuotaName": "Throttle rate limit for ListStacks",
+            "Value": 10.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListStacks",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListStacks requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-8497B9EB",
+            "QuotaCode": "L-8497B9EB",
+            "QuotaName": "Throttle rate limit for ListStackSetOperationResults",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListStackSetOperationResults",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListStackSetOperationResults requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-2E8B8349",
+            "QuotaCode": "L-2E8B8349",
+            "QuotaName": "Throttle rate limit for DescribePublisher",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "DescribePublisher",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of DescribePublisher requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-EA1018E8",
+            "QuotaCode": "L-EA1018E8",
+            "QuotaName": "Version limit per resource",
+            "Value": 50.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "Maximum number of versions per resource type you are allowed to register."
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-05BC894F",
+            "QuotaCode": "L-05BC894F",
+            "QuotaName": "Template Resources",
+            "Value": 500.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of resources per CloudFormation template"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-0D1C7C93",
+            "QuotaCode": "L-0D1C7C93",
+            "QuotaName": "Throttle rate limit for ListGeneratedTemplates",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListGeneratedTemplates",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ListGeneratedTemplates requests you can make per second per account, in the current region"
+        },
+        {
+            "ServiceCode": "cloudformation",
+            "ServiceName": "AWS CloudFormation",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:cloudformation/L-20DF2AC3",
+            "QuotaCode": "L-20DF2AC3",
+            "QuotaName": "Throttle rate limit for ValidateTemplate",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "CallCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ValidateTemplate",
+                    "Service": "CloudFormation",
+                    "Type": "API"
+                },
+                "MetricStatisticRecommendation": "Sum"
+            },
+            "Period": {
+                "PeriodValue": 1,
+                "PeriodUnit": "SECOND"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of ValidateTemplate requests you can make per second per account, in the current region"
+        }
+    ]
+}

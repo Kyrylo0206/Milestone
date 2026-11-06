@@ -1,0 +1,5 @@
+COMMAND: aws ec2 create-vpc --cidr-block 10.99.0.0/16 --dry-run
+EXIT: 254
+ERROR:
+
+aws: [ERROR]: An error occurred (DryRunOperation) when calling the CreateVpc operation: Request would have succeeded, but DryRun flag is set.

@@ -1,0 +1,67 @@
+[
+    {
+        "OutputKey": "S3GatewayEndpointId",
+        "OutputValue": "vpce-071693423aeb86b33",
+        "ExportName": "kvs-network-S3GatewayEndpointId"
+    },
+    {
+        "OutputKey": "PublicSubnetIds",
+        "OutputValue": "subnet-0a0ab3bea681452b2,subnet-0e108783373942f2f",
+        "ExportName": "kvs-network-PublicSubnetIds"
+    },
+    {
+        "OutputKey": "AvailabilityZones",
+        "OutputValue": "us-east-1a,us-east-1b",
+        "ExportName": "kvs-network-AvailabilityZones"
+    },
+    {
+        "OutputKey": "PrivateRouteTable1Id",
+        "OutputValue": "rtb-063f7bcf109792622",
+        "ExportName": "kvs-network-PrivateRouteTable1Id"
+    },
+    {
+        "OutputKey": "PrivateRouteTable2Id",
+        "OutputValue": "rtb-0dac39d96dcc69fa7",
+        "ExportName": "kvs-network-PrivateRouteTable2Id"
+    },
+    {
+        "OutputKey": "PrivateSubnet2Id",
+        "OutputValue": "subnet-0ccb0e0d5b7265020",
+        "ExportName": "kvs-network-PrivateSubnet2Id"
+    },
+    {
+        "OutputKey": "PrivateSubnet1Id",
+        "OutputValue": "subnet-0803ad4e1834c1483",
+        "ExportName": "kvs-network-PrivateSubnet1Id"
+    },
+    {
+        "OutputKey": "PublicRouteTableId",
+        "OutputValue": "rtb-020eeb2d3641e8e06",
+        "ExportName": "kvs-network-PublicRouteTableId"
+    },
+    {
+        "OutputKey": "PrivateSubnetIds",
+        "OutputValue": "subnet-0803ad4e1834c1483,subnet-0ccb0e0d5b7265020",
+        "ExportName": "kvs-network-PrivateSubnetIds"
+    },
+    {
+        "OutputKey": "VpcId",
+        "OutputValue": "vpc-08e4bf4ba6cdd7a96",
+        "ExportName": "kvs-network-VpcId"
+    },
+    {
+        "OutputKey": "VpcCidr",
+        "OutputValue": "10.20.0.0/16",
+        "ExportName": "kvs-network-VpcCidr"
+    },
+    {
+        "OutputKey": "PublicSubnet1Id",
+        "OutputValue": "subnet-0a0ab3bea681452b2",
+        "ExportName": "kvs-network-PublicSubnet1Id"
+    },
+    {
+        "OutputKey": "PublicSubnet2Id",
+        "OutputValue": "subnet-0e108783373942f2f",
+        "ExportName": "kvs-network-PublicSubnet2Id"
+    }
+]

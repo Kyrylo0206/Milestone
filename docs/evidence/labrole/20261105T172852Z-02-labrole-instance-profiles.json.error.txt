@@ -1,0 +1,5 @@
+COMMAND: aws iam list-instance-profiles-for-role --role-name LabRole --output json
+EXIT: 254
+ERROR:
+
+aws: [ERROR]: An error occurred (NoSuchEntity) when calling the ListInstanceProfilesForRole operation: The role with name LabRole cannot be found.

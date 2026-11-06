@@ -1,0 +1,21 @@
+COMMAND: aws ce get-cost-and-usage --region us-east-1 --time-period Start=2026-11-01,End=2026-11-06 --granularity MONTHLY --metrics UnblendedCost --output json
+
+{
+    "ResultsByTime": [
+        {
+            "TimePeriod": {
+                "Start": "2026-11-01",
+                "End": "2026-11-06"
+            },
+            "Total": {
+                "UnblendedCost": {
+                    "Amount": "0",
+                    "Unit": "USD"
+                }
+            },
+            "Groups": [],
+            "Estimated": true
+        }
+    ],
+    "DimensionValueAttributes": []
+}

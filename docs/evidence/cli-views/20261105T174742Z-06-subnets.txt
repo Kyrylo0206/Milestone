@@ -1,0 +1,10 @@
+COMMAND: aws ec2 describe-subnets --filters Name=vpc-id,Values=vpc-08e4bf4ba6cdd7a96 --region us-east-1 --query Subnets[].[Tags[?Key=='Name']|[0].Value,CidrBlock,AvailabilityZone,MapPublicIpOnLaunch,AvailableIpAddressCount] --output table
+
+-------------------------------------------------------------------
+|                         DescribeSubnets                         |
++----------------+-----------------+-------------+--------+-------+
+|  kvs-private-a |  10.20.16.0/20  |  us-east-1a |  False |  4091 |
+|  kvs-public-b  |  10.20.1.0/24   |  us-east-1b |  True  |  251  |
+|  kvs-public-a  |  10.20.0.0/24   |  us-east-1a |  True  |  251  |
+|  kvs-private-b |  10.20.32.0/20  |  us-east-1b |  False |  4091 |
++----------------+-----------------+-------------+--------+-------+

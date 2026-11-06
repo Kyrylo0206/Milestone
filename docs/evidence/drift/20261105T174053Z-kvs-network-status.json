@@ -1,0 +1,8 @@
+{
+    "StackId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-network/dcfeec90-d93e-11f1-b690-0affd3f543c9",
+    "StackDriftDetectionId": "0eb037c0-d940-11f1-b19f-0effeb50ba1d",
+    "StackDriftStatus": "DRIFTED",
+    "DetectionStatus": "DETECTION_COMPLETE",
+    "DriftedStackResourceCount": 1,
+    "Timestamp": "2026-11-05T17:40:57.276000+00:00"
+}

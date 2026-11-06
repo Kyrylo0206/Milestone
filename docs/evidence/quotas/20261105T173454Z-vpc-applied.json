@@ -1,0 +1,500 @@
+{
+    "Quotas": [
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-5F53652F",
+            "QuotaCode": "L-5F53652F",
+            "QuotaName": "Elastic IP address quota per NAT gateway",
+            "Value": 2.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Elastic IP addresses that can be associated with a single NAT Gateway of connectivity type public."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-42B9C2CA",
+            "QuotaCode": "L-42B9C2CA",
+            "QuotaName": "VPC Block Public Access exclusions per account per Region",
+            "Value": 50.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of VPC Block Public Access exclusions that an account can have in a single Region at a time."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-CA6CC422",
+            "QuotaCode": "L-CA6CC422",
+            "QuotaName": "VPC endpoints of type 'resource' per VPC",
+            "Value": 500.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of single resource endpoints in a VPC. For additional capacity and limit increases, contact AWS Support."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-BB24F6E5",
+            "QuotaCode": "L-BB24F6E5",
+            "QuotaName": "Network Address Usage",
+            "Value": 64000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum Network Address Usage for a single VPC."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-FE5A380F",
+            "QuotaCode": "L-FE5A380F",
+            "QuotaName": "NAT gateways per Availability Zone",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of NAT gateways per Availability Zone. This includes NAT gateways in the pending, active, or deleting state."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-7E9ECCDB",
+            "QuotaCode": "L-7E9ECCDB",
+            "QuotaName": "Active VPC peering connections per VPC",
+            "Value": 50.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of active VPC peering connections per VPC. This quota can be increased up to a maximum of 125."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-2C462E13",
+            "QuotaCode": "L-2C462E13",
+            "QuotaName": "Participant accounts per VPC",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of distinct participant accounts that subnets in a VPC can be shared with. This is a per VPC quota and applies across all the subnets shared in a VPC."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-1B52E74A",
+            "QuotaCode": "L-1B52E74A",
+            "QuotaName": "Gateway VPC endpoints per Region",
+            "Value": 20.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of gateway VPC endpoints per Region. The maximum is 255 gateway endpoints per VPC."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-0EA8095F",
+            "QuotaCode": "L-0EA8095F",
+            "QuotaName": "Inbound or outbound rules per security group",
+            "Value": 60.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "RulesPerSecurityGroup",
+                    "Service": "EC2",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Period": {
+                "PeriodValue": 5,
+                "PeriodUnit": "MINUTE"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "QuotaContext": {
+                "ContextScope": "RESOURCE",
+                "ContextScopeType": "AWS::EC2::SecurityGroup",
+                "ContextId": "*",
+                "AdjustableAtLevel": "ACCOUNT"
+            },
+            "Description": "The maximum number of inbound or outbound rules per VPC security group (120 rules in total). This quota is enforced separately for IPv4 and IPv6 rules. A rule that references a security group or prefix list ID counts as one rule each for IPv4 and IPv6. This quota multiplied by the security groups per network interface quota cannot exceed 1000."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-93826ACB",
+            "QuotaCode": "L-93826ACB",
+            "QuotaName": "Routes per route table",
+            "Value": 500.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "RoutesPerRouteTable",
+                    "Service": "EC2",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Period": {
+                "PeriodValue": 5,
+                "PeriodUnit": "MINUTE"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "QuotaContext": {
+                "ContextScope": "RESOURCE",
+                "ContextScopeType": "AWS::EC2::RouteTable",
+                "ContextId": "*",
+                "AdjustableAtLevel": "ACCOUNT"
+            },
+            "Description": "The maximum number of non-propagated routes per route table. This quota can be increased up to a maximum of 1000; however, network performance might be impacted. This quota is enforced separately for IPv4 and IPv6 routes."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-DC9F7029",
+            "QuotaCode": "L-DC9F7029",
+            "QuotaName": "Outstanding VPC peering connection requests",
+            "Value": 25.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of outstanding VPC peering connection requests that you've requested."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-589F43AA",
+            "QuotaCode": "L-589F43AA",
+            "QuotaName": "Route tables per VPC",
+            "Value": 200.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of route tables per VPC. The main route table counts toward this quota."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-A272D574",
+            "QuotaCode": "L-A272D574",
+            "QuotaName": "VPC associations per security group",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of VPC associations per security group."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-A4707A72",
+            "QuotaCode": "L-A4707A72",
+            "QuotaName": "Internet gateways per Region",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of internet gateways per Region. This quota is directly tied to the maximum number of VPCs per Region. To increase this quota, increase the number of VPCs per Region."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-2AEEBF1A",
+            "QuotaCode": "L-2AEEBF1A",
+            "QuotaName": "Rules per network ACL",
+            "Value": 20.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of inbound rules or outbound rules per network ACL (a total of 40 rules). This includes both IPv4 and IPv6 rules, and the default deny rules. This quota can be increased up to a maximum of 40; however, network performance might be impacted."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-DFA99DE7",
+            "QuotaCode": "L-DFA99DE7",
+            "QuotaName": "Private IP address quota per NAT gateway",
+            "Value": 8.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of private IP addresses that can be assigned to a single NAT Gateway of connectivity type private."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-2AFB9258",
+            "QuotaCode": "L-2AFB9258",
+            "QuotaName": "Security groups per network interface",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of security groups per network interface. The maximum is 16. This quota, multiplied by the quota for rules per security group, cannot exceed 1000."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-085A6257",
+            "QuotaCode": "L-085A6257",
+            "QuotaName": "IPv6 CIDR blocks per VPC",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of IPv6 CIDR blocks per VPC."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-12E49864",
+            "QuotaCode": "L-12E49864",
+            "QuotaName": "Regional NAT gateways per VPC",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of regional NAT gateways per VPC. This includes regional NAT gateways in the pending, active, or deleting state."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-29B6F2EB",
+            "QuotaCode": "L-29B6F2EB",
+            "QuotaName": "Interface VPC endpoints per VPC",
+            "Value": 50.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "InterfaceVPCEndpointsPerVPC",
+                    "Service": "EC2",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Period": {
+                "PeriodValue": 5,
+                "PeriodUnit": "MINUTE"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of interface and gatewayLoadBalancer VPC endpoints per VPC."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-83CA0A9D",
+            "QuotaCode": "L-83CA0A9D",
+            "QuotaName": "IPv4 CIDR blocks per VPC",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "IPv4CidrBlocksPerVPC",
+                    "Service": "EC2",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Period": {
+                "PeriodValue": 5,
+                "PeriodUnit": "MINUTE"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "QuotaContext": {
+                "ContextScope": "RESOURCE",
+                "ContextScopeType": "AWS::EC2::VPC",
+                "ContextId": "*",
+                "AdjustableAtLevel": "ACCOUNT"
+            },
+            "Description": "The maximum number of IPv4 CIDR blocks per VPC. The primary CIDR block and all secondary CIDR blocks count toward this quota. This quota can be increased up to a maximum of 50."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-E79EC296",
+            "QuotaCode": "L-E79EC296",
+            "QuotaName": "VPC security groups per Region",
+            "Value": 2500.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of VPC security groups per Region."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-DF5E4CA3",
+            "QuotaCode": "L-DF5E4CA3",
+            "QuotaName": "Network interfaces per Region",
+            "Value": 5000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of network interfaces per Availability Zone in a Region."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-3B4E38D2",
+            "QuotaCode": "L-3B4E38D2",
+            "QuotaName": "VPC endpoints of type 'service network' per VPC",
+            "Value": 500.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of service network endpoints in a VPC. For additional capacity and limit increases, contact AWS Support."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-407747CB",
+            "QuotaCode": "L-407747CB",
+            "QuotaName": "Subnets per VPC",
+            "Value": 200.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of subnets per VPC."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-F678F1CE",
+            "QuotaCode": "L-F678F1CE",
+            "QuotaName": "VPCs per Region",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "VPCsPerRegion",
+                    "Service": "EC2",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "Period": {
+                "PeriodValue": 5,
+                "PeriodUnit": "MINUTE"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of VPCs per Region. This quota is directly tied to the maximum number of internet gateways per Region."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-B4A6D682",
+            "QuotaCode": "L-B4A6D682",
+            "QuotaName": "Network ACLs per VPC",
+            "Value": 200.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of network ACLs per VPC."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-8312C5BB",
+            "QuotaCode": "L-8312C5BB",
+            "QuotaName": "VPC peering connection request expiry hours",
+            "Value": 168.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of hours after which an unaccepted VPC peering connection request expires. The default value is 168 hours (one week)."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-45FE3B85",
+            "QuotaCode": "L-45FE3B85",
+            "QuotaName": "Egress-only internet gateways per Region",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of egress-only (outbound-only) internet gateways per Region. This quota is directly tied to the maximum number of VPCs per Region. To increase this quota, increase the number of VPCs per Region."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-CD17FD4B",
+            "QuotaCode": "L-CD17FD4B",
+            "QuotaName": "Peered Network Address Usage",
+            "Value": 128000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum Network Address Usage for a VPC and its peers."
+        },
+        {
+            "ServiceCode": "vpc",
+            "ServiceName": "Amazon Virtual Private Cloud (Amazon VPC)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:vpc/L-44499CD2",
+            "QuotaCode": "L-44499CD2",
+            "QuotaName": "Subnets that can be shared with an account",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of subnets that can be shared with an AWS account."
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "StackEvents": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-iam-readonly/af058e60-d93f-11f1-b2fb-0afff039f677",
+            "EventId": "ffb2c8f0-d93f-11f1-94c8-0e4fcfe347c9",
+            "StackName": "kvs-iam-readonly",
+            "OperationId": "7d687567-cc9b-4aa3-9a37-c523a13ba71f",
+            "LogicalResourceId": "kvs-iam-readonly",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-iam-readonly/af058e60-d93f-11f1-b2fb-0afff039f677",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2026-11-05T17:40:32.108000+00:00",
+            "ResourceStatus": "ROLLBACK_COMPLETE",
+            "ClientRequestToken": "07ed6cce-6098-4dd7-95ed-61f8d73666e1"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-iam-readonly/af058e60-d93f-11f1-b2fb-0afff039f677",
+            "EventId": "ReadOnlyViewPolicy-DELETE_COMPLETE-2026-11-05T17:40:31.804Z",
+            "StackName": "kvs-iam-readonly",
+            "OperationId": "7d687567-cc9b-4aa3-9a37-c523a13ba71f",
+            "LogicalResourceId": "ReadOnlyViewPolicy",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::IAM::ManagedPolicy",
+            "Timestamp": "2026-11-05T17:40:31.804000+00:00",
+            "ResourceStatus": "DELETE_COMPLETE",
+            "ResourceProperties": "{\"ManagedPolicyName\":\"kvs-readonly-view\",\"Description\":\"View resource metadata only. Data plane reads and secrets are explicitly denied.\",\"PolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":[\"ec2:Describe*\",\"elasticloadbalancing:Describe*\",\"autoscaling:Describe*\",\"cloudformation:Describe*\",\"cloudformation:List*\",\"cloudformation:GetTemplate\",\"cloudformation:GetTemplateSummary\",\"lambda:ListFunctions\",\"lambda:ListEventSourceMappings\",\"lambda:ListTags\",\"lambda:GetFunctionConfiguration\",\"lambda:GetAccountSettings\",\"dynamodb:ListTables\",\"dynamodb:DescribeTable\",\"dynamodb:DescribeTimeToLive\",\"dynamodb:DescribeContinuousBackups\",\"dynamodb:DescribeLimits\",\"dynamodb:ListTagsOfResource\",\"s3:ListAllMyBuckets\",\"s3:ListBucket\",\"s3:GetBucketLocation\",\"s3:GetBucketPolicy\",\"s3:GetBucketTagging\",\"s3:GetBucketVersioning\",\"s3:GetEncryptionConfiguration\",\"s3:GetBucketPublicAccessBlock\",\"ecs:Describe*\",\"ecs:List*\",\"ecr:DescribeRepositories\",\"ecr:DescribeImages\",\"ecr:ListImages\",\"apigateway:GET\",\"cloudwatch:Describe*\",\"cloudwatch:Get*\",\"cloudwatch:List*\",\"logs:DescribeLogGroups\",\"logs:DescribeLogStreams\",\"logs:DescribeMetricFilters\",\"logs:ListTagsForResource\",\"sqs:ListQueues\",\"sqs:GetQueueAttributes\",\"sns:ListTopics\",\"sns:GetTopicAttributes\",\"iam:GetRole\",\"iam:GetPolicy\",\"iam:GetPolicyVersion\",\"iam:GetRolePolicy\",\"iam:ListRoles\",\"iam:ListPolicies\",\"iam:ListAttachedRolePolicies\",\"iam:ListRolePolicies\",\"iam:ListInstanceProfiles\",\"iam:GetAccountSummary\",\"servicequotas:Get*\",\"servicequotas:List*\",\"tag:GetResources\",\"budgets:ViewBudget\",\"ce:GetCostAndUsage\",\"ce:GetCostForecast\"],\"Resource\":\"*\",\"Effect\":\"Allow\",\"Sid\":\"ViewInfrastructureMetadata\"},{\"Action\":[\"s3:GetObject\",\"s3:GetObjectVersion\",\"dynamodb:GetItem\",\"dynamodb:BatchGetItem\",\"dynamodb:Query\",\"dynamodb:Scan\",\"dynamodb:PartiQLSelect\",\"secretsmanager:GetSecretValue\",\"ssm:GetParameter\",\"ssm:GetParameters\",\"ssm:GetParametersByPath\",\"kms:Decrypt\",\"lambda:InvokeFunction\",\"lambda:GetFunction\",\"logs:GetLogEvents\",\"logs:FilterLogEvents\",\"logs:StartQuery\",\"ecr:BatchGetImage\",\"ecr:GetDownloadUrlForLayer\",\"sqs:ReceiveMessage\"],\"Resource\":\"*\",\"Effect\":\"Deny\",\"Sid\":\"DenyDataPlaneReadsAndSecrets\"}]}}",
+            "ClientRequestToken": "07ed6cce-6098-4dd7-95ed-61f8d73666e1"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-iam-readonly/af058e60-d93f-11f1-b2fb-0afff039f677",
+            "EventId": "b1ef19c0-d93f-11f1-803d-0effc37cb1c7",
+            "StackName": "kvs-iam-readonly",
+            "OperationId": "7d687567-cc9b-4aa3-9a37-c523a13ba71f",
+            "LogicalResourceId": "kvs-iam-readonly",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-iam-readonly/af058e60-d93f-11f1-b2fb-0afff039f677",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2026-11-05T17:38:21.629000+00:00",
+            "ResourceStatus": "ROLLBACK_IN_PROGRESS",
+            "ResourceStatusReason": "The following resource(s) failed to create: [ReadOnlyViewPolicy]. Rollback requested by user.",
+            "ClientRequestToken": "07ed6cce-6098-4dd7-95ed-61f8d73666e1"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-iam-readonly/af058e60-d93f-11f1-b2fb-0afff039f677",
+            "EventId": "ReadOnlyViewPolicy-CREATE_FAILED-2026-11-05T17:38:21.318Z",
+            "StackName": "kvs-iam-readonly",
+            "OperationId": "af073c10-d93f-11f1-b2fb-0afff039f677",
+            "LogicalResourceId": "ReadOnlyViewPolicy",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::IAM::ManagedPolicy",
+            "Timestamp": "2026-11-05T17:38:21.318000+00:00",
+            "ResourceStatus": "CREATE_FAILED",
+            "ResourceStatusReason": "Resource handler returned message: \"User: arn:aws:sts::500819826436:assumed-role/voclabs/user5670344=kshykhalov@kse.org.ua is not authorized to perform: iam:CreatePolicy on resource: policy kvs-readonly-view because no identity-based policy allows the iam:CreatePolicy action. Go to https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-1#/authorization-details/77styszu83qufjy5a6d8nbv9a for complete details, or call the GetRequestAuthorizationDetails API with the following authorization id: 77styszu83qufjy5a6d8nbv9a (Service: Iam, Status Code: 403, Request ID: 54b0e085-e11b-4eb2-9ee2-b6b5a38b4f11) (SDK Attempt Count: 1)\" (RequestToken: 5a1ada52-a532-ed9f-f737-976e2b9e8d5e, HandlerErrorCode: AccessDenied)",
+            "ResourceProperties": "{\"ManagedPolicyName\":\"kvs-readonly-view\",\"Description\":\"View resource metadata only. Data plane reads and secrets are explicitly denied.\",\"PolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":[\"ec2:Describe*\",\"elasticloadbalancing:Describe*\",\"autoscaling:Describe*\",\"cloudformation:Describe*\",\"cloudformation:List*\",\"cloudformation:GetTemplate\",\"cloudformation:GetTemplateSummary\",\"lambda:ListFunctions\",\"lambda:ListEventSourceMappings\",\"lambda:ListTags\",\"lambda:GetFunctionConfiguration\",\"lambda:GetAccountSettings\",\"dynamodb:ListTables\",\"dynamodb:DescribeTable\",\"dynamodb:DescribeTimeToLive\",\"dynamodb:DescribeContinuousBackups\",\"dynamodb:DescribeLimits\",\"dynamodb:ListTagsOfResource\",\"s3:ListAllMyBuckets\",\"s3:ListBucket\",\"s3:GetBucketLocation\",\"s3:GetBucketPolicy\",\"s3:GetBucketTagging\",\"s3:GetBucketVersioning\",\"s3:GetEncryptionConfiguration\",\"s3:GetBucketPublicAccessBlock\",\"ecs:Describe*\",\"ecs:List*\",\"ecr:DescribeRepositories\",\"ecr:DescribeImages\",\"ecr:ListImages\",\"apigateway:GET\",\"cloudwatch:Describe*\",\"cloudwatch:Get*\",\"cloudwatch:List*\",\"logs:DescribeLogGroups\",\"logs:DescribeLogStreams\",\"logs:DescribeMetricFilters\",\"logs:ListTagsForResource\",\"sqs:ListQueues\",\"sqs:GetQueueAttributes\",\"sns:ListTopics\",\"sns:GetTopicAttributes\",\"iam:GetRole\",\"iam:GetPolicy\",\"iam:GetPolicyVersion\",\"iam:GetRolePolicy\",\"iam:ListRoles\",\"iam:ListPolicies\",\"iam:ListAttachedRolePolicies\",\"iam:ListRolePolicies\",\"iam:ListInstanceProfiles\",\"iam:GetAccountSummary\",\"servicequotas:Get*\",\"servicequotas:List*\",\"tag:GetResources\",\"budgets:ViewBudget\",\"ce:GetCostAndUsage\",\"ce:GetCostForecast\"],\"Resource\":\"*\",\"Effect\":\"Allow\",\"Sid\":\"ViewInfrastructureMetadata\"},{\"Action\":[\"s3:GetObject\",\"s3:GetObjectVersion\",\"dynamodb:GetItem\",\"dynamodb:BatchGetItem\",\"dynamodb:Query\",\"dynamodb:Scan\",\"dynamodb:PartiQLSelect\",\"secretsmanager:GetSecretValue\",\"ssm:GetParameter\",\"ssm:GetParameters\",\"ssm:GetParametersByPath\",\"kms:Decrypt\",\"lambda:InvokeFunction\",\"lambda:GetFunction\",\"logs:GetLogEvents\",\"logs:FilterLogEvents\",\"logs:StartQuery\",\"ecr:BatchGetImage\",\"ecr:GetDownloadUrlForLayer\",\"sqs:ReceiveMessage\"],\"Resource\":\"*\",\"Effect\":\"Deny\",\"Sid\":\"DenyDataPlaneReadsAndSecrets\"}]}}",
+            "ClientRequestToken": "07ed6cce-6098-4dd7-95ed-61f8d73666e1"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-iam-readonly/af058e60-d93f-11f1-b2fb-0afff039f677",
+            "EventId": "ReadOnlyViewPolicy-CREATE_IN_PROGRESS-2026-11-05T17:38:20.591Z",
+            "StackName": "kvs-iam-readonly",
+            "OperationId": "af073c10-d93f-11f1-b2fb-0afff039f677",
+            "LogicalResourceId": "ReadOnlyViewPolicy",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::IAM::ManagedPolicy",
+            "Timestamp": "2026-11-05T17:38:20.591000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"ManagedPolicyName\":\"kvs-readonly-view\",\"Description\":\"View resource metadata only. Data plane reads and secrets are explicitly denied.\",\"PolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":[\"ec2:Describe*\",\"elasticloadbalancing:Describe*\",\"autoscaling:Describe*\",\"cloudformation:Describe*\",\"cloudformation:List*\",\"cloudformation:GetTemplate\",\"cloudformation:GetTemplateSummary\",\"lambda:ListFunctions\",\"lambda:ListEventSourceMappings\",\"lambda:ListTags\",\"lambda:GetFunctionConfiguration\",\"lambda:GetAccountSettings\",\"dynamodb:ListTables\",\"dynamodb:DescribeTable\",\"dynamodb:DescribeTimeToLive\",\"dynamodb:DescribeContinuousBackups\",\"dynamodb:DescribeLimits\",\"dynamodb:ListTagsOfResource\",\"s3:ListAllMyBuckets\",\"s3:ListBucket\",\"s3:GetBucketLocation\",\"s3:GetBucketPolicy\",\"s3:GetBucketTagging\",\"s3:GetBucketVersioning\",\"s3:GetEncryptionConfiguration\",\"s3:GetBucketPublicAccessBlock\",\"ecs:Describe*\",\"ecs:List*\",\"ecr:DescribeRepositories\",\"ecr:DescribeImages\",\"ecr:ListImages\",\"apigateway:GET\",\"cloudwatch:Describe*\",\"cloudwatch:Get*\",\"cloudwatch:List*\",\"logs:DescribeLogGroups\",\"logs:DescribeLogStreams\",\"logs:DescribeMetricFilters\",\"logs:ListTagsForResource\",\"sqs:ListQueues\",\"sqs:GetQueueAttributes\",\"sns:ListTopics\",\"sns:GetTopicAttributes\",\"iam:GetRole\",\"iam:GetPolicy\",\"iam:GetPolicyVersion\",\"iam:GetRolePolicy\",\"iam:ListRoles\",\"iam:ListPolicies\",\"iam:ListAttachedRolePolicies\",\"iam:ListRolePolicies\",\"iam:ListInstanceProfiles\",\"iam:GetAccountSummary\",\"servicequotas:Get*\",\"servicequotas:List*\",\"tag:GetResources\",\"budgets:ViewBudget\",\"ce:GetCostAndUsage\",\"ce:GetCostForecast\"],\"Resource\":\"*\",\"Effect\":\"Allow\",\"Sid\":\"ViewInfrastructureMetadata\"},{\"Action\":[\"s3:GetObject\",\"s3:GetObjectVersion\",\"dynamodb:GetItem\",\"dynamodb:BatchGetItem\",\"dynamodb:Query\",\"dynamodb:Scan\",\"dynamodb:PartiQLSelect\",\"secretsmanager:GetSecretValue\",\"ssm:GetParameter\",\"ssm:GetParameters\",\"ssm:GetParametersByPath\",\"kms:Decrypt\",\"lambda:InvokeFunction\",\"lambda:GetFunction\",\"logs:GetLogEvents\",\"logs:FilterLogEvents\",\"logs:StartQuery\",\"ecr:BatchGetImage\",\"ecr:GetDownloadUrlForLayer\",\"sqs:ReceiveMessage\"],\"Resource\":\"*\",\"Effect\":\"Deny\",\"Sid\":\"DenyDataPlaneReadsAndSecrets\"}]}}",
+            "ClientRequestToken": "07ed6cce-6098-4dd7-95ed-61f8d73666e1"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-iam-readonly/af058e60-d93f-11f1-b2fb-0afff039f677",
+            "EventId": "af073c10-d93f-11f1-b2fb-0afff039f677",
+            "StackName": "kvs-iam-readonly",
+            "OperationId": "af073c10-d93f-11f1-b2fb-0afff039f677",
+            "LogicalResourceId": "kvs-iam-readonly",
+            "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:500819826436:stack/kvs-iam-readonly/af058e60-d93f-11f1-b2fb-0afff039f677",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2026-11-05T17:38:16.807000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated",
+            "ClientRequestToken": "07ed6cce-6098-4dd7-95ed-61f8d73666e1"
+        }
+    ]
+}

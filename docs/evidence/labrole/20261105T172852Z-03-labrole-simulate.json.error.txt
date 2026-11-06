@@ -1,0 +1,5 @@
+COMMAND: aws iam simulate-principal-policy --policy-source-arn arn:aws:iam::500819826436:role/LabRole --action-names iam:CreateRole iam:CreatePolicy iam:AttachRolePolicy iam:PassRole cloudformation:CreateStack ec2:CreateVpc ec2:CreateNatGateway ec2:AllocateAddress ec2:RunInstances lambda:CreateFunction dynamodb:CreateTable ecs:CreateCluster s3:CreateBucket organizations:DescribeOrganization ce:GetCostAndUsage servicequotas:ListServiceQuotas access-analyzer:ValidatePolicy --query EvaluationResults[].[EvalActionName,EvalDecision] --output json
+EXIT: 254
+ERROR:
+
+aws: [ERROR]: An error occurred (NoSuchEntity) when calling the SimulatePrincipalPolicy operation: Unable to retrieve specified IAM entity.

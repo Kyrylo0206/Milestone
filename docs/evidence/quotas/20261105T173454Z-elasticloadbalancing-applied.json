@@ -1,0 +1,649 @@
+{
+    "Quotas": [
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-822D1B1B",
+            "QuotaCode": "L-822D1B1B",
+            "QuotaName": "Target Groups per Application Load Balancer",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TargetGroupsPerApplicationLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of target groups per Application Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-1A491844",
+            "QuotaCode": "L-1A491844",
+            "QuotaName": "Listeners per Classic Load Balancer",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListenersPerClassicLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of listeners per Classic Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-EBC0C08B",
+            "QuotaCode": "L-EBC0C08B",
+            "QuotaName": "Condition Values per Rule",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ConditionValuesPerRule",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of condition values per Rule"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-CE3125E5",
+            "QuotaCode": "L-CE3125E5",
+            "QuotaName": "Registered Instances per Classic Load Balancer",
+            "Value": 1000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "RegisteredInstancesPerClassicLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of instances that can be registered per Classic Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-A012D4E8",
+            "QuotaCode": "L-A012D4E8",
+            "QuotaName": "Condition Wildcards per Rule",
+            "Value": 6.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ConditionWildcardsPerRule",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of condition wildcards per Rule"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-8A66D0E6",
+            "QuotaCode": "L-8A66D0E6",
+            "QuotaName": "Reserved Application Load Balancer Capacity Units (LCU) per Region",
+            "Value": 0.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ReservedApplicationLoadBalancerCapacityUnitsPerRegion",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Reserved Application Load Balancer Capacity Units (LCU) per Region"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-37E1617B",
+            "QuotaCode": "L-37E1617B",
+            "QuotaName": "Revocation entries per trust store",
+            "Value": 500000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Revocation entries per trust store"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-52964454",
+            "QuotaCode": "L-52964454",
+            "QuotaName": "Certificates per Network Load Balancer",
+            "Value": 25.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CertificatesPerNetworkLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of certificates per Network Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-69A177A2",
+            "QuotaCode": "L-69A177A2",
+            "QuotaName": "Network Load Balancers per Region",
+            "Value": 50.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "NetworkLoadBalancersPerRegion",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Network Load Balancers per Region"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-B6DF7632",
+            "QuotaCode": "L-B6DF7632",
+            "QuotaName": "Listeners per Application Load Balancer",
+            "Value": 50.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListenersPerApplicationLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of listeners per Application Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-332EE142",
+            "QuotaCode": "L-332EE142",
+            "QuotaName": "Revocation lists per trust store",
+            "Value": 30.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Revocation lists per trust store"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-057ECE54",
+            "QuotaCode": "L-057ECE54",
+            "QuotaName": "Target Groups per Action per Application Load Balancer",
+            "Value": 5.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TargetGroupsPerActionPerApplicationLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of target groups per action per Application Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-723DCCB6",
+            "QuotaCode": "L-723DCCB6",
+            "QuotaName": "Reserved Network Load Balancer Capacity Units (LCU) per Region",
+            "Value": 0.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ReservedNetworkLoadBalancerCapacityUnitsPerRegion",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Reserved Network Load Balancer Capacity Units (LCU) per Region"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-43FE5A42",
+            "QuotaCode": "L-43FE5A42",
+            "QuotaName": "CA certificates per trust store",
+            "Value": 25.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CA certificates per trust store"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-B22855CB",
+            "QuotaCode": "L-B22855CB",
+            "QuotaName": "Target Groups per Region",
+            "Value": 3000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TargetGroupsPerRegion",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of target groups per Region"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-53DA6B97",
+            "QuotaCode": "L-53DA6B97",
+            "QuotaName": "Application Load Balancers per Region",
+            "Value": 50.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ApplicationLoadBalancersPerRegion",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Application Load Balancers per Region"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-7C45F98A",
+            "QuotaCode": "L-7C45F98A",
+            "QuotaName": "Reserved Network Load Balancer Capacity Units (LCUs) per Network Load Balancer, per availability zone",
+            "Value": 45000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Reserved Network Load Balancer Capacity Units (LCUs) per Network Load Balancer, per availability zone"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-A0D0B863",
+            "QuotaCode": "L-A0D0B863",
+            "QuotaName": "Targets per Target Group per Region",
+            "Value": 1000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TargetsPerTargetGroupPerRegion",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of targets per target group per Region"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-E9E9831D",
+            "QuotaCode": "L-E9E9831D",
+            "QuotaName": "Classic Load Balancers per Region",
+            "Value": 20.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ClassicLoadBalancersPerRegion",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Classic Load Balancers per Region"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-7E6692B2",
+            "QuotaCode": "L-7E6692B2",
+            "QuotaName": "Targets per Application Load Balancer",
+            "Value": 1000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TargetsPerApplicationLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of targets per Application Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-9365A611",
+            "QuotaCode": "L-9365A611",
+            "QuotaName": "Certificates per Application Load Balancer",
+            "Value": 25.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "CertificatesPerApplicationLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of certificates per Application Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-B211E961",
+            "QuotaCode": "L-B211E961",
+            "QuotaName": "Targets per Availability Zone per Network Load Balancer",
+            "Value": 500.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TargetsPerAvailabilityZonePerNetworkLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of targets per availability zone per Network Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-EEF1AD04",
+            "QuotaCode": "L-EEF1AD04",
+            "QuotaName": "Targets per Network Load Balancer",
+            "Value": 3000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "TargetsPerNetworkLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of targets per Network Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-F31E307C",
+            "QuotaCode": "L-F31E307C",
+            "QuotaName": "CA certificates subject size per trust store",
+            "Value": 10000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of CA certificates subject size per trust store"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-9E6F9012",
+            "QuotaCode": "L-9E6F9012",
+            "QuotaName": "Reserved Gateway Load Balancer Capacity Units (LCU) per Gateway Load Balancer, per availability zone",
+            "Value": 45000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Reserved Gateway Load Balancer Capacity Units (LCUs) per Gateway Load Balancer, per availability zone"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-57A373D6",
+            "QuotaCode": "L-57A373D6",
+            "QuotaName": "Listeners per Network Load Balancer",
+            "Value": 50.0,
+            "Unit": "None",
+            "Adjustable": false,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "ListenersPerNetworkLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of listeners per Network Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-7A15E3C5",
+            "QuotaCode": "L-7A15E3C5",
+            "QuotaName": "Reserved Gateway Load Balancer Capacity Units (LCU) per Region",
+            "Value": 0.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Reserved Gateway Load Balancer Capacity Units (LCU) per Region"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-0BB7B635",
+            "QuotaCode": "L-0BB7B635",
+            "QuotaName": "Reserved Application Load Balancer Capacity Units (LCU) per Application Load Balancer",
+            "Value": 15000.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Reserved Application Load Balancer Capacity Units (LCU) per Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-A8F7060B",
+            "QuotaCode": "L-A8F7060B",
+            "QuotaName": "Trust stores per account",
+            "Value": 20.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of Trust stores per account"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-7EED9B64",
+            "QuotaCode": "L-7EED9B64",
+            "QuotaName": "Rules per Application Load Balancer",
+            "Value": 100.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "RoutingRulesPerApplicationLoadBalancer",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The maximum number of rules per Application Load Balancer"
+        },
+        {
+            "ServiceCode": "elasticloadbalancing",
+            "ServiceName": "Elastic Load Balancing (ELB)",
+            "QuotaArn": "arn:aws:servicequotas:us-east-1:500819826436:elasticloadbalancing/L-23568085",
+            "QuotaCode": "L-23568085",
+            "QuotaName": "Network Load Balancer ENIs per VPC",
+            "Value": 1200.0,
+            "Unit": "None",
+            "Adjustable": true,
+            "GlobalQuota": false,
+            "UsageMetric": {
+                "MetricNamespace": "AWS/Usage",
+                "MetricName": "ResourceCount",
+                "MetricDimensions": {
+                    "Class": "None",
+                    "Resource": "NetworkLoadBalancersENIsPerVPC",
+                    "Service": "Elastic Load Balancing",
+                    "Type": "Resource"
+                },
+                "MetricStatisticRecommendation": "Maximum"
+            },
+            "QuotaAppliedAtLevel": "ACCOUNT",
+            "Description": "The total number of Network Load Balancer eni's per VPC"
+        }
+    ]
+}

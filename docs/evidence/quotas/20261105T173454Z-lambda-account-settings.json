@@ -1,0 +1,13 @@
+{
+    "AccountLimit": {
+        "TotalCodeSize": 322122547200,
+        "CodeSizeUnzipped": 262144000,
+        "CodeSizeZipped": 52428800,
+        "ConcurrentExecutions": 1000,
+        "UnreservedConcurrentExecutions": 1000
+    },
+    "AccountUsage": {
+        "TotalCodeSize": 0,
+        "FunctionCount": 0
+    }
+}

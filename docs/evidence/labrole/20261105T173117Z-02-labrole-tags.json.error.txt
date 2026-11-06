@@ -1,0 +1,5 @@
+COMMAND: aws iam list-role-tags --role-name LabRole --output json
+EXIT: 254
+ERROR:
+
+aws: [ERROR]: An error occurred (NoSuchEntity) when calling the ListRoleTags operation: The role with name LabRole cannot be found.

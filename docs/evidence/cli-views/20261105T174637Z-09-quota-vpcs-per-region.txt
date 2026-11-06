@@ -1,0 +1,8 @@
+COMMAND: aws service-quotas get-service-quota --service-code vpc --quota-code L-F678F1CE --region us-east-1 --query Quota.[QuotaName,Value] --output table
+
+---------------------
+|  GetServiceQuota  |
++-------------------+
+|  VPCs per Region  |
+|  5.0              |
++-------------------+

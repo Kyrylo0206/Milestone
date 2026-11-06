@@ -1,0 +1,2232 @@
+== vpc (code, name, value, adjustable) ==
+L-5F53652F	Elastic IP address quota per NAT gateway	2.0	True
+L-42B9C2CA	VPC Block Public Access exclusions per account per Region	50.0	False
+L-CA6CC422	VPC endpoints of type 'resource' per VPC	500.0	True
+L-BB24F6E5	Network Address Usage	64000.0	True
+L-FE5A380F	NAT gateways per Availability Zone	5.0	True
+L-7E9ECCDB	Active VPC peering connections per VPC	50.0	True
+L-2C462E13	Participant accounts per VPC	100.0	True
+L-1B52E74A	Gateway VPC endpoints per Region	20.0	True
+L-0EA8095F	Inbound or outbound rules per security group	60.0	True
+L-93826ACB	Routes per route table	500.0	True
+L-DC9F7029	Outstanding VPC peering connection requests	25.0	True
+L-589F43AA	Route tables per VPC	200.0	True
+L-A272D574	VPC associations per security group	100.0	True
+L-A4707A72	Internet gateways per Region	5.0	True
+L-2AEEBF1A	Rules per network ACL	20.0	True
+L-DFA99DE7	Private IP address quota per NAT gateway	8.0	True
+L-2AFB9258	Security groups per network interface	5.0	True
+L-085A6257	IPv6 CIDR blocks per VPC	5.0	True
+L-12E49864	Regional NAT gateways per VPC	5.0	True
+L-29B6F2EB	Interface VPC endpoints per VPC	50.0	True
+L-83CA0A9D	IPv4 CIDR blocks per VPC	5.0	True
+L-E79EC296	VPC security groups per Region	2500.0	True
+L-DF5E4CA3	Network interfaces per Region	5000.0	True
+L-3B4E38D2	VPC endpoints of type 'service network' per VPC	500.0	True
+L-407747CB	Subnets per VPC	200.0	True
+L-F678F1CE	VPCs per Region	5.0	True
+L-B4A6D682	Network ACLs per VPC	200.0	True
+L-8312C5BB	VPC peering connection request expiry hours	168.0	False
+L-45FE3B85	Egress-only internet gateways per Region	5.0	True
+L-CD17FD4B	Peered Network Address Usage	128000.0	True
+L-44499CD2	Subnets that can be shared with an account	100.0	True
+== ec2 (code, name, value, adjustable) ==
+L-2481C19E	ModifyVerifiedAccessEndpoint request bucket maximum capacity	20.0	False
+L-9B6899DE	DeleteCustomerGateway request bucket maximum capacity	50.0	False
+L-2394664B	ModifySnapshotTier request bucket refill rate	5.0	False
+L-7186273C	GetIpamPrefixListResolverVersionEntries request bucket refill rate	20.0	False
+L-FB79A78F	DescribeTransitGatewayMulticastDomains request bucket refill rate	20.0	False
+L-790B6520	CreateSnapshot request bucket refill rate	5.0	False
+L-C4EABC2C	Running Dedicated r6idn Hosts	1.0	True
+L-CE6500DF	GetVerifiedAccessEndpointTargets request bucket maximum capacity	100.0	False
+L-59FF502F	ModifyPrivateDnsNameOptions request bucket maximum capacity	50.0	False
+L-E09A1754	DeleteTransitGatewayPrefixListReference request bucket refill rate	5.0	False
+L-9CCCE54E	CreateVpcEndpoint request bucket maximum capacity	4.0	False
+L-53EF72F4	DisassociateCapacityReservationBillingOwner request bucket maximum capacity	1.0	False
+L-B8847FB8	DescribeInstanceTopology request bucket refill rate	1.0	False
+L-814687EE	CreateRestoreImageTask request bucket refill rate	0.1	False
+L-63460FCE	DescribeFleetInstances request bucket refill rate	20.0	False
+L-5D8DADF5	Running Dedicated mac2 Hosts	2.0	True
+L-A3F8A3E2	ModifyVerifiedAccessGroup request bucket maximum capacity	10.0	False
+L-8D142A2E	Running Dedicated c3 Hosts	1.0	True
+L-B48522DB	DescribeHostReservationOfferings request bucket maximum capacity	5.0	False
+L-BAB6FE58	ReleaseAddress request bucket refill rate	5.0	False
+L-5E3A299D	Running Dedicated c6gn Hosts	1.0	True
+L-9080420A	AssociateTransitGatewayRouteTable request bucket maximum capacity	50.0	False
+L-51368271	ListSnapshotsInRecycleBin request bucket maximum capacity	100.0	False
+L-FE6161B9	CreateCapacityReservationBySplitting request bucket refill rate	5.0	False
+L-AB760DDD	ModifyVerifiedAccessGroup request bucket refill rate	2.0	False
+L-CE2B30CD	DisassociateCapacityReservationBillingOwner request bucket refill rate	0.5	False
+L-F5B791D7	StartNetworkInsightsAnalysis request bucket refill rate	5.0	False
+L-E8031946	DescribeDhcpOptions request bucket maximum capacity	100.0	False
+L-643D6D54	DescribeSecondarySubnets request bucket maximum capacity	100.0	False
+L-2E30FD7D	Concurrent TRN1 Capacity Blocks per account	4096.0	True
+L-791A161D	CreateTransitGatewayConnect request bucket refill rate	5.0	False
+L-8CCBD91B	Running Dedicated m5d Hosts	1.0	True
+L-B76CC6B9	UnlockSnapshot request bucket maximum capacity	50.0	False
+L-92F041EF	CreateVerifiedAccessTrustProvider request bucket refill rate	2.0	False
+L-6341CE3A	DescribeClientVpnRoutes request bucket refill rate	20.0	False
+L-7C1EFAFA	DescribeVerifiedAccessInstanceLoggingConfigurations request bucket maximum capacity	10.0	False
+L-350824DE	GetTransitGatewayPrefixListReferences request bucket refill rate	20.0	False
+L-60DB23DE	DescribeMacModificationTasks request bucket refill rate	20.0	False
+L-4F9BB70B	Concurrent P5en Capacity Blocks per account	6144.0	True
+L-FCF0179E	Concurrent P6e-GB200 Capacity Blocks per account	0.0	True
+L-FC7D7ACD	GetTransitGatewayRouteTablePropagations request bucket maximum capacity	100.0	False
+L-BA76318B	CancelExportTask request bucket refill rate	5.0	False
+L-E719CD85	DescribeVerifiedAccessInstanceLoggingConfigurations request bucket refill rate	2.0	False
+L-151E6DAF	CreateTransitGatewayPrefixListReference request bucket maximum capacity	50.0	False
+L-37897F38	CreateDhcpOptions request bucket maximum capacity	50.0	False
+L-E82C9E53	DescribeInstanceAttribute request bucket refill rate	20.0	False
+L-40D2E4A7	DescribeScheduledInstanceAvailability request bucket maximum capacity	100.0	False
+L-877B6A31	CreateFpgaImage request bucket refill rate	5.0	False
+L-079CF699	ModifyLocalGatewayRoute request bucket maximum capacity	50.0	False
+L-54162863	DescribeInstanceSqlHaStates request bucket maximum capacity	100.0	False
+L-1A23FD64	DescribeClassicLinkInstances request bucket maximum capacity	100.0	False
+L-A000E512	ImportVolume request bucket maximum capacity	50.0	False
+L-CCFD05B1	DisassociateRouteTable request bucket maximum capacity	50.0	False
+L-5A0A5A58	CreateVpc request bucket maximum capacity	50.0	False
+L-00A93DA0	DescribeDhcpOptions request bucket refill rate	20.0	False
+L-AB7F9619	CreateIpam request bucket maximum capacity	50.0	False
+L-ECC9625E	DeleteTransitGatewayMeteringPolicy request bucket refill rate	5.0	False
+L-731C6F88	ProvisionIpamPoolCidr request bucket maximum capacity	50.0	False
+L-8EA77D34	Client VPN endpoints per Region	5.0	True
+L-AD79F9CC	AssignIpv6Addresses request bucket maximum capacity	100.0	False
+L-FD4AF812	ModifyInstanceEventWindow request bucket refill rate	5.0	False
+L-CAE24619	Running Dedicated g4dn Hosts	0.0	True
+L-F60D52A2	CancelBundleTask request bucket refill rate	5.0	False
+L-646063C3	CreateCapacityReservationFleet request bucket refill rate	5.0	False
+L-EA4FD6CF	Running Dedicated r5 Hosts	1.0	True
+L-D8C0C1B1	DescribeBundleTasks request bucket refill rate	20.0	False
+L-FF9850E3	DeleteRouteServerPeer request bucket refill rate	5.0	False
+L-8D5146FF	DescribeLocalGatewayVirtualInterfaces request bucket refill rate	20.0	False
+L-AAEF50B1	DescribeNetworkInterfaceAttribute request bucket refill rate	20.0	False
+L-81756D80	UnassignPrivateNatGatewayAddress request bucket maximum capacity	10.0	False
+L-DDC4EE1D	EnableCapacityManager request bucket maximum capacity	50.0	False
+L-698B67E5	Running Dedicated c7a Hosts	1.0	True
+L-C8454AF4	CreateLocalGatewayRouteTableVpcAssociation request bucket maximum capacity	50.0	False
+L-20A80BF2	CancelImportTask request bucket refill rate	5.0	False
+L-2738787C	EnableIpamOrganizationAdminAccount request bucket maximum capacity	50.0	False
+L-5A509212	DescribeInstanceStatus unfiltered request bucket maximum capacity	50.0	False
+L-93F05E61	GetIpamPrefixListResolverVersions request bucket refill rate	20.0	False
+L-D41BA2BD	ModifyImageAttribute request bucket refill rate	5.0	False
+L-FE88CC36	GetTransitGatewayPrefixListReferences request bucket maximum capacity	100.0	False
+L-F9E2671A	DeleteVpcEncryptionControl request bucket refill rate	5.0	False
+L-572EA053	CopyVolumes request bucket refill rate	5.0	False
+L-6EF3D71F	DescribeVolumes unfiltered request bucket maximum capacity	50.0	False
+L-1940F702	DescribeTransitGatewayConnects request bucket maximum capacity	100.0	False
+L-86312E3F	CreateNetworkInsightsPath request bucket maximum capacity	50.0	False
+L-7DC771D7	StartVpcEndpointServicePrivateDnsVerification request bucket maximum capacity	50.0	False
+L-0AE62D9E	DescribeVpcClassicLinkDnsSupport request bucket refill rate	20.0	False
+L-8E60B0B1	Running Dedicated i3 Hosts	1.0	True
+L-46FF04E4	DescribeTags request bucket maximum capacity	100.0	False
+L-FC63D934	SearchTransitGatewayMulticastGroups request bucket maximum capacity	100.0	False
+L-444AEC12	DisableSerialConsoleAccess request bucket refill rate	5.0	False
+L-DC8D3F40	CreateLocalGatewayVirtualInterfaceGroup request bucket refill rate	5.0	False
+L-3DFDCD0A	DeleteLocalGatewayVirtualInterfaceGroup request bucket refill rate	5.0	False
+L-E5636E0F	RunScheduledInstances request bucket refill rate	5.0	False
+L-76D2E0D0	CreateVpcPeeringConnection request bucket refill rate	5.0	False
+L-19248962	DeleteEgressOnlyInternetGateway request bucket maximum capacity	50.0	False
+L-406218D1	StartDeclarativePoliciesReport request bucket maximum capacity	1.0	False
+L-E482FF99	DisableSerialConsoleAccess request bucket maximum capacity	50.0	False
+L-36C5FC16	GetAllowedImagesSettings request bucket maximum capacity	100.0	False
+L-43872EB7	Route Tables per transit gateway	20.0	True
+L-77EE2B11	Running Dedicated i3en Hosts	1.0	True
+L-3AD99308	DescribeTrafficMirrorFilterRules request bucket maximum capacity	100.0	False
+L-69E9B0B1	CreateNetworkInterface request bucket maximum capacity	100.0	False
+L-CE323BB8	RequestSpotInstances request bucket refill rate	5.0	False
+L-510555CF	CreateFleet request bucket refill rate	5.0	False
+L-92DD34CA	DescribeVolumeStatus request bucket maximum capacity	100.0	False
+L-66BE1544	DeleteLaunchTemplateVersions request bucket refill rate	5.0	False
+L-D7FF0683	DescribeImportSnapshotTasks request bucket refill rate	20.0	False
+L-069CECF2	GetPasswordData request bucket refill rate	20.0	False
+L-D7AD56F8	RunScheduledInstances request bucket maximum capacity	50.0	False
+L-2C8F52B3	Concurrent P4d Capacity Blocks per account	3072.0	True
+L-F48D70C4	ModifySpotFleetRequest request bucket maximum capacity	50.0	False
+L-F3D15F24	CreateSnapshots request bucket maximum capacity	100.0	False
+L-21902E65	DescribeCapacityReservationFleets request bucket refill rate	20.0	False
+L-D037B72C	ModifyInstanceCapacityReservationAttributes request bucket refill rate	5.0	False
+L-60513E83	GetRouteServerRoutingDatabase request bucket refill rate	20.0	False
+L-6A2B1D18	GetManagedPrefixListAssociations request bucket maximum capacity	100.0	False
+L-D992A13A	RequestSpotFleet request bucket maximum capacity	50.0	False
+L-F4400556	ModifyVpcEncryptionControl request bucket maximum capacity	50.0	False
+L-A2E02CF9	ReplaceVpnTunnel request bucket maximum capacity	50.0	False
+L-FE500FFE	CreateFleet request bucket maximum capacity	50.0	False
+L-0C8E4D0A	AttachVpnGateway request bucket maximum capacity	50.0	False
+L-8C29A5AE	EnableVgwRoutePropagation request bucket maximum capacity	50.0	False
+L-93067565	DescribeReservedInstancesModifications request bucket maximum capacity	100.0	False
+L-E3AAA9F4	CancelSpotInstanceRequests request bucket maximum capacity	50.0	False
+L-55A2F7DF	DescribeVpcEndpointConnections request bucket refill rate	20.0	False
+L-230227A2	DeleteDhcpOptions request bucket maximum capacity	50.0	False
+L-C1E3AD52	DeleteCoipCidr request bucket refill rate	1.0	False
+L-1E678420	DisassociateTransitGatewayPolicyTable request bucket maximum capacity	50.0	False
+L-F1BEA3CF	DisableTransitGatewayRouteTablePropagation request bucket maximum capacity	50.0	False
+L-B665C33B	AMIs	50000.0	True
+L-C34B99CB	CreateCapacityReservation request bucket maximum capacity	50.0	False
+L-D67E2AD4	DeleteVerifiedAccessEndpoint request bucket refill rate	4.0	False
+L-CB37A86E	DisassociateIpamByoasn request bucket maximum capacity	50.0	False
+L-6E869C2A	Running On-Demand DL instances	96.0	True
+L-D2404C1D	DescribeTransitGatewayPeeringAttachments request bucket refill rate	20.0	False
+L-9AC70153	Concurrent P4de Capacity Blocks per organization	3072.0	True
+L-F586865E	DescribeInternetGateways request bucket refill rate	20.0	False
+L-DF2F8920	CancelImportTask request bucket maximum capacity	50.0	False
+L-4F534579	CreateVpcBlockPublicAccessExclusion request bucket refill rate	5.0	False
+L-9E83AE51	PurchaseReservedInstancesOffering request bucket maximum capacity	5.0	False
+L-693BD72B	RevokeClientVpnIngress request bucket maximum capacity	5.0	False
+L-F2260393	DescribeInstances unfiltered request bucket maximum capacity	50.0	False
+L-3BA7A574	DeleteIpamPrefixListResolverTarget request bucket maximum capacity	50.0	False
+L-9D0F531B	DescribePlacementGroups request bucket maximum capacity	100.0	False
+L-39639350	ModifyIpamPrefixListResolver request bucket maximum capacity	50.0	False
+L-7964C8DE	ModifyInstanceMetadataDefaults request bucket refill rate	2.0	False
+L-ECDF6040	CreateLocalGatewayRouteTableVirtualInterfaceGroupAssociation request bucket refill rate	5.0	False
+L-03F02442	CreateTrafficMirrorSession request bucket maximum capacity	50.0	False
+L-6B4A56DC	AttachVpnGateway request bucket refill rate	5.0	False
+L-2D02120D	DeleteTransitGatewayVpcAttachment request bucket refill rate	5.0	False
+L-A818074D	ModifyPublicIpDnsNameOptions request bucket maximum capacity	50.0	False
+L-3626A465	DescribeDeclarativePoliciesReports request bucket maximum capacity	5.0	False
+L-84A4BC6A	DescribeInstanceEventNotificationAttributes request bucket maximum capacity	100.0	False
+L-8542EA24	DescribeSecondaryInterfaces request bucket refill rate	20.0	False
+L-D8D55D8F	DescribeNetworkInterfaces request bucket refill rate	20.0	False
+L-CFF3E941	Concurrent P4de Capacity Blocks per account	3072.0	True
+L-088624AB	RevokeSecurityGroupEgress request bucket maximum capacity	50.0	False
+L-BC218699	GetManagedPrefixListEntries request bucket maximum capacity	100.0	False
+L-8B4FC470	StartNetworkInsightsAnalysis request bucket maximum capacity	50.0	False
+L-3CCCD76D	EnableVpcClassicLink request bucket refill rate	5.0	False
+L-B1A9DFE0	DescribeImages request bucket refill rate	20.0	False
+L-6222C1B6	Running Dedicated i2 Hosts	1.0	True
+L-ABBEB633	CreateFlowLogs request bucket refill rate	5.0	False
+L-B88B9D6B	Running Dedicated g6 Hosts	0.0	True
+L-DC8B8EC8	AssociateDhcpOptions request bucket refill rate	5.0	False
+L-B2398E46	DescribeVpcEndpointConnectionNotifications request bucket maximum capacity	100.0	False
+L-4F8CCA58	DescribeInstanceEventWindows request bucket refill rate	20.0	False
+L-3700C97F	DisableImageDeregistrationProtection request bucket refill rate	5.0	False
+L-E314721A	SearchTransitGatewayMulticastGroups request bucket refill rate	20.0	False
+L-7E725312	DeleteTransitGatewayRouteTableAnnouncement request bucket maximum capacity	50.0	False
+L-EB7205A4	CancelCapacityReservation request bucket maximum capacity	50.0	False
+L-1D339796	ModifyVpcBlockPublicAccessOptions request bucket refill rate	5.0	False
+L-B428036E	EnableReachabilityAnalyzerOrganizationSharing request bucket refill rate	5.0	False
+L-2C6EB73A	Running Dedicated r8idn Hosts	1.0	True
+L-63A48BE1	DeleteVpnGateway request bucket refill rate	5.0	False
+L-1340AB8C	DescribeConversionTasks request bucket maximum capacity	100.0	False
+L-1365D101	DisableIpamPolicy request bucket maximum capacity	50.0	False
+L-B67430DE	Concurrent P4d Capacity Blocks per organization	3072.0	True
+L-3015E1EA	DescribeLocalGateways request bucket refill rate	20.0	False
+L-72123107	GetVerifiedAccessEndpointTargets request bucket refill rate	20.0	False
+L-FBF53BEE	ReplaceRouteTableAssociation request bucket refill rate	5.0	False
+L-30E31217	Running Dedicated m7i Hosts	0.0	True
+L-B4454ED0	CreateFlowLogs request bucket maximum capacity	50.0	False
+L-8D1D8BED	EnableImage request bucket maximum capacity	50.0	False
+L-93501856	DescribeLocalGateways request bucket maximum capacity	100.0	False
+L-B7140E66	DescribeTrafficMirrorTargets request bucket maximum capacity	100.0	False
+L-3900B7D7	DescribeSpotDatafeedSubscription request bucket maximum capacity	100.0	False
+L-14F120D1	Running Dedicated mac2-m2pro Hosts	2.0	True
+L-85EED4F7	All DL Spot Instance Requests	96.0	True
+L-EE870059	ModifyVpcEndpointConnectionNotification request bucket maximum capacity	50.0	False
+L-A1CDF816	DetachVerifiedAccessTrustProvider request bucket maximum capacity	10.0	False
+L-FD68745C	ModifyVerifiedAccessEndpointPolicy request bucket maximum capacity	20.0	False
+L-D2B90F32	GetIpamPrefixListResolverRules request bucket maximum capacity	100.0	False
+L-0F8C6732	DescribeSnapshotTierStatus request bucket maximum capacity	100.0	False
+L-B7862E42	AcceptCapacityReservationBillingOwnership request bucket maximum capacity	50.0	False
+L-BF121EBB	DescribeVpcEndpointServices request bucket maximum capacity	100.0	False
+L-C4CBF18A	DeleteSubnet request bucket refill rate	5.0	False
+L-3829BC77	Verified Access Groups	10.0	True
+L-441FA5A1	ImportKeyPair request bucket refill rate	5.0	False
+L-E21F0CE3	GetCapacityReservationUsage request bucket maximum capacity	100.0	False
+L-4E76FC60	ReplaceIamInstanceProfileAssociation request bucket maximum capacity	50.0	False
+L-D0B7243C	New Reserved Instances per month	20.0	True
+L-C2DCA43D	DescribeScheduledInstanceAvailability request bucket refill rate	20.0	False
+L-34673D56	ModifyVpcBlockPublicAccessExclusion request bucket refill rate	5.0	False
+L-1F5E22A9	ModifyInstanceNetworkPerformanceOptions request bucket refill rate	5.0	False
+L-D7AB3413	GetReservedInstancesExchangeQuote request bucket maximum capacity	100.0	False
+L-81B2404E	ReplaceRouteTableAssociation request bucket maximum capacity	50.0	False
+L-3BCB2BAE	ModifyVpnConnectionOptions request bucket refill rate	5.0	False
+L-C638C939	GetRouteServerAssociations request bucket maximum capacity	100.0	False
+L-17616828	ResetAddressAttribute request bucket maximum capacity	50.0	False
+L-BB2FAD1F	Running Dedicated c8gd Hosts	1.0	True
+L-DFD2182B	DisableImageDeprecation request bucket maximum capacity	50.0	False
+L-645C5918	GetAssociatedIpv6PoolCidrs request bucket refill rate	20.0	False
+L-39926A58	Running Dedicated trn1n Hosts	0.0	True
+L-05A49357	GetManagedPrefixListEntries request bucket refill rate	20.0	False
+L-F99E0E70	ExportImage request bucket maximum capacity	50.0	False
+L-6BE86456	AllocateAddress request bucket refill rate	5.0	False
+L-B63D80EA	DisableIpamOrganizationAdminAccount request bucket maximum capacity	50.0	False
+L-BE3A38B7	AuthorizeSecurityGroupEgress request bucket maximum capacity	50.0	False
+L-A84ABF80	Running Dedicated x2idn Hosts	0.0	True
+L-ED3F2B3E	CreateCapacityManagerDataExport request bucket maximum capacity	50.0	False
+L-4D8123DD	DescribeCapacityReservations request bucket maximum capacity	100.0	False
+L-7C21F7E2	DeleteSnapshot request bucket maximum capacity	100.0	False
+L-B7BABB05	DescribeTrunkInterfaceAssociations request bucket maximum capacity	100.0	False
+L-C5989513	ProvisionPublicIpv4PoolCidr request bucket maximum capacity	50.0	False
+L-601CB109	DisassociateRouteServer request bucket refill rate	5.0	False
+L-573CC9BF	DescribeFlowLogs request bucket maximum capacity	100.0	False
+L-9244FE4F	DisableRouteServerPropagation request bucket refill rate	5.0	False
+L-292CEB54	DeleteIpamExternalResourceVerificationToken request bucket refill rate	5.0	False
+L-D0B660F4	ExportVerifiedAccessInstanceClientConfiguration request bucket refill rate	5.0	False
+L-F0C069D2	DetachVpnGateway request bucket refill rate	5.0	False
+L-60842C90	GetIpamPoolCidrs request bucket refill rate	20.0	False
+L-143F0F90	DescribeExportImageTasks request bucket maximum capacity	100.0	False
+L-02DFB7F0	EnableAwsNetworkPerformanceMetricSubscription request bucket refill rate	5.0	False
+L-7329D715	DeleteVerifiedAccessGroup request bucket refill rate	2.0	False
+L-49CDE323	ModifyRouteServer request bucket refill rate	5.0	False
+L-9A71C707	CreateKeyPair request bucket refill rate	5.0	False
+L-0713F4AE	CreateClientVpnEndpoint request bucket maximum capacity	50.0	False
+L-89D2DD1D	DescribeImportImageTasks request bucket refill rate	20.0	False
+L-3E595A73	RejectTransitGatewayPeeringAttachment request bucket maximum capacity	50.0	False
+L-0DB3E761	DescribeVolumesModifications request bucket refill rate	20.0	False
+L-5B06BE93	AssociateIamInstanceProfile request bucket maximum capacity	100.0	False
+L-667D5E7D	GetIpamResourceCidrs request bucket maximum capacity	100.0	False
+L-A5946C72	AcceptReservedInstancesExchangeQuote request bucket refill rate	5.0	False
+L-64569A79	Concurrent TRN2 Capacity Blocks per account	192.0	True
+L-1A0DCFF3	ModifyInstanceMaintenanceOptions request bucket maximum capacity	50.0	False
+L-8F2201B4	GetDefaultCreditSpecification request bucket maximum capacity	100.0	False
+L-E8068776	DeleteRouteServer request bucket refill rate	5.0	False
+L-6FC50BA7	DescribeIpv6Pools request bucket refill rate	20.0	False
+L-C5F9E486	DescribeNetworkInsightsAnalyses request bucket refill rate	20.0	False
+L-F035E935	Running Dedicated z1d Hosts	1.0	True
+L-E82FEC2A	DescribeClassicLinkInstances request bucket refill rate	20.0	False
+L-3EB2579A	AssociateIpamResourceDiscovery request bucket refill rate	5.0	False
+L-E07605B8	EnableEbsEncryptionByDefault request bucket refill rate	5.0	False
+L-5B2CEB61	DescribeLocalGatewayVirtualInterfaceGroups request bucket maximum capacity	100.0	False
+L-8BD103EC	DeleteSecurityGroup request bucket maximum capacity	50.0	False
+L-5F1541F5	DisableSnapshotBlockPublicAccess request bucket refill rate	0.1	False
+L-C8233C45	CancelImageLaunchPermission request bucket maximum capacity	50.0	False
+L-6B763A1F	CreateTransitGatewayRouteTableAnnouncement request bucket refill rate	5.0	False
+L-AD667A3D	Running Dedicated dl1 Hosts	0.0	True
+L-641A69C5	GetLaunchTemplateData request bucket refill rate	20.0	False
+L-B275BE6E	DescribeCapacityManagerDataExports request bucket refill rate	20.0	False
+L-F0EDB8EB	DescribeExportTasks request bucket refill rate	20.0	False
+L-B88EEF4F	DetachVpnGateway request bucket maximum capacity	50.0	False
+L-F1D290EB	UnmonitorInstances request bucket refill rate	5.0	False
+L-DD6A69AB	DescribeNetworkInsightsAccessScopeAnalyses request bucket refill rate	20.0	False
+L-E448DBE1	ExportTransitGatewayRoutes request bucket maximum capacity	50.0	False
+L-322568D4	CreateLocalGatewayRouteTableVirtualInterfaceGroupAssociation request bucket maximum capacity	50.0	False
+L-F660DACC	ReplaceIamInstanceProfileAssociation request bucket refill rate	5.0	False
+L-6F4D7AC0	DeleteLocalGatewayRouteTableVpcAssociation request bucket refill rate	5.0	False
+L-C63B70B9	DisableCapacityManager request bucket refill rate	5.0	False
+L-D718B91D	DescribeLocalGatewayRouteTableVpcAssociations request bucket maximum capacity	100.0	False
+L-2AADDDE5	DeleteManagedPrefixList request bucket refill rate	5.0	False
+L-BDD2CA4F	DescribeNetworkInsightsPaths request bucket refill rate	20.0	False
+L-41008B32	DescribeEgressOnlyInternetGateways request bucket refill rate	20.0	False
+L-B89271A9	Running Dedicated r6id Hosts	1.0	True
+L-823BB3C7	CreateTransitGatewayRouteTable request bucket refill rate	5.0	False
+L-44E999D7	DeleteTransitGatewayMulticastDomain request bucket maximum capacity	50.0	False
+L-646D0FE6	DeleteIpam request bucket maximum capacity	50.0	False
+L-F8AB0855	ResetInstanceAttribute request bucket maximum capacity	50.0	False
+L-A3C80028	DeleteTransitGatewayPeeringAttachment request bucket refill rate	5.0	False
+L-18C63C7C	ModifyIpamResourceCidr request bucket maximum capacity	50.0	False
+L-B9D87F7E	GetIpamDiscoveredResourceCidrs request bucket maximum capacity	100.0	False
+L-186CF086	CreateIpamResourceDiscovery request bucket refill rate	5.0	False
+L-65BB126F	AssignPrivateNatGatewayAddress request bucket maximum capacity	10.0	False
+L-D55588DA	DescribeSpotFleetInstances request bucket maximum capacity	100.0	False
+L-6F24F183	DescribeMacModificationTasks request bucket maximum capacity	100.0	False
+L-ACBF819F	CreateTransitGatewayMulticastDomain request bucket refill rate	5.0	False
+L-F90B272C	CancelExportTask request bucket maximum capacity	50.0	False
+L-18D5715F	CreateSubnetCidrReservation request bucket refill rate	1.0	False
+L-E3A00192	All X Spot Instance Requests	0.0	True
+L-ED3B0775	AcceptReservedInstancesExchangeQuote request bucket maximum capacity	50.0	False
+L-4C0DAC6C	DeleteTransitGatewayMeteringPolicyEntry request bucket maximum capacity	50.0	False
+L-7DFCA33B	Running Dedicated c8ib Hosts	1.0	True
+L-9AC98B3E	DeleteIpamPolicy request bucket maximum capacity	50.0	False
+L-4A88051A	DescribeClientVpnTargetNetworks request bucket refill rate	20.0	False
+L-AF5176B2	EnableVolumeIO request bucket refill rate	5.0	False
+L-C7A09490	AdvertiseByoipCidr request bucket maximum capacity	1.0	False
+L-DBCD5944	Running Dedicated t2 Hosts	0.0	True
+L-FE8067A9	GetCapacityManagerMetricData request bucket maximum capacity	100.0	False
+L-47E4B9B8	ModifyInstanceEventStartTime request bucket maximum capacity	50.0	False
+L-E834BB78	ModifyInstanceNetworkPerformanceOptions request bucket maximum capacity	50.0	False
+L-DD56E425	ModifyIpamResourceDiscovery request bucket maximum capacity	50.0	False
+L-E125BC7C	CreateReplaceRootVolumeTask request bucket refill rate	5.0	False
+L-E0233F82	Attachments per transit gateway	5000.0	True
+L-FB1B5FBE	CreateDefaultVpc request bucket refill rate	1.0	False
+L-70AF8E95	CreateClientVpnEndpoint request bucket refill rate	5.0	False
+L-AA5E1F0D	DescribeIpamResourceDiscoveries request bucket refill rate	20.0	False
+L-E170DE4A	DeleteCoipPool request bucket maximum capacity	5.0	False
+L-E5A16488	DisableImageBlockPublicAccess request bucket refill rate	0.1	False
+L-2C4854BA	DescribeCapacityBlockOfferings request bucket maximum capacity	10.0	False
+L-22E06578	DescribeInstanceTypes request bucket refill rate	20.0	False
+L-0406EDB7	CreateLocalGatewayRouteTable request bucket refill rate	5.0	False
+L-C0415405	DisableInstanceSqlHaStandbyDetections request bucket refill rate	5.0	False
+L-BF6A98E6	ModifyIpamPrefixListResolverTarget request bucket refill rate	5.0	False
+L-C84EC43B	ModifyFleet request bucket maximum capacity	50.0	False
+L-F39130C8	DescribeCustomerGateways request bucket maximum capacity	100.0	False
+L-34052A4D	SearchLocalGatewayRoutes request bucket refill rate	20.0	False
+L-4A51D360	DescribeFpgaImageAttribute request bucket maximum capacity	100.0	False
+L-CD65152F	CreateSubnet request bucket maximum capacity	50.0	False
+L-C1E03BD3	CreateCoipPool request bucket refill rate	1.0	False
+L-C2437B05	DescribeNetworkAcls request bucket maximum capacity	100.0	False
+L-98546662	DescribeVpnConnections request bucket refill rate	20.0	False
+L-93ECE34B	DescribeSnapshotAttribute request bucket maximum capacity	100.0	False
+L-D027AF8F	ModifyTrafficMirrorSession request bucket refill rate	5.0	False
+L-81657574	Running Dedicated c5 Hosts	1.0	True
+L-9A34DFD3	ModifyAvailabilityZoneGroup request bucket maximum capacity	50.0	False
+L-3D390E62	CreateIpamPrefixListResolverTarget request bucket refill rate	5.0	False
+L-0C43F47F	AllocateIpamPoolCidr request bucket maximum capacity	50.0	False
+L-1766526E	Running Dedicated i8g Hosts	1.0	True
+L-63C0FE5A	DescribeSecurityGroups unfiltered request bucket maximum capacity	50.0	False
+L-8E8E6108	DeleteInternetGateway request bucket refill rate	5.0	False
+L-97677CE3	Running Dedicated c7gn Hosts	1.0	True
+L-722C2AA9	GetIpamDiscoveredResourceCidrs request bucket refill rate	20.0	False
+L-BE0DC156	DeleteNetworkAcl request bucket refill rate	5.0	False
+L-A2478D36	Transit gateways per account	5.0	True
+L-F1CF7FC6	DescribeNetworkInterfacePermissions request bucket refill rate	20.0	False
+L-ACEDBF55	DescribeSecurityGroups request bucket refill rate	20.0	False
+L-AE4D744C	Running Dedicated mac2-m1ultra Hosts	2.0	True
+L-9E5DAAD7	DescribeEgressOnlyInternetGateways request bucket maximum capacity	100.0	False
+L-A2A8A2FC	DescribeAwsNetworkPerformanceMetricSubscriptions request bucket maximum capacity	100.0	False
+L-74F41837	Running Dedicated m5ad Hosts	0.0	True
+L-4740F819	Running Dedicated m7a Hosts	0.0	True
+L-CD0C4A6F	EnableTransitGatewayRouteTablePropagation request bucket refill rate	5.0	False
+L-22DEF338	DescribeReplaceRootVolumeTasks request bucket refill rate	20.0	False
+L-AE664C50	MonitorInstances request bucket refill rate	5.0	False
+L-949445B0	Running Dedicated a1 Hosts	1.0	True
+L-CE9064DD	RegisterInstanceEventNotificationAttributes request bucket maximum capacity	50.0	False
+L-30726C6C	CreateTags request bucket maximum capacity	100.0	False
+L-9D28191F	Running Dedicated u7in-32tb Hosts	0.0	True
+L-5EA57F49	DisableAllowedImagesSettings request bucket maximum capacity	50.0	False
+L-E68C3AFF	Running Dedicated gr6 Hosts	0.0	True
+L-707E8138	GetInstanceTpmEkPub request bucket refill rate	20.0	False
+L-8D65347A	DeleteIpamPrefixListResolver request bucket maximum capacity	50.0	False
+L-49D702A9	ResetSnapshotAttribute request bucket maximum capacity	50.0	False
+L-BDD702BB	RejectTransitGatewayMulticastDomainAssociations request bucket maximum capacity	50.0	False
+L-380522E8	DescribeLocalGatewayRouteTableVpcAssociations request bucket refill rate	20.0	False
+L-9DA87AF4	DescribeSpotFleetRequests request bucket maximum capacity	50.0	False
+L-D39B246B	DeleteVpcEndpointServiceConfigurations request bucket refill rate	1.0	False
+L-6A27F412	CreateClientVpnRoute request bucket refill rate	2.0	False
+L-701FA866	GetAssociatedIpv6PoolCidrs request bucket maximum capacity	100.0	False
+L-7E58B2A6	CreateInstanceConnectEndpoint request bucket maximum capacity	50.0	False
+L-DBB14067	DescribeIpamScopes request bucket maximum capacity	100.0	False
+L-A665A77E	DeleteVpcEndpointServiceConfigurations request bucket maximum capacity	10.0	False
+L-ED9650A1	Running Dedicated i7i Hosts	1.0	True
+L-00FB2889	DescribeCapacityBlocks request bucket maximum capacity	100.0	False
+L-045A6AFA	DeregisterTransitGatewayMulticastGroupMembers request bucket maximum capacity	50.0	False
+L-56A6DFB2	DescribeFleetHistory request bucket maximum capacity	100.0	False
+L-9FE00CE6	RestoreSnapshotFromRecycleBin request bucket refill rate	5.0	False
+L-417A185B	Running On-Demand P instances	0.0	True
+L-BCAEF52C	Running Dedicated m8idn Hosts	1.0	True
+L-BA73FC4E	ResetEbsDefaultKmsKeyId request bucket maximum capacity	50.0	False
+L-CAE23FF6	DisableEbsEncryptionByDefault request bucket refill rate	5.0	False
+L-D09C33FE	Running Dedicated r8idb Hosts	1.0	True
+L-AC8B5DE3	CreateKeyPair request bucket maximum capacity	50.0	False
+L-5480EFD2	Running Dedicated inf Hosts	1.0	True
+L-8D30B18C	RegisterTransitGatewayMulticastGroupSources request bucket refill rate	5.0	False
+L-4EAEFF73	DescribeReservedInstancesOfferings request bucket maximum capacity	10.0	False
+L-7775F923	AttachClassicLinkVpc request bucket refill rate	5.0	False
+L-CDF3DB71	DeleteVpnConnectionRoute request bucket refill rate	5.0	False
+L-81EF3BBC	DescribeFastLaunchImages request bucket refill rate	20.0	False
+L-D0BAD1A4	DeprovisionIpamPoolCidr request bucket refill rate	5.0	False
+L-8847FD13	DescribeIpams request bucket refill rate	20.0	False
+L-B2F45EDE	CreateNetworkInsightsAccessScope request bucket refill rate	5.0	False
+L-845F13DD	ModifyVerifiedAccessTrustProvider request bucket refill rate	2.0	False
+L-C1B49A34	Running Dedicated c8i-flex Hosts	1.0	True
+L-AA3C548A	DisassociateEnclaveCertificateIamRole request bucket refill rate	1.0	False
+L-309895A8	DescribeClientVpnAuthorizationRules request bucket refill rate	20.0	False
+L-7FE53032	MoveByoipCidrToIpam request bucket refill rate	5.0	False
+L-FC8B0772	DeleteCapacityManagerDataExport request bucket maximum capacity	50.0	False
+L-A55013B8	ModifyVpcEndpointServiceConfiguration request bucket maximum capacity	10.0	False
+L-17EB06E8	CreateLaunchTemplate request bucket maximum capacity	50.0	False
+L-7703D12E	DescribeHosts request bucket maximum capacity	100.0	False
+L-E56EF9CA	ModifyIpamPolicyAllocationRules request bucket refill rate	5.0	False
+L-3E28BBC7	DeleteVerifiedAccessTrustProvider request bucket refill rate	2.0	False
+L-A8F0505D	GetConsoleScreenshot request bucket refill rate	20.0	False
+L-581CBD7A	DescribeVerifiedAccessTrustProviders request bucket maximum capacity	100.0	False
+L-FAA22FD9	ModifyVerifiedAccessEndpoint request bucket refill rate	4.0	False
+L-28A46581	DescribeSpotFleetRequests request bucket refill rate	3.0	False
+L-E63504BE	AssociateRouteTable request bucket refill rate	5.0	False
+L-00A6E434	GetIpamDiscoveredAccounts request bucket maximum capacity	100.0	False
+L-33FE103C	DescribeSecondaryNetworks request bucket maximum capacity	100.0	False
+L-7D64A532	RejectCapacityReservationBillingOwnership request bucket maximum capacity	50.0	False
+L-B3DE4414	DeleteFleets request bucket maximum capacity	50.0	False
+L-00171841	AttachInternetGateway request bucket maximum capacity	50.0	False
+L-A0F793F6	EnableIpamOrganizationAdminAccount request bucket refill rate	5.0	False
+L-E4BF28E0	Running Dedicated c4 Hosts	1.0	True
+L-600ADB98	CreateReservedInstancesListing request bucket refill rate	5.0	False
+L-24173409	DisableIpamPolicy request bucket refill rate	5.0	False
+L-D5D59BAD	CreateTransitGatewayVpcAttachment request bucket maximum capacity	50.0	False
+L-7F5506AB	Running Dedicated u-3tb1 Hosts	0.0	True
+L-5860CD0B	AssociateIpamByoasn request bucket maximum capacity	50.0	False
+L-168EDD9C	Running Dedicated gr6f Hosts	0.0	True
+L-375AE06F	DeprovisionByoipCidr request bucket refill rate	0.1	False
+L-C5CC8A7B	GetSubnetCidrReservations request bucket refill rate	20.0	False
+L-CC71F96A	CreateSecurityGroup request bucket maximum capacity	50.0	False
+L-D261751E	DescribeIamInstanceProfileAssociations request bucket refill rate	20.0	False
+L-3D45F414	DisassociateTransitGatewayMulticastDomain request bucket maximum capacity	50.0	False
+L-6A8D2DDB	ReplaceNetworkAclEntry request bucket maximum capacity	50.0	False
+L-14FA5265	CancelDeclarativePoliciesReport request bucket refill rate	1.0	False
+L-F8DA991F	ImportClientVpnClientCertificateRevocationList request bucket refill rate	5.0	False
+L-175C34A3	GetLaunchTemplateData request bucket maximum capacity	100.0	False
+L-F30BE615	DescribeIpamPrefixListResolvers request bucket refill rate	20.0	False
+L-FD994D89	DescribeSnapshots unfiltered request bucket maximum capacity	50.0	False
+L-948BFB8B	DeleteNetworkInsightsAnalysis request bucket refill rate	5.0	False
+L-477399CB	DeleteQueuedReservedInstances request bucket refill rate	5.0	False
+L-D10ABE19	DeleteIpamPrefixListResolverTarget request bucket refill rate	5.0	False
+L-591685E9	AttachVerifiedAccessTrustProvider request bucket maximum capacity	10.0	False
+L-6F63FDDC	DescribeByoipCidrs request bucket maximum capacity	1.0	False
+L-B2F64A00	DescribeInstanceCreditSpecifications request bucket maximum capacity	100.0	False
+L-5D1F4268	DescribeFleetHistory request bucket refill rate	20.0	False
+L-248BA01F	ModifyVerifiedAccessInstanceLoggingConfiguration request bucket maximum capacity	10.0	False
+L-EF9E00CF	DeleteTrafficMirrorTarget request bucket refill rate	5.0	False
+L-3383AC07	DeleteNetworkAcl request bucket maximum capacity	50.0	False
+L-BE06CFE3	DeleteTrafficMirrorTarget request bucket maximum capacity	50.0	False
+L-2E7F89CF	CreateSubnet request bucket refill rate	5.0	False
+L-96B9A19B	ModifyInstanceCreditSpecification request bucket maximum capacity	50.0	False
+L-93155D6F	Running Dedicated im4gn Hosts	1.0	True
+L-9115CDE5	GetTransitGatewayMeteringPolicyEntries request bucket maximum capacity	100.0	False
+L-A56AA14C	Running Dedicated c8ine Hosts	1.0	True
+L-6C48B153	CreateIpamPolicy request bucket maximum capacity	50.0	False
+L-DDA8C5D5	DescribeRouteServers request bucket refill rate	20.0	False
+L-090F1694	DeleteIpamExternalResourceVerificationToken request bucket maximum capacity	50.0	False
+L-9B37C3C6	DescribeIdFormat request bucket refill rate	10.0	False
+L-7C0C07AA	ModifyEbsDefaultKmsKeyId request bucket refill rate	5.0	False
+L-A9E0E1B4	GetEbsEncryptionByDefault request bucket refill rate	20.0	False
+L-183B0F53	ImportInstance request bucket refill rate	5.0	False
+L-D4C04C8F	ImportImage request bucket refill rate	5.0	False
+L-576C4FB8	DisableImageBlockPublicAccess request bucket maximum capacity	1.0	False
+L-FD8E9B9A	Running Dedicated g4ad Hosts	0.0	True
+L-855E9E3E	DescribeCapacityBlockExtensionHistory request bucket refill rate	20.0	False
+L-E7AE7162	DescribeSnapshots unfiltered request bucket refill rate	10.0	False
+L-1FE15963	DescribeAddressesAttribute request bucket refill rate	20.0	False
+L-5C4CD236	Running Dedicated f1 Hosts	1.0	True
+L-C4B238BF	Concurrent client connections per Client VPN endpoint	126000.0	True
+L-19E8C4CB	GetRouteServerPropagations request bucket refill rate	20.0	False
+L-C310B37A	ConfirmProductInstance request bucket refill rate	5.0	False
+L-D7119B1D	ResetAddressAttribute request bucket refill rate	5.0	False
+L-6B42A2E1	ResetNetworkInterfaceAttribute request bucket refill rate	5.0	False
+L-A0DCF0BA	DescribeAddresses request bucket maximum capacity	100.0	False
+L-73BE7711	UnassignPrivateNatGatewayAddress request bucket refill rate	1.0	False
+L-E4F57997	EnableVpcClassicLinkDnsSupport request bucket maximum capacity	50.0	False
+L-1D85EA20	GetTransitGatewayRouteTablePropagations request bucket refill rate	20.0	False
+L-3DB06A75	DescribeNetworkInterfaces unfiltered request bucket refill rate	10.0	False
+L-2C198A4A	Running Dedicated g6f Hosts	0.0	True
+L-514BA1A7	AssociateSecurityGroupVpc request bucket refill rate	5.0	False
+L-8AF20877	ProvisionByoipCidr request bucket refill rate	0.1	False
+L-69FE42B4	CancelDeclarativePoliciesReport request bucket maximum capacity	1.0	False
+L-B91E5754	VPN connections per VGW	10.0	True
+L-16766390	GetIpamPolicyAllocationRules request bucket maximum capacity	100.0	False
+L-E0B197C0	ModifyVpcEndpointServicePayerResponsibility request bucket refill rate	5.0	False
+L-BF7FF57D	ReplaceNetworkAclEntry request bucket refill rate	5.0	False
+L-768972D5	AcceptVpcEndpointConnections request bucket refill rate	1.0	False
+L-9132520B	DisableVgwRoutePropagation request bucket maximum capacity	50.0	False
+L-B8B6ED7C	ExportClientVpnClientCertificateRevocationList request bucket maximum capacity	50.0	False
+L-09A2FAEC	DescribeSubnets request bucket maximum capacity	100.0	False
+L-C06EFE0C	DeleteTransitGatewayRouteTable request bucket refill rate	5.0	False
+L-461B5B38	DescribeRouteServerPeers request bucket maximum capacity	100.0	False
+L-2D89A85E	DeleteTransitGatewayVpcAttachment request bucket maximum capacity	50.0	False
+L-E91D7B6E	DeleteFpgaImage request bucket refill rate	5.0	False
+L-A0FF5F06	EnableSerialConsoleAccess request bucket maximum capacity	50.0	False
+L-8555C27B	DescribeInstanceTopology request bucket maximum capacity	1.0	False
+L-89018A4E	DescribeSecondaryNetworks request bucket refill rate	20.0	False
+L-979DB848	GetInstanceMetadataDefaults request bucket refill rate	20.0	False
+L-6027B6B1	DeleteRouteServerEndpoint request bucket refill rate	5.0	False
+L-1FF405FD	CreateTransitGatewayRouteTableAnnouncement request bucket maximum capacity	50.0	False
+L-7E6A7509	AttachVolume request bucket maximum capacity	50.0	False
+L-C47C0FDF	AssociateTransitGatewayMulticastDomain request bucket refill rate	5.0	False
+L-2DA9E5BB	RestoreAddressToClassic request bucket maximum capacity	1.0	False
+L-0B904BA7	DescribeCapacityManagerDataExports request bucket maximum capacity	100.0	False
+L-5A146914	DeregisterTransitGatewayMulticastGroupSources request bucket refill rate	5.0	False
+L-6C2C40CC	Running Dedicated c6in Hosts	1.0	True
+L-86F202C4	DescribeCapacityBlockExtensionHistory request bucket maximum capacity	100.0	False
+L-BBB124F0	Running Dedicated c9g Hosts	1.0	True
+L-DE3D9563	Running Dedicated x1 Hosts	0.0	True
+L-7E187C4A	RestoreSnapshotFromRecycleBin request bucket maximum capacity	50.0	False
+L-0F9F9379	ModifyInstanceCapacityReservationAttributes request bucket maximum capacity	50.0	False
+L-0D00F96D	GetManagedPrefixListAssociations request bucket refill rate	20.0	False
+L-D82CB68A	Running Dedicated mac-m4max Hosts	2.0	True
+L-F89229C1	DescribeIpamScopes request bucket refill rate	20.0	False
+L-4DD9BF7C	CreateVpnConnection request bucket refill rate	5.0	False
+L-BE9F259B	ReleaseHosts request bucket refill rate	5.0	False
+L-9C0DE715	CreateInstanceExportTask request bucket refill rate	5.0	False
+L-2F925697	CreateSnapshots request bucket refill rate	5.0	False
+L-475E921B	DescribeSecondarySubnets request bucket refill rate	20.0	False
+L-A946324B	CreateSpotDatafeedSubscription request bucket maximum capacity	50.0	False
+L-BC1589C5	Running Dedicated r6a Hosts	1.0	True
+L-74FC7D96	Running On-Demand F instances	64.0	True
+L-6F0827E6	GetEbsDefaultKmsKeyId request bucket maximum capacity	100.0	False
+L-D02650AF	DisableInstanceSqlHaStandbyDetections request bucket maximum capacity	50.0	False
+L-8464F4D0	ImportImage request bucket maximum capacity	50.0	False
+L-95B40EE7	EnableAwsNetworkPerformanceMetricSubscription request bucket maximum capacity	50.0	False
+L-14D4F034	ExportTransitGatewayRoutes request bucket refill rate	5.0	False
+L-D037CF10	Running Dedicated m6in Hosts	1.0	True
+L-03BF4C17	GetSerialConsoleAccessStatus request bucket refill rate	20.0	False
+L-2CF00C7D	CreateTransitGatewayConnectPeer request bucket maximum capacity	50.0	False
+L-E8C7F9FA	UnassignIpv6Addresses request bucket maximum capacity	50.0	False
+L-DD799DE8	DescribeVpcBlockPublicAccessOptions request bucket refill rate	20.0	False
+L-D343A2A5	CreateEgressOnlyInternetGateway request bucket refill rate	5.0	False
+L-41F48098	GetTransitGatewayAttachmentPropagations request bucket refill rate	20.0	False
+L-09963786	RequestSpotInstances request bucket maximum capacity	50.0	False
+L-78783198	DetachClassicLinkVpc request bucket refill rate	5.0	False
+L-9098AC1D	CreateNetworkAclEntry request bucket refill rate	5.0	False
+L-C9EDE92C	DeleteVerifiedAccessGroup request bucket maximum capacity	10.0	False
+L-FFF8F83B	DescribeCoipPools request bucket refill rate	20.0	False
+L-4CD2E830	DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations request bucket maximum capacity	100.0	False
+L-603330F7	ModifyFpgaImageAttribute request bucket refill rate	5.0	False
+L-047F0931	DescribeIpamResourceDiscoveryAssociations request bucket maximum capacity	100.0	False
+L-DBB2ABF7	DescribeTrafficMirrorFilters request bucket maximum capacity	100.0	False
+L-267CFC7B	RejectTransitGatewayVpcAttachment request bucket maximum capacity	50.0	False
+L-CB62C6AF	TerminateInstances request bucket refill rate	5.0	False
+L-4D15192B	Running Dedicated r7a Hosts	1.0	True
+L-BE908C2E	DeleteFpgaImage request bucket maximum capacity	50.0	False
+L-FC3D8E90	ModifyReservedInstances request bucket maximum capacity	50.0	False
+L-C02254CC	ModifyVpnTunnelCertificate request bucket refill rate	5.0	False
+L-D011C4C7	ModifyClientVpnEndpoint request bucket maximum capacity	50.0	False
+L-028B38F6	ModifyVpcEndpoint request bucket refill rate	0.3	False
+L-587AA6E3	Running Dedicated c7i Hosts	1.0	True
+L-A946C300	DeleteClientVpnEndpoint request bucket refill rate	5.0	False
+L-411B22B9	ModifyVpnConnection request bucket refill rate	5.0	False
+L-AECA06CB	DeleteFleets request bucket refill rate	5.0	False
+L-8FFEB3D5	GetTransitGatewayPolicyTableAssociations request bucket maximum capacity	100.0	False
+L-D41FBB8B	StopInstances request bucket refill rate	5.0	False
+L-17D05C8A	DescribeManagedPrefixLists request bucket refill rate	20.0	False
+L-19A4C74C	Running Dedicated p5en Hosts	0.0	True
+L-1BBC5241	Running Dedicated c6id Hosts	1.0	True
+L-ACCBECAC	RevokeClientVpnIngress request bucket refill rate	2.0	False
+L-2D12D32D	DeleteNetworkInterface request bucket refill rate	5.0	False
+L-4A720288	DeleteCapacityManagerDataExport request bucket refill rate	5.0	False
+L-F07BEBB4	DescribeImages request bucket maximum capacity	100.0	False
+L-7C1B6F07	CreateTransitGateway request bucket refill rate	5.0	False
+L-A1C2F302	ModifyVpcEncryptionControl request bucket refill rate	5.0	False
+L-5EB09194	GetIpamDiscoveredPublicAddresses request bucket refill rate	20.0	False
+L-310AEAFB	ModifyRouteServer request bucket maximum capacity	50.0	False
+L-8F5F997E	GetActiveVpnTunnelStatus request bucket maximum capacity	100.0	False
+L-A450944F	CreateIpamPolicy request bucket refill rate	5.0	False
+L-1B582BF4	DeletePublicIpv4Pool request bucket maximum capacity	50.0	False
+L-7AF90D33	ModifyNetworkInterfaceAttribute request bucket refill rate	5.0	False
+L-07661AF2	CreateRoute request bucket maximum capacity	50.0	False
+L-3E6EC3A3	VPN connections per region	50.0	True
+L-9DF6A911	EnableImageBlockPublicAccess request bucket maximum capacity	1.0	False
+L-DAA3F620	CreateEgressOnlyInternetGateway request bucket maximum capacity	50.0	False
+L-C529005E	StartNetworkInsightsAccessScopeAnalysis request bucket maximum capacity	50.0	False
+L-D75D2E84	Running Dedicated c6a Hosts	1.0	True
+L-1DD85E33	RebootInstances request bucket refill rate	5.0	False
+L-DB5F910D	DescribeAvailabilityZones request bucket refill rate	20.0	False
+L-6821150E	CreateIpamScope request bucket refill rate	5.0	False
+L-01AB4F77	DescribeVpcEndpointConnections request bucket maximum capacity	100.0	False
+L-E4B2B1C6	DisassociateIamInstanceProfile request bucket refill rate	5.0	False
+L-0CB935E4	UnassignPrivateIpAddresses request bucket maximum capacity	100.0	False
+L-2CE2CDE6	ModifyInstanceConnectEndpoint request bucket maximum capacity	50.0	False
+L-36569535	Running Dedicated m8azn Hosts	1.0	True
+L-E8D996C6	DeleteLaunchTemplate request bucket refill rate	5.0	False
+L-73505CBD	GetNetworkInsightsAccessScopeContent request bucket maximum capacity	100.0	False
+L-7295265B	Running On-Demand X instances	0.0	True
+L-657F7A48	DisassociateClientVpnTargetNetwork request bucket maximum capacity	50.0	False
+L-ED781FD0	DescribeVpnConnections request bucket maximum capacity	100.0	False
+L-65F16F74	Running Dedicated m9gd Hosts	1.0	True
+L-9263FEFF	ModifyIpamPrefixListResolver request bucket refill rate	5.0	False
+L-799788A7	DescribeByoipCidrs request bucket refill rate	0.5	False
+L-81086423	ModifyPrivateDnsNameOptions request bucket refill rate	5.0	False
+L-A53434F0	DeleteTransitGatewayPeeringAttachment request bucket maximum capacity	50.0	False
+L-1EEA5850	DeleteInstanceEventWindow request bucket refill rate	5.0	False
+L-696738EF	DisableVpcClassicLink request bucket refill rate	5.0	False
+L-7A108150	VPN connections per VPN concentrator	100.0	True
+L-F10E8430	RestoreImageFromRecycleBin request bucket refill rate	5.0	False
+L-CEF30DD2	ModifyIpamPolicyAllocationRules request bucket maximum capacity	50.0	False
+L-DA82AFB6	DeleteTransitGatewayRoute request bucket refill rate	5.0	False
+L-E776A16C	ProvisionIpamPoolCidr request bucket refill rate	5.0	False
+L-BBB22EB6	GetVpnConnectionDeviceSampleConfiguration request bucket refill rate	20.0	False
+L-C831ABA1	CreateCoipPool request bucket maximum capacity	5.0	False
+L-A79E7ED1	GetConsoleScreenshot request bucket maximum capacity	100.0	False
+L-7E94809D	ModifyIpamScope request bucket refill rate	5.0	False
+L-081C7F09	ModifyVpcBlockPublicAccessOptions request bucket maximum capacity	50.0	False
+L-88CF9481	All F Spot Instance Requests	64.0	True
+L-BAC4193E	CreateIpamPool request bucket refill rate	5.0	False
+L-FF39ACEA	DescribeFlowLogs request bucket refill rate	20.0	False
+L-CBD0444F	MoveCapacityReservationInstances request bucket maximum capacity	50.0	False
+L-D51BFE07	DeleteInstanceConnectEndpoint request bucket maximum capacity	50.0	False
+L-794940C0	ModifyTransitGatewayMeteringPolicy request bucket maximum capacity	50.0	False
+L-F8A66DB1	DescribeServiceLinkVirtualInterfaces request bucket refill rate	20.0	False
+L-636BCB17	CreateIpamPrefixListResolver request bucket refill rate	5.0	False
+L-81BFB544	CopySnapshot request bucket maximum capacity	50.0	False
+L-995693E6	DescribeInstanceEventWindows request bucket maximum capacity	100.0	False
+L-A9DCF183	UpdateSecurityGroupRuleDescriptionsIngress request bucket refill rate	5.0	False
+L-6478A704	GetGroupsForCapacityReservation request bucket refill rate	20.0	False
+L-F65BF8AF	DeleteTrafficMirrorSession request bucket refill rate	5.0	False
+L-62499967	Pending peering attachments per transit gateway	10.0	True
+L-DAE5BB70	DescribeIpamPolicies request bucket maximum capacity	100.0	False
+L-12BBE1FA	DescribeVpcClassicLinkDnsSupport request bucket maximum capacity	100.0	False
+L-33035639	Application Status Checks Health checks per account	50.0	True
+L-09596279	DescribeFpgaImages request bucket maximum capacity	100.0	False
+L-E8CCB880	ModifyVpcEndpointServiceConfiguration request bucket refill rate	1.0	False
+L-B70C3F1C	CancelConversionTask request bucket maximum capacity	50.0	False
+L-8CDD6DFB	GetSecurityGroupsForVpc request bucket maximum capacity	100.0	False
+L-C45F30BC	Concurrent P5e Capacity Blocks per account	6144.0	True
+L-722CE4A0	CreateVpcEndpoint request bucket refill rate	0.3	False
+L-7111C5B1	Policy table entries per transit gateway	200.0	True
+L-26B68ABD	DeleteCoipCidr request bucket maximum capacity	5.0	False
+L-E6C293E7	DescribeVpcEndpointServiceConfigurations request bucket refill rate	20.0	False
+L-45D59385	GetIpamDiscoveredPublicAddresses request bucket maximum capacity	100.0	False
+L-06E9B6F6	GetIpamPrefixListResolverRules request bucket refill rate	20.0	False
+L-9D729AF3	DeleteTransitGatewayConnectPeer request bucket refill rate	5.0	False
+L-A9C8F765	DeleteEgressOnlyInternetGateway request bucket refill rate	5.0	False
+L-4714FFEA	Running Dedicated g5g Hosts	0.0	True
+L-699D3761	DescribeTransitGatewayMeteringPolicies request bucket refill rate	20.0	False
+L-6E1F8F96	CreateIpamExternalResourceVerificationToken request bucket maximum capacity	50.0	False
+L-26340388	ModifyTransitGatewayPrefixListReference request bucket refill rate	5.0	False
+L-30B98519	DescribeAvailabilityZones request bucket maximum capacity	100.0	False
+L-C4947F9A	Concurrent TRN1 Capacity Blocks per organization	4096.0	True
+L-3464724E	ResetSnapshotAttribute request bucket refill rate	5.0	False
+L-8EF475F5	GetEnabledIpamPolicy request bucket maximum capacity	100.0	False
+L-9976D447	DisableSnapshotBlockPublicAccess request bucket maximum capacity	1.0	False
+L-DB348D5B	DescribeNetworkInsightsAccessScopes request bucket maximum capacity	100.0	False
+L-F13A970A	Running Dedicated r6i Hosts	1.0	True
+L-48425486	DeleteLocalGatewayRouteTableVirtualInterfaceGroupAssociation request bucket maximum capacity	50.0	False
+L-890C24AE	DescribeAggregateIdFormat request bucket maximum capacity	10.0	False
+L-B1BFE9D0	CreateLaunchTemplate request bucket refill rate	5.0	False
+L-E1C624F3	AssociateTransitGatewayRouteTable request bucket refill rate	5.0	False
+L-8EB5E5EE	DescribeVerifiedAccessEndpoints request bucket maximum capacity	100.0	False
+L-1D691657	GetTransitGatewayMeteringPolicyEntries request bucket refill rate	20.0	False
+L-49F3825E	CreateVpcEndpointServiceConfiguration request bucket refill rate	1.0	False
+L-DD1E6133	ModifyManagedPrefixList request bucket refill rate	5.0	False
+L-089D9872	ApplySecurityGroupsToClientVpnTargetNetwork request bucket maximum capacity	50.0	False
+L-406B48CD	GetIpamResourceCidrs request bucket refill rate	20.0	False
+L-0FBCED95	Running Dedicated r8i-flex Hosts	1.0	True
+L-B23ECCB9	MonitorInstances request bucket maximum capacity	50.0	False
+L-66E94A05	WithdrawByoipCidr request bucket refill rate	0.1	False
+L-4C66E0FE	ModifyInstanceEventWindow request bucket maximum capacity	50.0	False
+L-D9CE58FA	DeleteIpamPrefixListResolver request bucket refill rate	5.0	False
+L-5937C5FF	Running Dedicated r8g Hosts	1.0	True
+L-B2E4FF27	CreateCustomerGateway request bucket refill rate	5.0	False
+L-29688AA2	DescribeFpgaImageAttribute request bucket refill rate	20.0	False
+L-95F58446	ModifyInstanceMetadataOptions request bucket maximum capacity	100.0	False
+L-93380454	DescribeSpotInstanceRequests request bucket refill rate	20.0	False
+L-1712DD95	AttachNetworkInterface request bucket refill rate	5.0	False
+L-BF717386	CreatePlacementGroup request bucket maximum capacity	50.0	False
+L-3EB06E87	GetTransitGatewayMulticastDomainAssociations request bucket refill rate	20.0	False
+L-C70E4E87	DescribeSecurityGroupRules request bucket refill rate	20.0	False
+L-14A4ABFC	DescribeCapacityReservations request bucket refill rate	20.0	False
+L-69648A27	DeleteKeyPair request bucket refill rate	5.0	False
+L-B90B5B66	Running Dedicated mac2-m2 Hosts	2.0	True
+L-C69E7AAE	CreateCoipCidr request bucket refill rate	1.0	False
+L-A749B537	Running Dedicated c6g Hosts	1.0	True
+L-71A5129C	EnableVpcClassicLinkDnsSupport request bucket refill rate	5.0	False
+L-8008C996	PurchaseScheduledInstances request bucket refill rate	5.0	False
+L-14D87FC1	CreateSecondaryNetwork request bucket refill rate	5.0	False
+L-58A10387	DescribeRouteServers request bucket maximum capacity	100.0	False
+L-2384B451	AssociateClientVpnTargetNetwork request bucket refill rate	5.0	False
+L-A7EC42C1	ListImagesInRecycleBin request bucket refill rate	20.0	False
+L-CD7F321D	Running Dedicated m8gb Hosts	1.0	True
+L-70FD369B	TerminateInstances request bucket maximum capacity	100.0	False
+L-8E9D4BCB	DisassociateRouteServer request bucket maximum capacity	50.0	False
+L-2CA92109	ReportInstanceStatus request bucket maximum capacity	50.0	False
+L-E16B68B8	DescribeInstanceTypeOfferings request bucket refill rate	20.0	False
+L-C2777960	GetTransitGatewayPolicyTableAssociations request bucket refill rate	20.0	False
+L-B8B22B23	ModifyCapacityReservation request bucket refill rate	5.0	False
+L-58DAB2F4	ModifySnapshotTier request bucket maximum capacity	50.0	False
+L-B1A0F425	CreateDhcpOptions request bucket refill rate	5.0	False
+L-4964452E	GetAwsNetworkPerformanceData request bucket maximum capacity	100.0	False
+L-B6F46B9C	VPN concentrators per region	5.0	True
+L-B6152414	DescribeTransitGatewayRouteTableAnnouncements request bucket refill rate	20.0	False
+L-F08DDCA9	RegisterInstanceEventNotificationAttributes request bucket refill rate	5.0	False
+L-3EA2391F	DeleteSubnetCidrReservation request bucket refill rate	1.0	False
+L-C0AFDD25	DeleteIpamScope request bucket maximum capacity	50.0	False
+L-B08F59D5	DeleteLocalGatewayRoute request bucket refill rate	5.0	False
+L-39307F9A	GetIpamPoolCidrs request bucket maximum capacity	100.0	False
+L-114BB5FA	DescribeConversionTasks request bucket refill rate	20.0	False
+L-ED178E54	DisableEbsEncryptionByDefault request bucket maximum capacity	50.0	False
+L-FC9A2B3D	CreateDefaultSubnet request bucket refill rate	1.0	False
+L-888B4496	Running Dedicated x2iezn Hosts	0.0	True
+L-A68CFBF7	Running Dedicated vt1 Hosts	1.0	True
+L-F4621520	Running Dedicated u7i-12tb Hosts	0.0	True
+L-E249022E	DescribeTags request bucket refill rate	20.0	False
+L-94E70973	DescribeStoreImageTasks request bucket maximum capacity	50.0	False
+L-1DC7D275	CancelImageLaunchPermission request bucket refill rate	5.0	False
+L-8AD06987	DisassociateIpamResourceDiscovery request bucket refill rate	5.0	False
+L-8537A788	DescribeKeyPairs request bucket refill rate	20.0	False
+L-22E7FA1C	CreateSecondarySubnet request bucket refill rate	5.0	False
+L-F469DE5F	CreateImage request bucket refill rate	5.0	False
+L-21F3C62D	DeleteVerifiedAccessEndpoint request bucket maximum capacity	20.0	False
+L-3AA9E261	DeleteLocalGatewayVirtualInterfaceGroup request bucket maximum capacity	50.0	False
+L-B4E593FA	CreateRouteServerPeer request bucket refill rate	5.0	False
+L-A4D1FEC2	GetCapacityManagerMetricDimensions request bucket maximum capacity	100.0	False
+L-A6CCF8F6	ImportVolume request bucket refill rate	5.0	False
+L-F9BA0863	ModifyInstanceMaintenanceOptions request bucket refill rate	5.0	False
+L-CAAA6869	Concurrent P6-B300 Capacity Blocks per organization	6144.0	True
+L-BAB38DCD	DescribeExportImageTasks request bucket refill rate	20.0	False
+L-9C1193D2	GetInstanceMetadataDefaults request bucket maximum capacity	100.0	False
+L-F34CA075	DescribeVpnGateways request bucket refill rate	20.0	False
+L-B7F709DA	ModifyVpnConnectionOptions request bucket maximum capacity	50.0	False
+L-CE7C1E43	DeregisterImage request bucket maximum capacity	100.0	False
+L-ECE4B6E2	DescribeTransitGatewayRouteTables request bucket refill rate	20.0	False
+L-34F990CA	DescribeSpotFleetRequestHistory request bucket maximum capacity	100.0	False
+L-9CFAB684	ExportClientVpnClientConfiguration request bucket maximum capacity	50.0	False
+L-8A66B98D	DeprovisionPublicIpv4PoolCidr request bucket refill rate	5.0	False
+L-A0A19F79	Running Dedicated p3 Hosts	0.0	True
+L-EAC0056A	DescribeTransitGatewayPeeringAttachments request bucket maximum capacity	100.0	False
+L-7D9C3DBB	ModifyVerifiedAccessInstance request bucket maximum capacity	10.0	False
+L-1190AA34	AttachNetworkInterface request bucket maximum capacity	50.0	False
+L-0708FE6B	DeleteVpc request bucket refill rate	5.0	False
+L-BDBA66DB	CreateLocalGatewayRouteTable request bucket maximum capacity	50.0	False
+L-CEE0E352	DescribeIdentityIdFormat request bucket refill rate	10.0	False
+L-D8B4D62A	ExportVerifiedAccessInstanceClientConfiguration request bucket maximum capacity	50.0	False
+L-22E141C5	DescribeTransitGatewayAttachments request bucket refill rate	20.0	False
+L-4F1CD6F9	DescribeTransitGatewayConnectPeers request bucket maximum capacity	100.0	False
+L-EA72D9B9	CreateInstanceEventWindow request bucket maximum capacity	50.0	False
+L-B31F1BEB	DescribeSpotDatafeedSubscription request bucket refill rate	13.0	False
+L-FD628C08	GetInstanceUefiData request bucket maximum capacity	100.0	False
+L-47CC9C5A	AuthorizeSecurityGroupIngress request bucket maximum capacity	50.0	False
+L-4961A3E4	BundleInstance request bucket refill rate	5.0	False
+L-B58714DA	DisassociateIpamByoasn request bucket refill rate	5.0	False
+L-EDDDDADB	ModifyTrafficMirrorFilterNetworkServices request bucket refill rate	5.0	False
+L-088AF713	Running Dedicated r8in Hosts	1.0	True
+L-0151C39C	CreateIpamExternalResourceVerificationToken request bucket refill rate	5.0	False
+L-90AF1FAD	ResetNetworkInterfaceAttribute request bucket maximum capacity	50.0	False
+L-F48A0D86	DeleteLocalGatewayRouteTable request bucket maximum capacity	50.0	False
+L-CF039D1D	RestoreSnapshotTier request bucket refill rate	5.0	False
+L-84391ECC	Running Dedicated h1 Hosts	1.0	True
+L-0E55E39F	DescribeVpcEndpointConnectionNotifications request bucket refill rate	20.0	False
+L-BBA391CF	DeregisterInstanceEventNotificationAttributes request bucket maximum capacity	50.0	False
+L-0A7FDAEB	AttachVerifiedAccessTrustProvider request bucket refill rate	2.0	False
+L-BD62EDF4	Running Dedicated t1 Hosts	0.0	True
+L-0E3AF24D	CreateSecondaryNetwork request bucket maximum capacity	50.0	False
+L-D300087E	DescribeInstanceStatus unfiltered request bucket refill rate	10.0	False
+L-5CC10D10	DescribeIpamByoasn request bucket maximum capacity	100.0	False
+L-E2B7D96D	DescribeNetworkInsightsAccessScopes request bucket refill rate	20.0	False
+L-724019CA	AcceptTransitGatewayMulticastDomainAssociations request bucket maximum capacity	50.0	False
+L-8C102815	AssociateIamInstanceProfile request bucket refill rate	5.0	False
+L-935F9988	Running Dedicated r8a Hosts	1.0	True
+L-ADB343DF	CreateCapacityReservationFleet request bucket maximum capacity	50.0	False
+L-1EC22CE1	EnableImageDeprecation request bucket maximum capacity	50.0	False
+L-7EFF2CC2	DescribeInternetGateways request bucket maximum capacity	100.0	False
+L-B5E66644	EnableEbsEncryptionByDefault request bucket maximum capacity	50.0	False
+L-04A8CC0F	GetRouteServerPropagations request bucket maximum capacity	100.0	False
+L-6459F9A0	DeleteTransitGatewayPrefixListReference request bucket maximum capacity	50.0	False
+L-85429727	ModifyReservedInstances request bucket refill rate	5.0	False
+L-1EA4D794	DescribeVpcs request bucket refill rate	20.0	False
+L-AB825B63	EnableImage request bucket refill rate	5.0	False
+L-CEEC84BE	CreateVerifiedAccessEndpoint request bucket refill rate	4.0	False
+L-DA6814F2	Concurrent P5 Capacity Blocks per account	6144.0	True
+L-6C92B27A	DeleteTransitGatewayRouteTable request bucket maximum capacity	50.0	False
+L-C3CE7D5C	AcceptTransitGatewayMulticastDomainAssociations request bucket refill rate	5.0	False
+L-FD42ABA7	ModifySecurityGroupRules request bucket refill rate	5.0	False
+L-3E1A5162	DescribeCapacityBlocks request bucket refill rate	20.0	False
+L-9AF0FE59	CreateInternetGateway request bucket refill rate	5.0	False
+L-480A2A67	Application Status Checks Associations per account	200.0	True
+L-001D092A	CreateIpamResourceDiscovery request bucket maximum capacity	50.0	False
+L-EB3A60B9	Running Dedicated f2 Hosts	1.0	True
+L-F5100DE6	ListImagesInRecycleBin request bucket maximum capacity	100.0	False
+L-5AFE1B85	AllocateIpamPoolCidr request bucket refill rate	5.0	False
+L-5FA3355A	Running Dedicated c6i Hosts	1.0	True
+L-6EC6EA5D	AssociateVpcCidrBlock request bucket refill rate	5.0	False
+L-9F9F275C	Running Dedicated m9g Hosts	1.0	True
+L-5093E0CA	DeleteFlowLogs request bucket refill rate	5.0	False
+L-17BA8EA0	CreateInterruptibleCapacityReservationAllocation request bucket maximum capacity	50.0	False
+L-11CFF290	DisassociateVpcCidrBlock request bucket refill rate	5.0	False
+L-CC7B4EBF	DeleteCoipPool request bucket refill rate	1.0	False
+L-4AF0AFB8	Running Dedicated m8ine Hosts	1.0	True
+L-73132DB1	GetVpnConnectionDeviceSampleConfiguration request bucket maximum capacity	100.0	False
+L-FA374203	DeregisterTransitGatewayMulticastGroupMembers request bucket refill rate	5.0	False
+L-0FF84335	ModifyIpam request bucket refill rate	5.0	False
+L-B1E2D2F3	DescribeSnapshotTierStatus request bucket refill rate	20.0	False
+L-8E82816C	RegisterTransitGatewayMulticastGroupSources request bucket maximum capacity	50.0	False
+L-98D3C772	CreateIpamPool request bucket maximum capacity	50.0	False
+L-BC9FCC71	Running Dedicated r7iz Hosts	1.0	True
+L-B5304393	DescribeTrunkInterfaceAssociations request bucket refill rate	20.0	False
+L-DE317324	DescribeNetworkAcls request bucket refill rate	20.0	False
+L-DF68B07B	ModifyIpamResourceDiscovery request bucket refill rate	5.0	False
+L-604E5914	DescribeSnapshots request bucket maximum capacity	100.0	False
+L-0333D577	DescribeIpamExternalResourceVerificationTokens request bucket maximum capacity	100.0	False
+L-04950CD2	DescribeInstanceConnectEndpoints request bucket refill rate	20.0	False
+L-D0AA08B1	Running Dedicated x2iedn Hosts	0.0	True
+L-821A91E5	DisableAddressTransfer request bucket maximum capacity	50.0	False
+L-6E652AFF	CreateLocalGatewayVirtualInterfaceGroup request bucket maximum capacity	50.0	False
+L-479EC86E	DisableAllowedImagesSettings request bucket refill rate	5.0	False
+L-B1183208	DescribeCapacityBlockExtensionOfferings request bucket maximum capacity	10.0	False
+L-F5A00089	CreateVpcBlockPublicAccessExclusion request bucket maximum capacity	50.0	False
+L-7376C61F	CancelCapacityReservationFleets request bucket refill rate	5.0	False
+L-480A02CE	CreateVerifiedAccessGroup request bucket refill rate	2.0	False
+L-418D7B57	ModifySnapshotAttribute request bucket refill rate	5.0	False
+L-80F2B67F	Running Dedicated m6a Hosts	0.0	True
+L-84FB37AA	Running Dedicated m6gd Hosts	1.0	True
+L-E3A08A21	CreateImage request bucket maximum capacity	50.0	False
+L-687A2195	ModifySubnetAttribute request bucket maximum capacity	50.0	False
+L-2E98563C	DescribeVpcPeeringConnections request bucket refill rate	20.0	False
+L-DA07429F	Running Dedicated m5dn Hosts	1.0	True
+L-AC586CAC	AcceptAddressTransfer request bucket refill rate	5.0	False
+L-F37F6919	AcceptVpcPeeringConnection request bucket refill rate	5.0	False
+L-AF309E5E	Verified Access Trust Providers	15.0	True
+L-3A42FCD6	ModifyInstanceCreditSpecification request bucket refill rate	5.0	False
+L-13B8FCE8	Running Dedicated c7g Hosts	1.0	True
+L-027B5D58	DescribeElasticGpus request bucket refill rate	20.0	False
+L-E61C04CE	TerminateClientVpnConnections request bucket maximum capacity	50.0	False
+L-B10DCE29	GetNetworkInsightsAccessScopeContent request bucket refill rate	20.0	False
+L-AE60519F	DescribeVpcs request bucket maximum capacity	100.0	False
+L-DDA681CB	DeleteNetworkInsightsPath request bucket refill rate	5.0	False
+L-3FB0F000	ModifyTransitGatewayMeteringPolicy request bucket refill rate	5.0	False
+L-20F13EBD	Running Dedicated c5n Hosts	1.0	True
+L-B0D428D1	DisassociateTransitGatewayMulticastDomain request bucket refill rate	5.0	False
+L-6C1A8818	DetachInternetGateway request bucket maximum capacity	50.0	False
+L-7E78979A	ModifyVpnTunnelOptions request bucket maximum capacity	50.0	False
+L-996A97A9	DescribeVpcBlockPublicAccessExclusions request bucket maximum capacity	100.0	False
+L-1DE6FC81	DescribeSnapshotAttribute request bucket refill rate	20.0	False
+L-5386DABD	CreateLocalGatewayVirtualInterface request bucket refill rate	5.0	False
+L-C7AF4D2B	RejectVpcPeeringConnection request bucket maximum capacity	50.0	False
+L-165C2341	CreateNetworkInsightsAccessScope request bucket maximum capacity	50.0	False
+L-545AED39	Running Dedicated c6gd Hosts	1.0	True
+L-605A60F6	EnableImageBlockPublicAccess request bucket refill rate	0.1	False
+L-0A4E4F57	CreateTransitGatewayMeteringPolicyEntry request bucket maximum capacity	50.0	False
+L-A40F1B1D	DescribeVpcClassicLink request bucket refill rate	20.0	False
+L-C2DA0C31	DescribeLocalGatewayVirtualInterfaceGroups request bucket refill rate	20.0	False
+L-391C1512	SearchTransitGatewayRoutes request bucket maximum capacity	100.0	False
+L-4FB09B85	DescribeFleets request bucket maximum capacity	100.0	False
+L-29AF7DC4	DescribeTransitGatewayVpcAttachments request bucket maximum capacity	100.0	False
+L-5AFBDADF	EnableAddressTransfer request bucket refill rate	5.0	False
+L-1CE5A01A	CancelBundleTask request bucket maximum capacity	50.0	False
+L-8F7630FF	UnassignPrivateIpAddresses request bucket refill rate	5.0	False
+L-A2C6873C	ModifyLaunchTemplate request bucket maximum capacity	100.0	False
+L-C2412014	DescribeNetworkInsightsPaths request bucket maximum capacity	100.0	False
+L-21D8BAA8	CreateCapacityManagerDataExport request bucket refill rate	5.0	False
+L-FBD2224B	CreateTransitGatewayVpcAttachment request bucket refill rate	5.0	False
+L-CA51381E	Running Dedicated u7in-24tb Hosts	0.0	True
+L-608488C8	DeleteImageUsageReport request bucket refill rate	5.0	False
+L-7D131A57	ModifyInstancePlacement request bucket maximum capacity	50.0	False
+L-2EB9ADBB	ModifyCapacityReservationFleet request bucket refill rate	5.0	False
+L-2140836A	NAT rules per transit gateway	1000.0	True
+L-36D6EDB1	GetIpamPolicyAllocationRules request bucket refill rate	20.0	False
+L-C980AEE1	DeleteIpamPolicy request bucket refill rate	5.0	False
+L-DF8E959B	DescribeRouteTables request bucket refill rate	20.0	False
+L-09B23048	DescribeIpamPolicies request bucket refill rate	20.0	False
+L-687890F5	CreateNetworkInterfacePermission request bucket refill rate	5.0	False
+L-02C13B00	ModifyVpnTunnelOptions request bucket refill rate	5.0	False
+L-6A9825F7	MoveCapacityReservationInstances request bucket refill rate	5.0	False
+L-BA8861C1	DisassociateTrunkInterface request bucket refill rate	5.0	False
+L-85D201DF	ModifyVpcEndpointConnectionNotification request bucket refill rate	5.0	False
+L-55002733	GetVpnConnectionDeviceTypes request bucket refill rate	20.0	False
+L-0F7AAD60	DescribeSecurityGroups request bucket maximum capacity	100.0	False
+L-06275855	GetRouteServerRoutingDatabase request bucket maximum capacity	100.0	False
+L-D01D293D	DescribeVpcEncryptionControls request bucket maximum capacity	100.0	False
+L-ADDE2B97	DisassociateVpcCidrBlock request bucket maximum capacity	50.0	False
+L-315CF044	DescribeMovingAddresses request bucket maximum capacity	1.0	False
+L-DB2E81BA	Running On-Demand G and VT instances	0.0	True
+L-4C19DF98	DescribeTrafficMirrorFilterRules request bucket refill rate	20.0	False
+L-F3622BFA	CreateRouteServerEndpoint request bucket refill rate	5.0	False
+L-B26A66CD	CreateTags request bucket refill rate	10.0	False
+L-BED61BCD	ResetInstanceAttribute request bucket refill rate	5.0	False
+L-2C3A4EE0	EnableInstanceSqlHaStandbyDetections request bucket maximum capacity	50.0	False
+L-8094CB96	RejectVpcEndpointConnections request bucket maximum capacity	10.0	False
+L-149F8E63	ImportSnapshot request bucket refill rate	5.0	False
+L-2A1AD759	DescribeSnapshots request bucket refill rate	20.0	False
+L-C838AA6C	DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations request bucket refill rate	20.0	False
+L-9691B473	DescribeScheduledInstances request bucket refill rate	20.0	False
+L-793D948E	DeleteLocalGatewayRouteTableVirtualInterfaceGroupAssociation request bucket refill rate	5.0	False
+L-2187E2D9	Running Dedicated m8a Hosts	1.0	True
+L-4610FDD7	AssociateSecurityGroupVpc request bucket maximum capacity	50.0	False
+L-25176A65	Running Dedicated p4de Hosts	0.0	True
+L-C0FE9519	AssociateTransitGatewayPolicyTable request bucket refill rate	5.0	False
+L-D9485313	CreateTransitGatewayRouteTable request bucket maximum capacity	50.0	False
+L-8E6EE288	RegisterImage request bucket maximum capacity	50.0	False
+L-D73F1677	DescribeLocalGatewayRouteTables request bucket refill rate	20.0	False
+L-F3C3551C	DisableFastSnapshotRestores request bucket maximum capacity	50.0	False
+L-23D45BEC	DeleteIpam request bucket refill rate	5.0	False
+L-A1B5F22B	RevokeSecurityGroupIngress request bucket refill rate	5.0	False
+L-DB6EFBAC	ModifyLaunchTemplate request bucket refill rate	5.0	False
+L-DA02FB8F	AssociateEnclaveCertificateIamRole request bucket maximum capacity	10.0	False
+L-B368A546	CreateCarrierGateway request bucket refill rate	5.0	False
+L-23FFAF5A	DeleteInstanceConnectEndpoint request bucket refill rate	5.0	False
+L-F2CE04B1	ModifySpotFleetRequest request bucket refill rate	5.0	False
+L-99CE655E	DescribeIdFormat request bucket maximum capacity	10.0	False
+L-D744D397	DeprovisionIpamByoasn request bucket maximum capacity	50.0	False
+L-7B17533F	DescribeScheduledInstances request bucket maximum capacity	100.0	False
+L-264A04C3	DeleteClientVpnEndpoint request bucket maximum capacity	50.0	False
+L-34BE9D4F	DescribeAccountAttributes request bucket refill rate	20.0	False
+L-258B34CF	EnableInstanceSqlHaStandbyDetections request bucket refill rate	5.0	False
+L-8282B44A	RevokeSecurityGroupEgress request bucket refill rate	5.0	False
+L-49C22D63	AssociateRouteTable request bucket maximum capacity	50.0	False
+L-079575EA	AcceptTransitGatewayVpcAttachment request bucket maximum capacity	50.0	False
+L-FBC57225	DescribeIpamResourceDiscoveryAssociations request bucket refill rate	20.0	False
+L-D746C799	DeleteManagedPrefixList request bucket maximum capacity	50.0	False
+L-2D32EEFA	DisableRouteServerPropagation request bucket maximum capacity	50.0	False
+L-1E2BB0F6	DeleteLocalGatewayVirtualInterface request bucket maximum capacity	50.0	False
+L-80C13B9B	DeleteClientVpnRoute request bucket refill rate	2.0	False
+L-E4CDA71F	RejectVpcPeeringConnection request bucket refill rate	5.0	False
+L-6D8E64D0	DescribeIpamPrefixListResolverTargets request bucket refill rate	20.0	False
+L-52EF324A	Running Dedicated r5n Hosts	1.0	True
+L-8B7BF662	Running Dedicated m5 Hosts	0.0	True
+L-8E64F528	DescribeDeclarativePoliciesReports request bucket refill rate	5.0	False
+L-330AB705	CopyFpgaImage request bucket refill rate	5.0	False
+L-49F307F9	CreateNetworkInterface request bucket refill rate	5.0	False
+L-51682547	DisableAwsNetworkPerformanceMetricSubscription request bucket maximum capacity	50.0	False
+L-8D51B7EC	DescribeVerifiedAccessInstances request bucket refill rate	20.0	False
+L-D6F036D4	Running Dedicated c8a Hosts	1.0	True
+L-6E1AA0A5	DescribeNetworkInsightsAccessScopeAnalyses request bucket maximum capacity	100.0	False
+L-45130D71	DescribeTransitGatewayVpcAttachments request bucket refill rate	20.0	False
+L-B601B3B6	Running Dedicated p3dn Hosts	0.0	True
+L-7C14DDFD	DescribeVerifiedAccessEndpoints request bucket refill rate	20.0	False
+L-2234E820	DeleteVpcEndpointConnectionNotifications request bucket refill rate	5.0	False
+L-A0463FBE	ModifyLocalGatewayRoute request bucket refill rate	5.0	False
+L-485E965D	GetVpcResourcesBlockingEncryptionEnforcement request bucket maximum capacity	100.0	False
+L-50059912	CreateNatGateway request bucket refill rate	1.0	False
+L-B3AE9A3E	DescribeClientVpnTargetNetworks request bucket maximum capacity	100.0	False
+L-18C81768	EnableFastLaunch request bucket refill rate	2.0	False
+L-EF36B4B6	Running Dedicated m8idb Hosts	1.0	True
+L-51F3F189	DeleteLocalGatewayRoute request bucket maximum capacity	50.0	False
+L-880C7C1D	GetHostReservationPurchasePreview request bucket refill rate	2.0	False
+L-9C5B878C	DeleteNetworkInsightsPath request bucket maximum capacity	50.0	False
+L-0DB2876C	CreateStoreImageTask request bucket maximum capacity	50.0	False
+L-58DFC08B	DescribeFleetInstances request bucket maximum capacity	100.0	False
+L-9A5787D6	AssociateDhcpOptions request bucket maximum capacity	50.0	False
+L-714B5D92	DeleteSecondaryNetwork request bucket refill rate	5.0	False
+L-6AD210F3	CreateTransitGatewayConnectPeer request bucket refill rate	5.0	False
+L-48A6BAA9	DeleteInstanceEventWindow request bucket maximum capacity	50.0	False
+L-D1023B19	Running Dedicated x8i Hosts	0.0	True
+L-55E05032	Running Dedicated r7i Hosts	1.0	True
+L-F4D77656	DetachNetworkInterface request bucket refill rate	5.0	False
+L-90C6A080	CreateNetworkAcl request bucket refill rate	5.0	False
+L-0CD24081	DescribeReservedInstancesOfferings request bucket refill rate	10.0	False
+L-12D0A1FD	ModifyIpamScope request bucket maximum capacity	50.0	False
+L-03F69763	AssociateClientVpnTargetNetwork request bucket maximum capacity	50.0	False
+L-8131B2C6	Concurrent P5 Capacity Blocks per organization	6144.0	True
+L-38C0BC53	DescribeVpcEndpointServices request bucket refill rate	20.0	False
+L-DDB8F0DD	DescribeImageUsageReports request bucket refill rate	20.0	False
+L-F6AC841A	CreateReplaceRootVolumeTask request bucket maximum capacity	50.0	False
+L-938B5363	ModifyInstanceConnectEndpoint request bucket refill rate	5.0	False
+L-E57C6840	AttachInternetGateway request bucket refill rate	5.0	False
+L-C91BAB94	DescribeCapacityReservationBillingRequests request bucket refill rate	20.0	False
+L-E7E194C2	DisassociateNatGatewayAddress request bucket maximum capacity	10.0	False
+L-611BCFDB	DescribeVpcClassicLink request bucket maximum capacity	100.0	False
+L-6B292961	CreateTransitGatewayPeeringAttachment request bucket refill rate	5.0	False
+L-07627E98	DescribeIdentityIdFormat request bucket maximum capacity	10.0	False
+L-C71E23D8	CreateLaunchTemplateVersion request bucket refill rate	5.0	False
+L-B152FCB7	DescribeNetworkInterfacePermissions request bucket maximum capacity	100.0	False
+L-4F95EB43	DescribeClientVpnConnections request bucket maximum capacity	100.0	False
+L-2603716C	ImportClientVpnClientCertificateRevocationList request bucket maximum capacity	50.0	False
+L-A595803A	Running Dedicated i7ie Hosts	1.0	True
+L-93C64BCA	LockSnapshot request bucket refill rate	5.0	False
+L-B3BFB1A2	ModifyIdentityIdFormat request bucket refill rate	5.0	False
+L-FA2907B8	ReleaseAddress request bucket maximum capacity	50.0	False
+L-70BF829C	GetSnapshotBlockPublicAccessState request bucket refill rate	20.0	False
+L-B47F315D	DescribeImageUsageReportEntries request bucket refill rate	20.0	False
+L-F8EA3FAF	Running Dedicated m8ib Hosts	1.0	True
+L-770DD9E7	UnmonitorInstances request bucket maximum capacity	50.0	False
+L-7EFE5C8E	DescribeInstances unfiltered request bucket refill rate	10.0	False
+L-1945791B	Running On-Demand Inf instances	8.0	True
+L-46D98CC2	DescribeVolumes request bucket maximum capacity	100.0	False
+L-B5D1601B	All Inf Spot Instance Requests	8.0	True
+L-42CC07F9	DisassociateSubnetCidrBlock request bucket refill rate	5.0	False
+L-6F955007	ImportKeyPair request bucket maximum capacity	50.0	False
+L-918EECF9	CreateTransitGatewayMeteringPolicy request bucket refill rate	5.0	False
+L-A534C35B	PurchaseScheduledInstances request bucket maximum capacity	50.0	False
+L-720CD7A4	DescribeFpgaImages request bucket refill rate	20.0	False
+L-26357AC2	ReplaceTransitGatewayRoute request bucket maximum capacity	50.0	False
+L-43DA4232	Running On-Demand High Memory instances	0.0	True
+L-50DF2E2E	DescribeMacHosts request bucket refill rate	20.0	False
+L-24E8B4C0	Concurrent TRN2 Capacity Blocks per organization	192.0	True
+L-7592A9CC	GetTransitGatewayAttachmentPropagations request bucket maximum capacity	100.0	False
+L-B26EDA2E	DeleteTrafficMirrorFilter request bucket maximum capacity	50.0	False
+L-57E5FC3D	EnableFastLaunch request bucket maximum capacity	5.0	False
+L-82F1E98D	DescribeAddressTransfers request bucket refill rate	20.0	False
+L-FEE703E7	EnableIpamPolicy request bucket refill rate	5.0	False
+L-E9EC1B36	DeleteTransitGateway request bucket refill rate	5.0	False
+L-4F214A24	CreateTrafficMirrorTarget request bucket refill rate	5.0	False
+L-1CEA5FEB	DescribeCapacityBlockStatus request bucket refill rate	20.0	False
+L-280E00DF	ExportClientVpnClientConfiguration request bucket refill rate	5.0	False
+L-2304469C	DisableIpamOrganizationAdminAccount request bucket refill rate	5.0	False
+L-E5D10F8C	DeleteVpcPeeringConnection request bucket maximum capacity	50.0	False
+L-16F3BD26	AssociateAddress request bucket refill rate	5.0	False
+L-A4F709F4	DeleteTransitGatewayMulticastDomain request bucket refill rate	5.0	False
+L-90CE0041	EnableTransitGatewayRouteTablePropagation request bucket maximum capacity	50.0	False
+L-33F7EE7D	DescribeVerifiedAccessGroups request bucket refill rate	20.0	False
+L-517A470E	AssociateNatGatewayAddress request bucket refill rate	1.0	False
+L-225682E3	CreateRouteServerPeer request bucket maximum capacity	50.0	False
+L-F1B2D30B	ModifyVpcTenancy request bucket maximum capacity	50.0	False
+L-CDBDBCF4	DescribeCapacityReservationTopology request bucket maximum capacity	100.0	False
+L-28F6C85D	DeregisterImage request bucket refill rate	5.0	False
+L-BB829355	DeleteNetworkInterface request bucket maximum capacity	100.0	False
+L-4A3413A2	CreateVpcEndpointServiceConfiguration request bucket maximum capacity	10.0	False
+L-D3B1D1A1	ExportClientVpnClientCertificateRevocationList request bucket refill rate	5.0	False
+L-F5B6696D	Running Dedicated r8gb Hosts	1.0	True
+L-383C95C0	DescribeIpamByoasn request bucket refill rate	20.0	False
+L-9D551AB9	DescribeOutpostLags request bucket refill rate	20.0	False
+L-4AB14223	Running Dedicated r5dn Hosts	1.0	True
+L-17952D04	GetInstanceTpmEkPub request bucket maximum capacity	100.0	False
+L-F2F49077	CreateRouteTable request bucket refill rate	5.0	False
+L-179A022D	DisassociateIpamResourceDiscovery request bucket maximum capacity	50.0	False
+L-EE58DE65	RestoreImageFromRecycleBin request bucket maximum capacity	50.0	False
+L-6573FCCC	CreateSnapshot request bucket maximum capacity	100.0	False
+L-50DB9A50	CreateTransitGatewayPolicyTable request bucket refill rate	5.0	False
+L-099A1346	EnableImageDeprecation request bucket refill rate	5.0	False
+L-8BE095EA	UpdateCapacityManagerOrganizationsAccess request bucket refill rate	5.0	False
+L-D6497F43	ModifyVerifiedAccessEndpointPolicy request bucket refill rate	4.0	False
+L-E5BCF7B5	Running Dedicated inf2 Hosts	1.0	True
+L-5E7F975D	DisableAddressTransfer request bucket refill rate	5.0	False
+L-84705D16	GetIpamAddressHistory request bucket refill rate	20.0	False
+L-FA2667D1	CreateVpnConnectionRoute request bucket refill rate	5.0	False
+L-01DBF45D	DeleteVpcBlockPublicAccessExclusion request bucket maximum capacity	50.0	False
+L-1D1B68E2	UpdateSecurityGroupRuleDescriptionsEgress request bucket refill rate	5.0	False
+L-53C75B8A	DescribeReservedInstances request bucket refill rate	20.0	False
+L-0FB6A847	GetAssociatedEnclaveCertificateIamRoles request bucket maximum capacity	10.0	False
+L-C937738D	DeleteTransitGatewayPolicyTable request bucket refill rate	5.0	False
+L-63B37661	DeleteVpnConcentrator request bucket maximum capacity	50.0	False
+L-8B23CEF3	Concurrent P6-B200 Capacity Blocks per account	6144.0	True
+L-B7AEFDF7	CreateInternetGateway request bucket maximum capacity	50.0	False
+L-5FE21136	AssociateSubnetCidrBlock request bucket maximum capacity	50.0	False
+L-8D7D9807	SearchLocalGatewayRoutes request bucket maximum capacity	100.0	False
+L-A6AC2698	GetVerifiedAccessGroupPolicy request bucket maximum capacity	100.0	False
+L-6CB3332C	Running Dedicated c8g Hosts	1.0	True
+L-E1F2DC49	CreateMacSystemIntegrityProtectionModificationTask request bucket maximum capacity	50.0	False
+L-1216C47A	Running On-Demand Standard (A, C, D, H, I, M, R, T, Z) instances	256.0	True
+L-3819A6DF	All G and VT Spot Instance Requests	0.0	True
+L-2ADC2573	DescribeInstanceStatus request bucket maximum capacity	100.0	False
+L-47D32C8D	Running Dedicated m8gn Hosts	1.0	True
+L-05407C38	CopyImage request bucket refill rate	1.0	False
+L-C9E3B5FD	GetInstanceUefiData request bucket refill rate	20.0	False
+L-2993734E	DetachInternetGateway request bucket refill rate	5.0	False
+L-A1EA7F36	DescribeRegions request bucket refill rate	20.0	False
+L-A2AC6BC7	AssignIpv6Addresses request bucket refill rate	5.0	False
+L-9789D466	CreateTransitGatewayMeteringPolicyEntry request bucket refill rate	5.0	False
+L-34B78B8F	ModifyVpcTenancy request bucket refill rate	5.0	False
+L-AEA0E434	DeleteSecondarySubnet request bucket refill rate	5.0	False
+L-172AA053	DeleteVpcBlockPublicAccessExclusion request bucket refill rate	5.0	False
+L-515A2074	UpdateSecurityGroupRuleDescriptionsEgress request bucket maximum capacity	50.0	False
+L-9F11F8B0	CreateVpcEndpointConnectionNotification request bucket refill rate	5.0	False
+L-DAC9EFBF	ModifyInstanceAttribute request bucket refill rate	5.0	False
+L-EFB5674C	ModifyEbsDefaultKmsKeyId request bucket maximum capacity	50.0	False
+L-1FEA0336	CreateRouteServer request bucket maximum capacity	50.0	False
+L-B301B20C	DeleteNetworkInsightsAccessScope request bucket refill rate	5.0	False
+L-07DB2CE1	DisassociateAddress request bucket refill rate	5.0	False
+L-9DBEA0E1	CreateVerifiedAccessGroup request bucket maximum capacity	10.0	False
+L-7D889F4B	DisassociateSecurityGroupVpc request bucket refill rate	5.0	False
+L-5CFC344F	ModifyIpamResourceCidr request bucket refill rate	5.0	False
+L-CB9B687C	DescribeIpamPools request bucket refill rate	20.0	False
+L-C9E99CB1	GetCoipPoolUsage request bucket maximum capacity	100.0	False
+L-B96CC332	ModifyVerifiedAccessTrustProvider request bucket maximum capacity	10.0	False
+L-5425765A	CreateDelegateMacVolumeOwnershipTask request bucket refill rate	5.0	False
+L-26E5C7C6	DeleteNetworkAclEntry request bucket maximum capacity	50.0	False
+L-66F4F9CF	DisassociateRouteTable request bucket refill rate	5.0	False
+L-84C6AA83	DeleteInternetGateway request bucket maximum capacity	50.0	False
+L-BE3AA8E7	Application Status Checks Targets per account	5000.0	True
+L-88AB5392	CreateTrafficMirrorFilterRule request bucket maximum capacity	50.0	False
+L-2A9065B7	Running Dedicated m8gd Hosts	1.0	True
+L-E61CC1DF	MoveAddressToVpc request bucket refill rate	1.0	False
+L-316DF071	ApplySecurityGroupsToClientVpnTargetNetwork request bucket refill rate	5.0	False
+L-FA39FEEF	DeleteTransitGatewayConnect request bucket maximum capacity	50.0	False
+L-5D439CF7	Verified Access Endpoints	50.0	True
+L-27BBDEAD	DeleteSecondaryNetwork request bucket maximum capacity	50.0	False
+L-D1D063E1	ModifyIdentityIdFormat request bucket maximum capacity	50.0	False
+L-BACB8B25	PurchaseCapacityBlockExtension request bucket refill rate	0.15	False
+L-CAAC5E79	DescribeSpotPriceHistory request bucket refill rate	20.0	False
+L-B36AAB51	Concurrent P6-B200 Capacity Blocks per organization	6144.0	True
+L-F8516154	Running Dedicated m7gd Hosts	1.0	True
+L-70015FFA	AMI sharing	1000.0	True
+L-C159BB4A	DeleteSpotDatafeedSubscription request bucket refill rate	3.0	False
+L-C53C572D	CreateTrafficMirrorFilter request bucket refill rate	5.0	False
+L-F317AAF8	PurchaseCapacityBlock request bucket maximum capacity	10.0	False
+L-A2D59C67	Running Dedicated r5b Hosts	1.0	True
+L-9C20343E	ReleaseIpamPoolAllocation request bucket refill rate	5.0	False
+L-A173853F	DescribeStaleSecurityGroups request bucket refill rate	5.0	False
+L-94E0B049	DeleteVerifiedAccessInstance request bucket refill rate	2.0	False
+L-4FB7FF5D	Customer gateways per region	50.0	True
+L-8F183F67	UnlockSnapshot request bucket refill rate	5.0	False
+L-B1D95526	ModifyIdFormat request bucket refill rate	5.0	False
+L-D36BF22F	DisableImageDeregistrationProtection request bucket maximum capacity	50.0	False
+L-86A3D710	StartNetworkInsightsAccessScopeAnalysis request bucket refill rate	5.0	False
+L-B6D6065D	Running Dedicated r6g Hosts	1.0	True
+L-A650837B	DescribeCarrierGateways request bucket maximum capacity	100.0	False
+L-54F78E1B	CreateVerifiedAccessTrustProvider request bucket maximum capacity	10.0	False
+L-B056B20E	AssociateIpamByoasn request bucket refill rate	5.0	False
+L-1453F89D	CreateCoipCidr request bucket maximum capacity	5.0	False
+L-B39F06F3	DescribeIpams request bucket maximum capacity	100.0	False
+L-7C5AB534	CreateTrafficMirrorFilter request bucket maximum capacity	50.0	False
+L-B3B09577	ModifyVolumeAttribute request bucket maximum capacity	50.0	False
+L-B012C19B	RestoreVolumeFromRecycleBin request bucket refill rate	5.0	False
+L-EBFF98AC	RegisterImage request bucket refill rate	5.0	False
+L-BB79FECB	DeleteTransitGatewayRouteTableAnnouncement request bucket refill rate	5.0	False
+L-EA0297BF	ModifyVolume request bucket maximum capacity	50.0	False
+L-C4F92078	ReplaceNetworkAclAssociation request bucket maximum capacity	50.0	False
+L-CA4DF5C5	DeleteImageUsageReport request bucket maximum capacity	50.0	False
+L-539645D3	EnableVgwRoutePropagation request bucket refill rate	5.0	False
+L-05A907BB	DeleteVerifiedAccessInstance request bucket maximum capacity	10.0	False
+L-D65483B4	ModifyTransitGateway request bucket refill rate	5.0	False
+L-0A36B477	DisableAwsNetworkPerformanceMetricSubscription request bucket refill rate	5.0	False
+L-3A7882D5	ImportSnapshot request bucket maximum capacity	50.0	False
+L-CFCBF2CD	DescribePrincipalIdFormat request bucket refill rate	10.0	False
+L-DD71A718	CreateInstanceConnectEndpoint request bucket refill rate	5.0	False
+L-EF284EFB	Running Dedicated r6gd Hosts	1.0	True
+L-23C31794	GetVpnTunnelReplacementStatus request bucket maximum capacity	100.0	False
+L-A03D34BC	GetIpamPolicyOrganizationTargets request bucket maximum capacity	100.0	False
+L-192C30D2	DescribeVpnGateways request bucket maximum capacity	100.0	False
+L-4C62CE82	ListVolumesInRecycleBin request bucket refill rate	20.0	False
+L-F3F733C7	Running Dedicated t8i Hosts	0.0	True
+L-EA1FB8DE	DescribeClientVpnEndpoints request bucket maximum capacity	100.0	False
+L-DE2D3067	GetIpamPoolAllocations request bucket refill rate	20.0	False
+L-3B10256C	CreateTransitGatewayPrefixListReference request bucket refill rate	5.0	False
+L-71F2A72B	GetSpotPlacementScores request bucket maximum capacity	100.0	False
+L-4A2B530F	ModifyVerifiedAccessGroupPolicy request bucket maximum capacity	20.0	False
+L-C8989C12	CreateNatGateway request bucket maximum capacity	10.0	False
+L-B4B2F918	EnableAllowedImagesSettings request bucket maximum capacity	50.0	False
+L-7526F4AD	ModifyVpcEndpoint request bucket maximum capacity	4.0	False
+L-2C18A054	AttachVolume request bucket refill rate	5.0	False
+L-512ED91E	DeleteNetworkInsightsAccessScope request bucket maximum capacity	50.0	False
+L-3513EBB9	DeleteLaunchTemplate request bucket maximum capacity	50.0	False
+L-1CE991F4	CreateVpnConnection request bucket maximum capacity	50.0	False
+L-401D78F7	Routes per Client VPN target network association	100.0	True
+L-E8F525CE	DescribeImageAttribute request bucket maximum capacity	100.0	False
+L-D116F148	DisassociateTransitGatewayPolicyTable request bucket refill rate	5.0	False
+L-F88F2999	CreateManagedPrefixList request bucket maximum capacity	50.0	False
+L-1E70CA7A	Running Dedicated m8in Hosts	1.0	True
+L-44AF4D47	DescribeStaleSecurityGroups request bucket maximum capacity	20.0	False
+L-93E44272	DisableCapacityManager request bucket maximum capacity	50.0	False
+L-B7DD05F2	DisassociateAddress request bucket maximum capacity	50.0	False
+L-67B8B4C7	Running Dedicated r7g Hosts	1.0	True
+L-16AF5E9D	CreateClientVpnRoute request bucket maximum capacity	5.0	False
+L-D1F86FF2	DescribeRouteServerPeers request bucket refill rate	20.0	False
+L-C6102058	DeletePlacementGroup request bucket maximum capacity	50.0	False
+L-2573CDFF	AuthorizeClientVpnIngress request bucket refill rate	2.0	False
+L-CB4F5825	Running Dedicated is4gen Hosts	1.0	True
+L-B425F710	RejectTransitGatewayPeeringAttachment request bucket refill rate	5.0	False
+L-6DA25473	GetAwsNetworkPerformanceData request bucket refill rate	20.0	False
+L-66020414	DeleteRouteServer request bucket maximum capacity	50.0	False
+L-2252F4B3	EnableAddressTransfer request bucket maximum capacity	50.0	False
+L-5385A47E	CreateVolume request bucket maximum capacity	100.0	False
+L-EA99608B	Running Dedicated r6in Hosts	1.0	True
+L-E4F275D2	ModifySubnetAttribute request bucket refill rate	5.0	False
+L-AB9CB05E	AuthorizeSecurityGroupIngress request bucket refill rate	5.0	False
+L-CED7ABC7	CreateFpgaImage request bucket maximum capacity	50.0	False
+L-D50A37FA	Running Dedicated m6g Hosts	1.0	True
+L-F910DF8A	ModifyVpcAttribute request bucket maximum capacity	50.0	False
+L-E6EE3234	DescribeTransitGatewayMeteringPolicies request bucket maximum capacity	100.0	False
+L-182036B5	CancelConversionTask request bucket refill rate	5.0	False
+L-D49AD9CE	CancelReservedInstancesListing request bucket refill rate	5.0	False
+L-557297E6	ModifyVpcPeeringConnectionOptions request bucket maximum capacity	50.0	False
+L-1CF1A646	ConfirmProductInstance request bucket maximum capacity	50.0	False
+L-3B39C5BE	GetIpamPolicyOrganizationTargets request bucket refill rate	20.0	False
+L-CA84F1AE	ModifyHosts request bucket maximum capacity	50.0	False
+L-850002C8	DetachClassicLinkVpc request bucket maximum capacity	50.0	False
+L-E4CF1E41	DeprovisionPublicIpv4PoolCidr request bucket maximum capacity	50.0	False
+L-18FF94CE	GetTransitGatewayMulticastDomainAssociations request bucket maximum capacity	100.0	False
+L-3F5EB408	DescribeRouteServerEndpoints request bucket maximum capacity	100.0	False
+L-CF54B64C	CreateTransitGatewayRoute request bucket refill rate	5.0	False
+L-0526173D	DescribeVpcEndpoints request bucket maximum capacity	100.0	False
+L-45ADE10A	DescribeIpamExternalResourceVerificationTokens request bucket refill rate	20.0	False
+L-61946573	StartInstances request bucket refill rate	2.0	False
+L-41C0D868	PurchaseCapacityBlockExtension request bucket maximum capacity	10.0	False
+L-984CD12D	AssociateTrunkInterface request bucket refill rate	5.0	False
+L-CEFF20E4	DeprovisionByoipCidr request bucket maximum capacity	1.0	False
+L-9464F916	EnableVolumeIO request bucket maximum capacity	50.0	False
+L-D420260D	DetachVerifiedAccessTrustProvider request bucket refill rate	2.0	False
+L-5417799E	DescribeTrafficMirrorSessions request bucket maximum capacity	100.0	False
+L-4510208C	CreateRouteServer request bucket refill rate	5.0	False
+L-D899304C	DescribeKeyPairs request bucket maximum capacity	100.0	False
+L-FBD2F590	AcceptCapacityReservationBillingOwnership request bucket refill rate	5.0	False
+L-08F845ED	CreateVpcPeeringConnection request bucket maximum capacity	50.0	False
+L-DE09DA05	ModifyAvailabilityZoneGroup request bucket refill rate	5.0	False
+L-19A980DA	Running Dedicated i8ge Hosts	1.0	True
+L-8114AB27	GetAllowedImagesSettings request bucket refill rate	20.0	False
+L-F08B2159	AssociateIpamResourceDiscovery request bucket maximum capacity	50.0	False
+L-08297B41	ListVolumesInRecycleBin request bucket maximum capacity	100.0	False
+L-E5B7CD3A	ProvisionIpamByoasn request bucket refill rate	5.0	False
+L-50CCA3F5	DescribeAccountAttributes request bucket maximum capacity	100.0	False
+L-D72619BF	DescribeRegions request bucket maximum capacity	100.0	False
+L-EF58B059	Running Dedicated c7gd Hosts	1.0	True
+L-28A2CA15	DisassociateIamInstanceProfile request bucket maximum capacity	100.0	False
+L-50B89A29	DescribeCapacityBlockOfferings request bucket refill rate	0.15	False
+L-4D47DDDA	CreateInstanceExportTask request bucket maximum capacity	50.0	False
+L-4572B601	GetConsoleOutput request bucket refill rate	20.0	False
+L-470E84AB	DeleteNetworkInsightsAccessScopeAnalysis request bucket maximum capacity	50.0	False
+L-6C2CD036	GetCapacityReservationUsage request bucket refill rate	20.0	False
+L-3A80E318	AssociateEnclaveCertificateIamRole request bucket refill rate	1.0	False
+L-515354AE	DescribePlacementGroups request bucket refill rate	20.0	False
+L-13DB310D	Running Dedicated c7i-flex Hosts	1.0	True
+L-00BCD35B	DescribeVpcAttribute request bucket refill rate	20.0	False
+L-3289521C	AssignPrivateIpAddresses request bucket maximum capacity	100.0	False
+L-A842D618	DescribeLocalGatewayVirtualInterfaces request bucket maximum capacity	100.0	False
+L-AD1D1866	Concurrent P5e Capacity Blocks per organization	6144.0	True
+L-61D02DEF	DeleteDhcpOptions request bucket refill rate	5.0	False
+L-58981313	CreateReservedInstancesListing request bucket maximum capacity	50.0	False
+L-43A06ED4	DescribeVpcPeeringConnections request bucket maximum capacity	100.0	False
+L-2EF174AA	DescribeInstanceTypeOfferings request bucket maximum capacity	100.0	False
+L-DF7D9C9F	PurchaseReservedInstancesOffering request bucket refill rate	5.0	False
+L-F88B3121	DeleteCustomerGateway request bucket refill rate	5.0	False
+L-D0C3D42F	DescribeNetworkInterfaces request bucket maximum capacity	100.0	False
+L-0E410EB7	DescribeNetworkInterfaces unfiltered request bucket maximum capacity	50.0	False
+L-5616F136	DeleteCarrierGateway request bucket refill rate	5.0	False
+L-C39DA8C4	GetAssociatedEnclaveCertificateIamRoles request bucket refill rate	1.0	False
+L-D12C71C1	GetCapacityManagerMetricData request bucket refill rate	20.0	False
+L-BD9BD803	Running Dedicated m5zn Hosts	1.0	True
+L-30B67EDC	Running Dedicated g7 Hosts	0.0	True
+L-38815325	ModifyVolumeAttribute request bucket refill rate	5.0	False
+L-8365AB81	Running Dedicated c1 Hosts	0.0	True
+L-41ED5922	GetCapacityManagerAttributes request bucket refill rate	20.0	False
+L-CA4FEA1D	DisableFastSnapshotRestores request bucket refill rate	5.0	False
+L-E18E92FB	GetSpotPlacementScores request bucket refill rate	20.0	False
+L-76E1E5B9	SearchTransitGatewayRoutes request bucket refill rate	20.0	False
+L-9B72D981	RevokeSecurityGroupIngress request bucket maximum capacity	50.0	False
+L-DEF8E115	Running Dedicated x1e Hosts	0.0	True
+L-3947AC35	ModifyVpcEndpointServicePermissions request bucket maximum capacity	50.0	False
+L-CAE212A6	GetEnabledIpamPolicy request bucket refill rate	20.0	False
+L-0639C849	DescribeNetworkInterfaceAttribute request bucket maximum capacity	100.0	False
+L-84C213AF	GetIpamDiscoveredAccounts request bucket refill rate	20.0	False
+L-561D606C	RejectCapacityReservationBillingOwnership request bucket refill rate	5.0	False
+L-174E778A	ModifyVpnTunnelCertificate request bucket maximum capacity	50.0	False
+L-AFBBDED4	SendDiagnosticInterrupt request bucket refill rate	5.0	False
+L-B173327A	AssociateNatGatewayAddress request bucket maximum capacity	10.0	False
+L-34B43A08	All Standard (A, C, D, H, I, M, R, T, Z) Spot Instance Requests	256.0	True
+L-EC7178B6	Running Dedicated r5ad Hosts	1.0	True
+L-6D8B3F14	CreateTransitGatewayRoute request bucket maximum capacity	50.0	False
+L-9DD8427A	CreateSecurityGroup request bucket refill rate	5.0	False
+L-7CDB245F	AssociateCapacityReservationBillingOwner request bucket maximum capacity	1.0	False
+L-1FDC5EB8	CancelSpotFleetRequests request bucket maximum capacity	50.0	False
+L-0D9153B0	CreateDefaultSubnet request bucket maximum capacity	1.0	False
+L-4BF8EB2D	DeleteIpamPool request bucket refill rate	5.0	False
+L-53DC4BE6	DescribeIpamPrefixListResolvers request bucket maximum capacity	100.0	False
+L-BDBC126E	CopyImage request bucket maximum capacity	100.0	False
+L-67D1824C	GetNetworkInsightsAccessScopeAnalysisFindings request bucket maximum capacity	100.0	False
+L-11011426	DescribeVpcBlockPublicAccessExclusions request bucket refill rate	20.0	False
+L-D6650C85	Running Dedicated c9gd Hosts	1.0	True
+L-1586174D	Running Dedicated t3 Hosts	0.0	True
+L-6B0D517C	All Trn Spot Instance Requests	0.0	True
+L-2F563D29	ReplaceNetworkAclAssociation request bucket refill rate	5.0	False
+L-B99094FE	GetImageAncestry request bucket refill rate	20.0	False
+L-334A7DFC	DescribePublicIpv4Pools request bucket refill rate	20.0	False
+L-1A258241	CopySnapshot request bucket refill rate	5.0	False
+L-DE990950	DescribeTransitGatewayPolicyTables request bucket refill rate	20.0	False
+L-DA4DCC6A	ModifyCapacityReservationFleet request bucket maximum capacity	50.0	False
+L-CF05E7DD	DeletePlacementGroup request bucket refill rate	5.0	False
+L-5491C642	CreateTrafficMirrorSession request bucket refill rate	5.0	False
+L-6F7153C4	ModifyImageAttribute request bucket maximum capacity	100.0	False
+L-1E5E385F	DeleteVpcEndpointConnectionNotifications request bucket maximum capacity	50.0	False
+L-0C7314E6	DeleteTransitGatewayRoute request bucket maximum capacity	50.0	False
+L-A49BDA93	GetSerialConsoleAccessStatus request bucket maximum capacity	100.0	False
+L-2CC6888D	Running Dedicated x8g Hosts	1.0	True
+L-29F4C64A	DescribeInstanceSqlHaStates request bucket refill rate	20.0	False
+L-B7208018	Running Dedicated r3 Hosts	1.0	True
+L-5B316000	ResetFpgaImageAttribute request bucket maximum capacity	50.0	False
+L-C131DF22	CreateInterruptibleCapacityReservationAllocation request bucket refill rate	5.0	False
+L-526198A7	CopyVolumes request bucket maximum capacity	50.0	False
+L-75564E5E	StartVpcEndpointServicePrivateDnsVerification request bucket refill rate	5.0	False
+L-E5FBF8F9	CreateTransitGatewayConnect request bucket maximum capacity	50.0	False
+L-FDB0A352	Running Dedicated m6id Hosts	0.0	True
+L-292F78BE	GetTransitGatewayRouteTableAssociations request bucket maximum capacity	100.0	False
+L-17A8BD20	Verified Access Instances	5.0	True
+L-EA5DFCBC	DisassociateTransitGatewayRouteTable request bucket maximum capacity	50.0	False
+L-34C707E3	GetTransitGatewayRouteTableAssociations request bucket refill rate	20.0	False
+L-9232CAD0	ReplaceRoute request bucket maximum capacity	50.0	False
+L-8D77B08A	DisableImage request bucket maximum capacity	50.0	False
+L-01CB45FE	DeleteNetworkInsightsAnalysis request bucket maximum capacity	50.0	False
+L-3DC16637	CreateMacSystemIntegrityProtectionModificationTask request bucket refill rate	5.0	False
+L-496B4FF5	EnableSerialConsoleAccess request bucket refill rate	5.0	False
+L-8873043D	CreatePlacementGroup request bucket refill rate	5.0	False
+L-4560725C	DeleteTrafficMirrorFilterRule request bucket refill rate	5.0	False
+L-7137857D	DescribeVpcEndpointServiceConfigurations request bucket maximum capacity	100.0	False
+L-BD03CB4D	DescribeSubnets request bucket refill rate	20.0	False
+L-9960A773	DescribeLaunchTemplates request bucket refill rate	20.0	False
+L-F83C263C	ModifyTrafficMirrorFilterRule request bucket refill rate	5.0	False
+L-57EA4F73	DescribeVolumeStatus request bucket refill rate	20.0	False
+L-8DDE976F	DescribeVpcEndpointServicePermissions request bucket refill rate	20.0	False
+L-7813E54A	StartInstances request bucket maximum capacity	5.0	False
+L-1682AB92	DescribeReservedInstances request bucket maximum capacity	100.0	False
+L-F93AB250	DescribeTrafficMirrorFilters request bucket refill rate	20.0	False
+L-D4BFD1B2	EnableImageDeregistrationProtection request bucket refill rate	5.0	False
+L-2815D1DE	DisableVpcClassicLinkDnsSupport request bucket maximum capacity	50.0	False
+L-8020BFF0	ModifyVerifiedAccessGroupPolicy request bucket refill rate	4.0	False
+L-FFC5C1FF	CreateIpamPrefixListResolver request bucket maximum capacity	50.0	False
+L-F2F12DB3	ModifyInstanceCpuOptions request bucket maximum capacity	50.0	False
+L-B1CD4C6E	ModifyIpam request bucket maximum capacity	50.0	False
+L-8B27377A	Running Dedicated d2 Hosts	1.0	True
+L-6CF6CBEE	DescribeSecurityGroupReferences request bucket refill rate	5.0	False
+L-324233D3	DescribeTrafficMirrorSessions request bucket refill rate	20.0	False
+L-95317F48	DisassociateInstanceEventWindow request bucket refill rate	5.0	False
+L-F9126CAC	EnableRouteServerPropagation request bucket maximum capacity	50.0	False
+L-3448869C	DescribeNatGateways request bucket maximum capacity	100.0	False
+L-4B659A35	DescribeTransitGateways request bucket maximum capacity	100.0	False
+L-6B09D5E0	DescribeVpnConcentrators request bucket maximum capacity	100.0	False
+L-ADC7D208	GetVpnTunnelReplacementStatus request bucket refill rate	20.0	False
+L-5683FEAE	DescribeCapacityReservationTopology request bucket refill rate	20.0	False
+L-5D5C3856	ModifyVerifiedAccessInstanceLoggingConfiguration request bucket refill rate	2.0	False
+L-4B257D4A	AttachClassicLinkVpc request bucket maximum capacity	50.0	False
+L-A6573AE7	DeleteRouteTable request bucket refill rate	5.0	False
+L-65CA0C41	DescribeSpotInstanceRequests request bucket maximum capacity	100.0	False
+L-1C810AAD	UpdateInterruptibleCapacityReservationAllocation request bucket refill rate	5.0	False
+L-27920C6B	CreateTransitGatewayPolicyTable request bucket maximum capacity	50.0	False
+L-BFF01811	ImportInstance request bucket maximum capacity	50.0	False
+L-FD1C4410	Running Dedicated c8in Hosts	1.0	True
+L-58D78F11	DeleteNetworkInterfacePermission request bucket refill rate	5.0	False
+L-C93F66A2	Running Dedicated c5d Hosts	1.0	True
+L-B4AB3037	DescribeHostReservations request bucket maximum capacity	5.0	False
+L-999BC6AF	DeleteRouteServerEndpoint request bucket maximum capacity	50.0	False
+L-F4C5109B	ModifyAddressAttribute request bucket refill rate	5.0	False
+L-F0800EE0	CreateTransitGatewayMulticastDomain request bucket maximum capacity	50.0	False
+L-DEA76CA5	ModifyVpcBlockPublicAccessExclusion request bucket maximum capacity	50.0	False
+L-7977F490	CancelSpotFleetRequests request bucket refill rate	5.0	False
+L-C6FA28DB	CancelCapacityReservation request bucket refill rate	5.0	False
+L-5B63D339	DescribeImportSnapshotTasks request bucket maximum capacity	100.0	False
+L-D472AFEF	RestoreAddressToClassic request bucket refill rate	1.0	False
+L-C7208985	DeletePublicIpv4Pool request bucket refill rate	5.0	False
+L-7C6BAEAA	Application Status Checks Associations per health check	50.0	True
+L-FC22D4C4	DisableTransitGatewayRouteTablePropagation request bucket refill rate	5.0	False
+L-A77DC87E	DeprovisionIpamByoasn request bucket refill rate	5.0	False
+L-10876B5B	ReplaceImageCriteriaInAllowedImagesSettings request bucket refill rate	5.0	False
+L-C04AED14	DescribeSecurityGroups unfiltered request bucket refill rate	10.0	False
+L-9C38E5AB	Concurrent P6-B300 Capacity Blocks per account	6144.0	True
+L-CAF5302E	Running Dedicated m1 Hosts	0.0	True
+L-92ADEEBA	ModifyFleet request bucket refill rate	5.0	False
+L-8BC79ABB	DescribeNatGateways request bucket refill rate	20.0	False
+L-7EE8FB84	DeleteLocalGatewayRouteTableVpcAssociation request bucket maximum capacity	50.0	False
+L-6468958F	CreateImageUsageReport request bucket refill rate	5.0	False
+L-5136197D	Running Dedicated p5 Hosts	0.0	True
+L-C67C2452	ModifyTrafficMirrorFilterRule request bucket maximum capacity	50.0	False
+L-5199FC8D	DisassociateClientVpnTargetNetwork request bucket refill rate	5.0	False
+L-0F6D9AAB	EnableRouteServerPropagation request bucket refill rate	5.0	False
+L-3ABAC8AC	DeleteIpamResourceDiscovery request bucket refill rate	5.0	False
+L-EF30B25E	Running Dedicated m4 Hosts	1.0	True
+L-5BDEA5A8	DescribeFastLaunchImages request bucket maximum capacity	100.0	False
+L-0B99C6C2	CreateVpnConnectionRoute request bucket maximum capacity	50.0	False
+L-5132D1C4	AssociateInstanceEventWindow request bucket refill rate	5.0	False
+L-86BA373C	DescribeLaunchTemplates request bucket maximum capacity	100.0	False
+L-14C2D88D	DescribeOutpostLags request bucket maximum capacity	100.0	False
+L-76F39CA3	EnableAllowedImagesSettings request bucket refill rate	5.0	False
+L-885FBD0E	DescribeIpamPools request bucket maximum capacity	100.0	False
+L-5FB3EF25	DescribeRouteTables request bucket maximum capacity	100.0	False
+L-CE7D699C	AdvertiseByoipCidr request bucket refill rate	0.1	False
+L-FFCC26BC	DeleteVpnConnection request bucket maximum capacity	50.0	False
+L-7EA86503	Concurrent P5en Capacity Blocks per organization	6144.0	True
+L-511184C4	UnassignIpv6Addresses request bucket refill rate	5.0	False
+L-6403048D	Running Dedicated r9gd Hosts	1.0	True
+L-F324F9FB	DescribeVpnConcentrators request bucket refill rate	20.0	False
+L-D248141A	DeleteTrafficMirrorSession request bucket maximum capacity	50.0	False
+L-D81752B0	GetIpamPrefixListResolverVersionEntries request bucket maximum capacity	100.0	False
+L-4C3D1ED8	DescribeVolumesModifications request bucket maximum capacity	100.0	False
+L-A43CFC32	ModifyIpamPrefixListResolverTarget request bucket maximum capacity	50.0	False
+L-F7808C92	Running On-Demand HPC instances	192.0	True
+L-3EC4F18E	ModifyCapacityReservation request bucket maximum capacity	50.0	False
+L-394473B7	DescribeSpotFleetInstances request bucket refill rate	5.0	False
+L-BCF58554	CreateCustomerGateway request bucket maximum capacity	50.0	False
+L-CC4315E0	DeleteSnapshot request bucket refill rate	5.0	False
+L-185008B4	AssociateAddress request bucket maximum capacity	50.0	False
+L-C13B7AAA	DescribeInstanceImageMetadata request bucket refill rate	20.0	False
+L-1E0F6B68	DescribeClientVpnConnections request bucket refill rate	20.0	False
+L-05E41F3B	RegisterTransitGatewayMulticastGroupMembers request bucket refill rate	5.0	False
+L-7108A7B5	Running Dedicated mac-m3ultra Hosts	2.0	True
+L-C1BB30DE	DeleteVolume request bucket refill rate	5.0	False
+L-B65A5B82	CreateIpamPrefixListResolverTarget request bucket maximum capacity	50.0	False
+L-596D0A7D	DescribePublicIpv4Pools request bucket maximum capacity	100.0	False
+L-7B356175	CreateRouteServerEndpoint request bucket maximum capacity	50.0	False
+L-1EE7277F	RejectTransitGatewayVpcAttachment request bucket refill rate	5.0	False
+L-8EEB21E2	PurchaseHostReservation request bucket refill rate	2.0	False
+L-36683145	DescribeTransitGatewayConnectPeers request bucket refill rate	20.0	False
+L-1F67303E	CreateVerifiedAccessInstance request bucket refill rate	2.0	False
+L-17D50B68	ModifyInstanceMetadataOptions request bucket refill rate	5.0	False
+L-0A060237	AssociateTransitGatewayPolicyTable request bucket maximum capacity	50.0	False
+L-DF9EDDC1	TerminateClientVpnConnections request bucket refill rate	5.0	False
+L-60067A96	DescribeVpcEndpointServicePermissions request bucket maximum capacity	100.0	False
+L-EE6140A9	CreatePublicIpv4Pool request bucket refill rate	5.0	False
+L-2CBA8B92	Running Dedicated mac-m4 Hosts	2.0	True
+L-D1C1C4B0	CreatePublicIpv4Pool request bucket maximum capacity	50.0	False
+L-DD878B36	DeleteTransitGatewayConnect request bucket refill rate	5.0	False
+L-065DB861	DetachVolume request bucket refill rate	5.0	False
+L-F889E107	DeleteVpnGateway request bucket maximum capacity	50.0	False
+L-AFF8A0B2	DeleteVpnConnectionRoute request bucket maximum capacity	50.0	False
+L-C95F0713	CreateTrafficMirrorTarget request bucket maximum capacity	50.0	False
+L-40906A09	CreateVerifiedAccessInstance request bucket maximum capacity	10.0	False
+L-45EF7051	GetCapacityManagerAttributes request bucket maximum capacity	100.0	False
+L-4B67B636	DisassociateSubnetCidrBlock request bucket maximum capacity	50.0	False
+L-88F32CFB	ModifyTransitGatewayVpcAttachment request bucket refill rate	5.0	False
+L-35084003	DeleteVpcEncryptionControl request bucket maximum capacity	50.0	False
+L-734A5416	Running Dedicated m8id Hosts	1.0	True
+L-BE934738	DescribeVpcEndpointAssociations request bucket maximum capacity	100.0	False
+L-382949A5	DescribeLaunchTemplateVersions request bucket maximum capacity	100.0	False
+L-61A6EBB9	RejectTransitGatewayMulticastDomainAssociations request bucket refill rate	5.0	False
+L-ED230395	CreateSecondarySubnet request bucket maximum capacity	50.0	False
+L-75B9BECB	Running Dedicated u7in-16tb Hosts	0.0	True
+L-DC8AA231	DescribeReplaceRootVolumeTasks request bucket maximum capacity	100.0	False
+L-061BB98E	ModifyInstancePlacement request bucket refill rate	5.0	False
+L-506C83B3	DisableFastLaunch request bucket refill rate	2.0	False
+L-A1820945	DescribePrincipalIdFormat request bucket maximum capacity	10.0	False
+L-7B2F38BE	DisableImageDeprecation request bucket refill rate	5.0	False
+L-ACCD8429	ModifyTrafficMirrorFilterNetworkServices request bucket maximum capacity	50.0	False
+L-AA911CAC	ModifyInstanceEventStartTime request bucket refill rate	5.0	False
+L-DB3E1E29	DescribeStoreImageTasks request bucket refill rate	0.5	False
+L-481D44A0	Running Dedicated c8id Hosts	1.0	True
+L-5E0A59D7	ModifyTransitGatewayPrefixListReference request bucket maximum capacity	50.0	False
+L-28CD0FA9	GetImageAncestry request bucket maximum capacity	100.0	False
+L-93E85517	GetDeclarativePoliciesReportSummary request bucket refill rate	5.0	False
+L-C22638C0	ModifyDefaultCreditSpecification request bucket maximum capacity	50.0	False
+L-C4D9412E	Running Dedicated u7i-6tb Hosts	0.0	True
+L-F112070B	AssociateTransitGatewayMulticastDomain request bucket maximum capacity	50.0	False
+L-4EAC29BA	CreateDefaultVpc request bucket maximum capacity	1.0	False
+L-CC17455C	DescribeIpamPrefixListResolverTargets request bucket maximum capacity	100.0	False
+L-185E1FD8	GetVerifiedAccessEndpointPolicy request bucket refill rate	20.0	False
+L-FAF7A47B	GetTransitGatewayPolicyTableEntries request bucket maximum capacity	100.0	False
+L-C7EEF4EB	Running Dedicated c8gb Hosts	1.0	True
+L-15809D6A	RequestSpotFleet request bucket refill rate	5.0	False
+L-A6E1963B	DescribeReservedInstancesListings request bucket refill rate	20.0	False
+L-0F778180	DescribeMacHosts request bucket maximum capacity	100.0	False
+L-02AFD606	DeleteSecondarySubnet request bucket maximum capacity	50.0	False
+L-563AC888	AssociateCapacityReservationBillingOwner request bucket refill rate	0.5	False
+L-57CADE20	CreateNetworkAcl request bucket maximum capacity	50.0	False
+L-69264CA7	DescribeReservedInstancesListings request bucket maximum capacity	100.0	False
+L-7DE2C2BC	ReplaceRoute request bucket refill rate	5.0	False
+L-FA1A2515	DescribeTransitGatewayRouteTables request bucket maximum capacity	100.0	False
+L-02034D81	DisableVpcClassicLink request bucket maximum capacity	50.0	False
+L-ADAF5CA4	AcceptVpcPeeringConnection request bucket maximum capacity	50.0	False
+L-9126620E	Running Dedicated m7g Hosts	1.0	True
+L-C1B74B2D	DeleteKeyPair request bucket maximum capacity	50.0	False
+L-0FC0EC4E	RebootInstances request bucket maximum capacity	50.0	False
+L-39E9D5C4	ResetImageAttribute request bucket maximum capacity	50.0	False
+L-1AC4FF57	GetEbsEncryptionByDefault request bucket maximum capacity	100.0	False
+L-00CED347	DescribeNetworkInsightsAnalyses request bucket maximum capacity	100.0	False
+L-8FE30D52	Running Dedicated r5a Hosts	1.0	True
+L-FA153BBC	BundleInstance request bucket maximum capacity	50.0	False
+L-390193A8	ModifyAddressAttribute request bucket maximum capacity	50.0	False
+L-8DF67555	DescribeSecurityGroupRules request bucket maximum capacity	100.0	False
+L-7E906821	DescribeInstanceConnectEndpoints request bucket maximum capacity	100.0	False
+L-A32F259F	ModifyVolume request bucket refill rate	5.0	False
+L-D269BEFD	Running Dedicated m6i Hosts	0.0	True
+L-2D652BFC	DescribeSpotFleetRequestHistory request bucket refill rate	5.0	False
+L-7B9FC6D1	DescribeInstanceSqlHaHistoryStates request bucket refill rate	20.0	False
+L-7A0C2C20	GetVpnConnectionDeviceTypes request bucket maximum capacity	100.0	False
+L-71D185F2	DisassociateNatGatewayAddress request bucket refill rate	1.0	False
+L-142B4294	Launch template versions	10000.0	False
+L-5CC9EA82	Running Dedicated x2gd Hosts	1.0	True
+L-00496B88	DescribeClientVpnAuthorizationRules request bucket maximum capacity	100.0	False
+L-E14183B0	ModifyVerifiedAccessInstance request bucket refill rate	2.0	False
+L-A19C7EEE	DescribeHostReservations request bucket refill rate	2.0	False
+L-A07CE955	AssignPrivateNatGatewayAddress request bucket refill rate	1.0	False
+L-837DEDCC	GetFlowLogsIntegrationTemplate request bucket maximum capacity	100.0	False
+L-6AA78563	ModifyVpnConnection request bucket maximum capacity	50.0	False
+L-811E78C0	CreateVpcEncryptionControl request bucket maximum capacity	50.0	False
+L-D1F29EFC	CreateRestoreImageTask request bucket maximum capacity	50.0	False
+L-2433D315	DescribeVolumeAttribute request bucket maximum capacity	100.0	False
+L-938A46D9	DescribeManagedPrefixLists request bucket maximum capacity	100.0	False
+L-4E5A2F70	CreateIpam request bucket refill rate	5.0	False
+L-83779742	CreateLocalGatewayVirtualInterface request bucket maximum capacity	50.0	False
+L-3B2475E2	DescribeVpcEndpoints request bucket refill rate	20.0	False
+L-7069ADEB	Running Dedicated g6e Hosts	0.0	True
+L-32ABC77D	DeleteTransitGatewayMeteringPolicy request bucket maximum capacity	50.0	False
+L-29BF63E1	DescribeIpamResourceDiscoveries request bucket maximum capacity	100.0	False
+L-042F2626	ModifyTransitGatewayVpcAttachment request bucket maximum capacity	50.0	False
+L-556D69CE	DescribeCapacityBlockStatus request bucket maximum capacity	100.0	False
+L-6F786761	CreateVpcEncryptionControl request bucket refill rate	5.0	False
+L-9A56693E	GetVerifiedAccessGroupPolicy request bucket refill rate	20.0	False
+L-C378BAD2	GetImageBlockPublicAccessState request bucket refill rate	20.0	False
+L-48FC802A	GetVerifiedAccessEndpointPolicy request bucket maximum capacity	100.0	False
+L-1E6FC7D5	DeregisterInstanceEventNotificationAttributes request bucket refill rate	5.0	False
+L-47CE30A7	GetDeclarativePoliciesReportSummary request bucket maximum capacity	5.0	False
+L-ECABF749	DeleteLaunchTemplateVersions request bucket maximum capacity	50.0	False
+L-85A590C2	DescribeAddressTransfers request bucket maximum capacity	100.0	False
+L-80DE4006	DisassociateTrunkInterface request bucket maximum capacity	50.0	False
+L-DD4BB4C4	CreateStoreImageTask request bucket refill rate	0.1	False
+L-79C1ADE5	DeleteVpnConnection request bucket refill rate	5.0	False
+L-7F1204DE	CancelCapacityReservationFleets request bucket maximum capacity	50.0	False
+L-59030679	ProvisionIpamByoasn request bucket maximum capacity	50.0	False
+L-6A403818	CreateInstanceEventWindow request bucket refill rate	5.0	False
+L-BB745A4C	DeleteVpnConcentrator request bucket refill rate	5.0	False
+L-4F2286EE	RestoreManagedPrefixListVersion request bucket maximum capacity	50.0	False
+L-B10F70D6	Running Dedicated m5a Hosts	1.0	True
+L-81ACFA5E	DisassociateSecurityGroupVpc request bucket maximum capacity	50.0	False
+L-5A7BBD9A	MoveByoipCidrToIpam request bucket maximum capacity	50.0	False
+L-AC4D9718	ModifyManagedPrefixList request bucket maximum capacity	50.0	False
+L-E713C8B1	ResetEbsDefaultKmsKeyId request bucket refill rate	5.0	False
+L-8CB93107	DeleteVerifiedAccessTrustProvider request bucket maximum capacity	10.0	False
+L-32DE61CF	DescribeInstanceTypes request bucket maximum capacity	100.0	False
+L-7FD343E7	Running Dedicated m8g Hosts	1.0	True
+L-5FDC8CB4	DescribeVerifiedAccessTrustProviders request bucket refill rate	20.0	False
+L-B723713E	ExportImage request bucket refill rate	5.0	False
+L-D4D61E57	EnableCapacityManager request bucket refill rate	5.0	False
+L-FC1DB8A5	DescribeMovingAddresses request bucket refill rate	1.0	False
+L-C12ACDE7	DetachNetworkInterface request bucket maximum capacity	50.0	False
+L-5943360F	DeleteTransitGatewayPolicyTable request bucket maximum capacity	50.0	False
+L-76830153	AuthorizeSecurityGroupEgress request bucket refill rate	5.0	False
+L-0CB0B865	ModifySecurityGroupRules request bucket maximum capacity	50.0	False
+L-772F673B	DescribeCapacityReservationFleets request bucket maximum capacity	100.0	False
+L-84414B11	GetReservedInstancesExchangeQuote request bucket refill rate	20.0	False
+L-BCC01EAB	Running Dedicated r8gn Hosts	1.0	True
+L-E2AD880A	DescribeSpotInstanceRequests unfiltered request bucket refill rate	10.0	False
+L-5CBC0C23	Running Dedicated m2 Hosts	0.0	True
+L-50312DCB	DescribeAddresses request bucket refill rate	20.0	False
+L-3C82F907	Running Dedicated m3 Hosts	1.0	True
+L-675688A0	DeregisterTransitGatewayMulticastGroupSources request bucket maximum capacity	50.0	False
+L-323C5A38	ModifyTrafficMirrorSession request bucket maximum capacity	50.0	False
+L-34B5C08F	SendDiagnosticInterrupt request bucket maximum capacity	50.0	False
+L-224EB4FE	DescribeInstances request bucket refill rate	20.0	False
+L-350B809B	DescribeImageUsageReportEntries request bucket maximum capacity	100.0	False
+L-595F64D8	Running Dedicated r8id Hosts	1.0	True
+L-98CDEFE2	EnableIpamPolicy request bucket maximum capacity	50.0	False
+L-14F1F714	EnableReachabilityAnalyzerOrganizationSharing request bucket maximum capacity	50.0	False
+L-12762A1C	ModifyTransitGateway request bucket maximum capacity	50.0	False
+L-F56D1519	GetRouteServerAssociations request bucket refill rate	20.0	False
+L-C0A1616E	ModifyClientVpnEndpoint request bucket refill rate	5.0	False
+L-B0FF3BF9	CreateNetworkAclEntry request bucket maximum capacity	50.0	False
+L-183DC9E9	DescribeTransitGatewayConnects request bucket refill rate	20.0	False
+L-6515577B	DeleteVolume request bucket maximum capacity	100.0	False
+L-06965D83	DeleteRouteTable request bucket maximum capacity	50.0	False
+L-85FD366A	CreateLocalGatewayRoute request bucket maximum capacity	50.0	False
+L-335EB165	Running Dedicated r9g Hosts	1.0	True
+L-BFD2AF2A	ModifyFpgaImageAttribute request bucket maximum capacity	50.0	False
+L-C6985958	GetFlowLogsIntegrationTemplate request bucket refill rate	20.0	False
+L-5484A208	CreateNetworkInterfacePermission request bucket maximum capacity	50.0	False
+L-BD7F7684	AcceptAddressTransfer request bucket maximum capacity	50.0	False
+L-C1F045DF	DisableFastLaunch request bucket maximum capacity	5.0	False
+L-7212CCBC	All P Spot Instance Requests	0.0	True
+L-9E2503C2	Running Dedicated u7i-8tb Hosts	0.0	True
+L-EC6AEC26	DeleteVpc request bucket maximum capacity	50.0	False
+L-393C6405	AssociateRouteServer request bucket maximum capacity	50.0	False
+L-2C3B7624	Running On-Demand Trn instances	8.0	True
+L-AD2B1F27	DeleteIpamScope request bucket refill rate	5.0	False
+L-E21DA6E6	ModifyNetworkInterfaceAttribute request bucket maximum capacity	100.0	False
+L-24D7D4AD	Running Dedicated m5n Hosts	1.0	True
+L-B1E05200	ModifyIdFormat request bucket maximum capacity	50.0	False
+L-B57A3D82	EnableSnapshotBlockPublicAccess request bucket refill rate	0.1	False
+L-A8448DC5	Running Dedicated mac1 Hosts	1.0	True
+L-B28A7EF0	DescribeSpotInstanceRequests unfiltered request bucket maximum capacity	50.0	False
+L-77EF75CF	ModifyVpcEndpointServicePayerResponsibility request bucket maximum capacity	50.0	False
+L-9721EDD9	Running Dedicated m6idn Hosts	1.0	True
+L-4501FF27	DescribeSecurityGroupReferences request bucket maximum capacity	20.0	False
+L-FC5D9147	DeleteTrafficMirrorFilter request bucket refill rate	5.0	False
+L-26B5BAEA	DescribeHostReservationOfferings request bucket refill rate	2.0	False
+L-E465D586	DescribeAwsNetworkPerformanceMetricSubscriptions request bucket refill rate	20.0	False
+L-9A1BC94B	Authorization rules per Client VPN endpoint	200.0	True
+L-334D2261	CreateVolume request bucket refill rate	5.0	False
+L-898560AB	DescribeLockedSnapshots request bucket refill rate	20.0	False
+L-CA7A2359	DescribeReservedInstancesModifications request bucket refill rate	20.0	False
+L-4BD1FC2F	CreateImageUsageReport request bucket maximum capacity	50.0	False
+L-19BEF570	EnableFastSnapshotRestores request bucket maximum capacity	50.0	False
+L-45B148F1	DescribeInstances request bucket maximum capacity	100.0	False
+L-A2E97F52	DescribeIpv6Pools request bucket maximum capacity	100.0	False
+L-0C0FF421	Running Dedicated c8i Hosts	1.0	True
+L-5EC77443	CancelSpotInstanceRequests request bucket refill rate	5.0	False
+L-3C6EEB91	AssociateRouteServer request bucket refill rate	5.0	False
+L-70A50E44	DescribeCapacityBlockExtensionOfferings request bucket refill rate	0.15	False
+L-9932D1A3	CreateIpamScope request bucket maximum capacity	50.0	False
+L-0300530D	Running Dedicated i4i Hosts	1.0	True
+L-13A5F459	DescribeCoipPools request bucket maximum capacity	100.0	False
+L-902A2509	AssociateVpcCidrBlock request bucket maximum capacity	50.0	False
+L-E98CA728	GetInstanceTypesFromInstanceRequirements request bucket maximum capacity	100.0	False
+L-3D1B8677	DescribeClientVpnRoutes request bucket maximum capacity	100.0	False
+L-409E51AC	ModifyVpcPeeringConnectionOptions request bucket refill rate	5.0	False
+L-28CD4A4D	DescribeImageUsageReports request bucket maximum capacity	100.0	False
+L-835A706E	DeleteTransitGateway request bucket maximum capacity	50.0	False
+L-3F4EA06C	MoveAddressToVpc request bucket maximum capacity	1.0	False
+L-A8510FD9	DescribeTransitGatewayAttachments request bucket maximum capacity	100.0	False
+L-5097D374	CreateLaunchTemplateVersion request bucket maximum capacity	100.0	False
+L-0FD49BDE	ModifyInstanceMetadataDefaults request bucket maximum capacity	2.0	False
+L-A7307EDB	ReleaseIpamPoolAllocation request bucket maximum capacity	50.0	False
+L-3037E465	GetPasswordData request bucket maximum capacity	100.0	False
+L-CE97B092	ReplaceImageCriteriaInAllowedImagesSettings request bucket maximum capacity	50.0	False
+L-2684169F	DeleteNatGateway request bucket maximum capacity	10.0	False
+L-5E4FB836	Running Dedicated trn1 Hosts	0.0	True
+L-6C99A430	DescribeRouteServerEndpoints request bucket refill rate	20.0	False
+L-2F9344CA	DescribeExportTasks request bucket maximum capacity	100.0	False
+L-2CEBD323	DescribeLockedSnapshots request bucket maximum capacity	100.0	False
+L-6A8F5BDA	GetIpamAddressHistory request bucket maximum capacity	100.0	False
+L-B72DF846	ModifyInstanceAttribute request bucket maximum capacity	50.0	False
+L-333CD905	DescribeTransitGatewayMulticastDomains request bucket maximum capacity	100.0	False
+L-97A922E1	DescribeSecurityGroupVpcAssociations request bucket refill rate	20.0	False
+L-5AF8CDB6	DescribeVerifiedAccessGroups request bucket maximum capacity	100.0	False
+L-666BEC51	CreateVpnGateway request bucket maximum capacity	50.0	False
+L-561728FD	ReplaceVpnTunnel request bucket refill rate	5.0	False
+L-1A3FECA7	DeprovisionIpamPoolCidr request bucket maximum capacity	50.0	False
+L-A36777C9	DescribeInstanceAttribute request bucket maximum capacity	100.0	False
+L-D89FA475	DeleteTransitGatewayConnectPeer request bucket maximum capacity	50.0	False
+L-5BBD4729	GetSecurityGroupsForVpc request bucket refill rate	20.0	False
+L-EC1E20EE	ListSnapshotsInRecycleBin request bucket refill rate	20.0	False
+L-EEC9BC75	DescribeVpcEncryptionControls request bucket refill rate	20.0	False
+L-B2F5C96E	CreateSpotDatafeedSubscription request bucket refill rate	3.0	False
+L-6E03547C	DeleteTrafficMirrorFilterRule request bucket maximum capacity	50.0	False
+L-A9AA5793	DescribeVolumes unfiltered request bucket refill rate	10.0	False
+L-FDE0A017	DescribeCustomerGateways request bucket refill rate	20.0	False
+L-27A606FA	GetCoipPoolUsage request bucket refill rate	20.0	False
+L-8EEB235C	RunInstances request bucket maximum capacity	5.0	False
+L-AABA2656	DisableVgwRoutePropagation request bucket refill rate	5.0	False
+L-C06421FF	UpdateCapacityManagerOrganizationsAccess request bucket maximum capacity	50.0	False
+L-06FCD076	GetEbsDefaultKmsKeyId request bucket refill rate	20.0	False
+L-5CBC53C7	ReleaseHosts request bucket maximum capacity	50.0	False
+L-B0FB44A7	DeleteNetworkAclEntry request bucket refill rate	5.0	False
+L-AA99FADC	DescribeLocalGatewayRouteTables request bucket maximum capacity	100.0	False
+L-A9FBACB0	DeleteClientVpnRoute request bucket maximum capacity	5.0	False
+L-24CA1797	EnableFastSnapshotRestores request bucket refill rate	5.0	False
+L-2599D142	ResetFpgaImageAttribute request bucket refill rate	5.0	False
+L-F83DE2F7	DeleteNetworkInsightsAccessScopeAnalysis request bucket refill rate	5.0	False
+L-FF5A388F	RestoreManagedPrefixListVersion request bucket refill rate	5.0	False
+L-011F6439	ModifyIpamPool request bucket maximum capacity	50.0	False
+L-0CA11D23	DescribeIamInstanceProfileAssociations request bucket maximum capacity	100.0	False
+L-6919FC30	Running Dedicated mac-m4pro Hosts	2.0	True
+L-5DD3B9D6	DescribeImageReferences request bucket maximum capacity	100.0	False
+L-69620E07	DeleteQueuedReservedInstances request bucket maximum capacity	5.0	False
+L-9D8D7D0B	GetIpamPrefixListResolverVersions request bucket maximum capacity	100.0	False
+L-26CD18B4	DescribeServiceLinkVirtualInterfaces request bucket maximum capacity	100.0	False
+L-5A1CDDAF	DeleteRoute request bucket refill rate	5.0	False
+L-9112DB8E	DescribeInstanceCreditSpecifications request bucket refill rate	20.0	False
+L-34A8F04C	ModifyVpcAttribute request bucket refill rate	5.0	False
+L-76330875	ModifyInstanceCpuOptions request bucket refill rate	5.0	False
+L-BE40B4D0	DeleteRouteServerPeer request bucket maximum capacity	50.0	False
+L-3C2B16A9	CreateTrafficMirrorFilterRule request bucket refill rate	5.0	False
+L-4E5A6C16	AcceptTransitGatewayPeeringAttachment request bucket refill rate	5.0	False
+L-89870E8E	Running Dedicated u-6tb1 Hosts	0.0	True
+L-97C88B9F	CreateTransitGateway request bucket maximum capacity	50.0	False
+L-19086D73	RestoreVolumeFromRecycleBin request bucket maximum capacity	50.0	False
+L-49CCF603	CreateManagedPrefixList request bucket refill rate	5.0	False
+L-82916D37	AssociateInstanceEventWindow request bucket maximum capacity	50.0	False
+L-D4E441AA	CreateNetworkInsightsPath request bucket refill rate	5.0	False
+L-83C8D63A	DescribeSpotPriceHistory request bucket maximum capacity	100.0	False
+L-D2699F97	Running Dedicated c8gn Hosts	1.0	True
+L-E61A5DCE	ModifyHosts request bucket refill rate	5.0	False
+L-04F1F29C	StopInstances request bucket maximum capacity	50.0	False
+L-C7FB10A5	DeleteNatGateway request bucket refill rate	1.0	False
+L-D1705329	DescribeCapacityReservationBillingRequests request bucket maximum capacity	100.0	False
+L-CF9633CA	AcceptTransitGatewayVpcAttachment request bucket refill rate	5.0	False
+L-D70B2553	DeleteVpcEndpoints request bucket maximum capacity	4.0	False
+L-67A90D21	ReportInstanceStatus request bucket refill rate	5.0	False
+L-3299840E	DescribeAggregateIdFormat request bucket refill rate	10.0	False
+L-E3D14597	DeleteFlowLogs request bucket maximum capacity	50.0	False
+L-01137DCE	Running Dedicated r7gd Hosts	1.0	True
+L-11C17BC3	AllocateHosts request bucket refill rate	5.0	False
+L-C2B5B14F	CreateTransitGatewayPeeringAttachment request bucket maximum capacity	50.0	False
+L-F1B26A8C	CreateDelegateMacVolumeOwnershipTask request bucket maximum capacity	50.0	False
+L-2AC38C3B	PurchaseCapacityBlock request bucket refill rate	0.15	False
+L-93E60286	DeleteSpotDatafeedSubscription request bucket maximum capacity	50.0	False
+L-A0620100	DescribeAddressesAttribute request bucket maximum capacity	100.0	False
+L-233F27A2	DescribeImageAttribute request bucket refill rate	20.0	False
+L-313524BA	Running Dedicated r4 Hosts	1.0	True
+L-ACD9E7B1	WithdrawByoipCidr request bucket maximum capacity	1.0	False
+L-23F1E3FB	CreateRoute request bucket refill rate	5.0	False
+L-0E9BF253	DeleteTags request bucket refill rate	10.0	False
+L-9D703868	DescribeFleets request bucket refill rate	20.0	False
+L-09FB51C7	GetGroupsForCapacityReservation request bucket maximum capacity	100.0	False
+L-1B819412	DescribeTrafficMirrorTargets request bucket refill rate	20.0	False
+L-EEC0A186	Running Dedicated r8i Hosts	1.0	True
+L-D3A5E596	CreateVpnConcentrator request bucket refill rate	5.0	False
+L-45B250F1	DescribeTransitGatewayPolicyTables request bucket maximum capacity	100.0	False
+L-4BAB477A	DeleteIpamPool request bucket maximum capacity	50.0	False
+L-7AF99797	AllocateAddress request bucket maximum capacity	50.0	False
+L-C764BF14	CreateVpcEndpointConnectionNotification request bucket maximum capacity	50.0	False
+L-D4FAEFEC	AuthorizeClientVpnIngress request bucket maximum capacity	5.0	False
+L-A1B5A36F	Peering attachments per transit gateway	50.0	True
+L-853F6C88	GetVpcResourcesBlockingEncryptionEnforcement request bucket refill rate	20.0	False
+L-7FE87AF0	UpdateSecurityGroupRuleDescriptionsIngress request bucket maximum capacity	50.0	False
+L-F62CBADB	Running Dedicated i4g Hosts	1.0	True
+L-924F492E	Running Dedicated g7e Hosts	0.0	True
+L-DE7850C3	CreateRouteTable request bucket maximum capacity	50.0	False
+L-EB0233C5	DescribeLaunchTemplateVersions request bucket refill rate	20.0	False
+L-BFB67AB5	ModifyVpcEndpointServicePermissions request bucket refill rate	5.0	False
+L-D7777CD3	RegisterTransitGatewayMulticastGroupMembers request bucket maximum capacity	50.0	False
+L-45550B41	CreateCarrierGateway request bucket maximum capacity	50.0	False
+L-41176EB1	DisassociateInstanceEventWindow request bucket maximum capacity	50.0	False
+L-BFECF420	DeleteNetworkInterfacePermission request bucket maximum capacity	50.0	False
+L-20ADFC91	DescribeVerifiedAccessInstances request bucket maximum capacity	100.0	False
+L-5765B8AF	PurchaseHostReservation request bucket maximum capacity	5.0	False
+L-436F4AA8	DisassociateEnclaveCertificateIamRole request bucket maximum capacity	10.0	False
+L-7BD4CF56	CreateTransitGatewayMeteringPolicy request bucket maximum capacity	50.0	False
+L-9378F174	UpdateInterruptibleCapacityReservationAllocation request bucket maximum capacity	50.0	False
+L-C47D5E46	ModifyDefaultCreditSpecification request bucket refill rate	5.0	False
+L-03AE406F	DeleteSubnet request bucket maximum capacity	50.0	False
+L-3090BA22	EnableImageDeregistrationProtection request bucket maximum capacity	50.0	False
+L-695B7785	CreateSubnetCidrReservation request bucket maximum capacity	5.0	False
+L-17D1883A	AcceptTransitGatewayPeeringAttachment request bucket maximum capacity	50.0	False
+L-5B8ECE31	DescribeBundleTasks request bucket maximum capacity	100.0	False
+L-C9B48DD4	CancelReservedInstancesListing request bucket maximum capacity	50.0	False
+L-2F994ADA	GetActiveVpnTunnelStatus request bucket refill rate	20.0	False
+L-1DCBF963	DescribeSecondaryInterfaces request bucket maximum capacity	100.0	False
+L-35DC72C2	DescribeInstanceEventNotificationAttributes request bucket refill rate	20.0	False
+L-C91FC63F	GetTransitGatewayPolicyTableEntries request bucket refill rate	20.0	False
+L-DFBA3486	ModifyPublicIpDnsNameOptions request bucket refill rate	5.0	False
+L-25071C74	GetSubnetCidrReservations request bucket maximum capacity	100.0	False
+L-86A789C3	Running Dedicated p4d Hosts	0.0	True
+L-E8951C1D	DescribeSecurityGroupVpcAssociations request bucket maximum capacity	100.0	False
+L-421E3B3E	DeleteSecurityGroup request bucket refill rate	5.0	False
+L-8814B54F	Running Dedicated r5d Hosts	1.0	True
+L-78667D55	DescribeInstanceStatus request bucket refill rate	20.0	False
+L-C5F6BAA2	GetIpamPoolAllocations request bucket maximum capacity	100.0	False
+L-227FD167	Running Dedicated m8i Hosts	0.0	True
+L-58FE7AF0	GetNetworkInsightsAccessScopeAnalysisFindings request bucket refill rate	20.0	False
+L-B7E6B313	Concurrent P6e-GB200 Capacity Blocks per organization	0.0	True
+L-06329267	LockSnapshot request bucket maximum capacity	50.0	False
+L-01B6E555	CreateVpnConcentrator request bucket maximum capacity	50.0	False
+L-B9BE8A26	DescribeHosts request bucket refill rate	20.0	False
+L-4D344519	DisableVpcClassicLinkDnsSupport request bucket refill rate	5.0	False
+L-7029FAB6	Virtual private gateways per region	5.0	True
+L-E2E09222	DeleteTags request bucket maximum capacity	100.0	False
+L-CDD05C1F	GetSnapshotBlockPublicAccessState request bucket maximum capacity	100.0	False
+L-D05B5E1D	DescribeVolumes request bucket refill rate	20.0	False
+L-EC5F51CD	RestoreSnapshotTier request bucket maximum capacity	50.0	False
+L-F67937B6	DescribeVpcEndpointAssociations request bucket refill rate	20.0	False
+L-79AE764C	DisassociateTransitGatewayRouteTable request bucket refill rate	5.0	False
+L-B77DA32D	Running Dedicated r8ib Hosts	1.0	True
+L-DE484DAE	DescribeInstanceSqlHaHistoryStates request bucket maximum capacity	100.0	False
+L-18ABA37C	ReplaceTransitGatewayRoute request bucket refill rate	5.0	False
+L-A4EE4221	CreateVpc request bucket refill rate	5.0	False
+L-FD41E41A	DescribeInstanceImageMetadata request bucket maximum capacity	100.0	False
+L-AE8619BB	ResetImageAttribute request bucket refill rate	5.0	False
+L-B28CF9A6	DeleteVpcPeeringConnection request bucket refill rate	5.0	False
+L-FC7595AE	DescribeTransitGateways request bucket refill rate	20.0	False
+L-683A3108	DescribeImportImageTasks request bucket maximum capacity	100.0	False
+L-E330A078	GetConsoleOutput request bucket maximum capacity	100.0	False
+L-4BA57110	ProvisionPublicIpv4PoolCidr request bucket refill rate	5.0	False
+L-7099C0B0	GetCapacityManagerMetricDimensions request bucket refill rate	20.0	False
+L-7A27A6B1	ModifySnapshotAttribute request bucket maximum capacity	100.0	False
+L-3688C9E0	DeleteIpamResourceDiscovery request bucket maximum capacity	50.0	False
+L-050FC1AB	CreateVpnGateway request bucket refill rate	5.0	False
+L-8C986038	DeleteVpcEndpoints request bucket refill rate	0.3	False
+L-19FF7292	DescribeVpcAttribute request bucket maximum capacity	100.0	False
+L-C777A176	DescribeFastSnapshotRestores request bucket maximum capacity	100.0	False
+L-14E7BD02	DescribeImageReferences request bucket refill rate	20.0	False
+L-023C6BF8	DetachVolume request bucket maximum capacity	50.0	False
+L-0222F6B0	DeleteTransitGatewayMeteringPolicyEntry request bucket refill rate	5.0	False
+L-A6E7FE5E	Running Dedicated g5 Hosts	0.0	True
+L-EAF03131	DescribePrefixLists request bucket maximum capacity	100.0	False
+L-58C7A0A7	DescribePrefixLists request bucket refill rate	20.0	False
+L-4D0C6B4B	DeleteRoute request bucket maximum capacity	50.0	False
+L-48667D31	CreateLocalGatewayRouteTableVpcAssociation request bucket refill rate	5.0	False
+L-A2D70E6C	RunInstances request bucket refill rate	2.0	False
+L-C7C90E09	CopyFpgaImage request bucket maximum capacity	50.0	False
+L-9CCA670D	DescribeTransitGatewayRouteTableAnnouncements request bucket maximum capacity	100.0	False
+L-1605D856	GetDefaultCreditSpecification request bucket refill rate	20.0	False
+L-3D02188A	AssociateTrunkInterface request bucket maximum capacity	50.0	False
+L-0E3CBAB9	Public AMIs	5.0	True
+L-D8E468F9	EnableVpcClassicLink request bucket maximum capacity	50.0	False
+L-0263D0A3	EC2-VPC Elastic IPs	5.0	True
+L-563C6CEE	AssignPrivateIpAddresses request bucket refill rate	5.0	False
+L-B3C464A7	DescribeFastSnapshotRestores request bucket refill rate	20.0	False
+L-665E3BF4	GetImageBlockPublicAccessState request bucket maximum capacity	100.0	False
+L-6DA9C417	CreateLocalGatewayRoute request bucket refill rate	5.0	False
+L-58B39DE2	DeleteLocalGatewayRouteTable request bucket refill rate	5.0	False
+L-32BE2E87	DescribeClientVpnEndpoints request bucket refill rate	20.0	False
+L-89D39B5A	Running Dedicated r8gd Hosts	1.0	True
+L-B6277428	AllocateHosts request bucket maximum capacity	50.0	False
+L-2DDBF8E9	DescribeVolumeAttribute request bucket refill rate	20.0	False
+L-4ABB8FE3	DeleteCarrierGateway request bucket maximum capacity	50.0	False
+L-2BB5EF38	GetInstanceTypesFromInstanceRequirements request bucket refill rate	20.0	False
+L-AF1732C0	CreateCapacityReservationBySplitting request bucket maximum capacity	50.0	False
+L-09EE2EB7	ModifyIpamPool request bucket refill rate	5.0	False
+L-FDACE337	Running Dedicated p6-b300 Hosts	0.0	True
+L-84922688	CreateVerifiedAccessEndpoint request bucket maximum capacity	20.0	False
+L-B57C64B0	AcceptVpcEndpointConnections request bucket maximum capacity	10.0	False
+L-EC2F305D	DescribeElasticGpus request bucket maximum capacity	100.0	False
+L-FB451C26	Launch templates	5000.0	False
+L-C06CA3B9	DescribeCarrierGateways request bucket refill rate	20.0	False
+L-03F01FD8	Running Dedicated c5a Hosts	1.0	True
+L-6E4CADA0	EnableSnapshotBlockPublicAccess request bucket maximum capacity	1.0	False
+L-3B956B5D	AssociateSubnetCidrBlock request bucket refill rate	5.0	False
+L-0727E216	ProvisionByoipCidr request bucket maximum capacity	1.0	False
+L-CCCAE195	CreateCapacityReservation request bucket refill rate	5.0	False
+L-54D0ED6F	StartDeclarativePoliciesReport request bucket refill rate	1.0	False
+L-D6429C8F	RejectVpcEndpointConnections request bucket refill rate	1.0	False
+L-FA9A49FE	DeleteSubnetCidrReservation request bucket maximum capacity	5.0	False
+L-A84B06E8	DeleteLocalGatewayVirtualInterface request bucket refill rate	5.0	False
+L-4E66C986	GetHostReservationPurchasePreview request bucket maximum capacity	5.0	False
+L-F66F606B	DescribeVpcBlockPublicAccessOptions request bucket maximum capacity	100.0	False
+L-1E625CE1	DisableImage request bucket refill rate	5.0	False
+== ebs (code, name, value, adjustable) ==
+L-39BD5252	Max concurrent copy volume operations per account	5.0	True
+L-8D977E7E	IOPS for Provisioned IOPS SSD (io2) volumes	100000.0	True
+L-9A0E0F82	Storage modifications for Provisioned IOPS SSD (io2) volumes, in TiB	20.0	True
+L-651D1834	Storage modifications for Cold HDD (sc1) volumes, in TiB	500.0	True
+L-59C8FC87	Storage modifications for General Purpose SSD (gp3) volumes, in TiB	500.0	True
+L-E137849C	Time-based snapshot copy throughput per destination Region	2000.0	True
+L-98A0B26D	IOPS modifications for Provisioned IOPS SSD (io1) volumes	500000.0	True
+L-18E976AB	ListSnapshotBlocks requests per account	50.0	False
+L-5F80CA91	Storage modifications for Provisioned IOPS SSD (io1) volumes, in TiB	500.0	True
+L-E20676C1	Archived snapshots per volume	25.0	True
+L-1774F84A	PutSnapshotBlock requests per snapshot	1000.0	False
+L-309BACF6	Snapshots per Region	100000.0	True
+L-9CF3C2EB	Storage for Magnetic (standard) volumes, in TiB	50.0	True
+L-94D7AB7D	StartSnapshot pending snapshots per account	100.0	False
+L-09BD8365	Storage for Provisioned IOPS SSD (io2) volumes, in TiB	20.0	True
+L-FD252861	Storage for Provisioned IOPS SSD (io1) volumes, in TiB	50.0	True
+L-AFEBDF7A	StartSnapshot requests per account	10.0	False
+L-17AF77E8	Storage for Cold HDD (sc1) volumes, in TiB	50.0	True
+L-A37D9CF3	Provisioned Rate for Volume Initialization across concurrent volume creation requests per Region	5000.0	True
+L-B9F7C487	Storage modifications for Magnetic (standard) volumes, in TiB	500.0	True
+L-F06E64A8	Storage modifications for General Purpose SSD (gp2) volumes, in TiB	500.0	True
+L-B3A130E6	IOPS for Provisioned IOPS SSD (io1) volumes	300000.0	True
+L-3A0E616D	In-progress snapshot archives per account	25.0	True
+L-028ACFB9	GetSnapshotBlock requests per snapshot	1000.0	False
+L-82ACEF56	Storage for Throughput Optimized HDD (st1) volumes, in TiB	50.0	True
+L-07399329	In-progress snapshot restores from archive per account	5.0	True
+L-DB2FBAA1	ListChangedBlocks requests per account	50.0	False
+L-D18FCD1D	Storage for General Purpose SSD (gp2) volumes, in TiB	50.0	True
+L-87C9DEA6	Storage modifications for Throughput Optimized HDD (st1) volumes, in TiB	500.0	True
+L-35B31D98	IOPS modifications for Provisioned IOPS SSD (io2) volumes	100000.0	True
+L-631ECBD3	Fast snapshot restore	5.0	True
+L-AFAE1BE8	PutSnapshotBlock requests per account	5000.0	True
+L-C125AE42	GetSnapshotBlock requests per account	5000.0	True
+L-1D4D9345	CompleteSnapshot requests per account	10.0	False
+L-7A658B76	Storage for General Purpose SSD (gp3) volumes, in TiB	50.0	True
+== lambda (code, name, value, adjustable) ==
+L-72E0D058	Number of concurrent MicroVM image builds	10.0	True
+L-F55076EC	Rate of capacity provider write API requests	1.0	False
+L-B82A30EA	Rate of SendDurableExecutionCallbackSuccess API requests	6000.0	True
+L-B430C318	Max Execution Duration of a MicroVM (in Hours)	8.0	False
+L-25EEC0A4	Burst rate of ResumeMicrovm API requests	5.0	True
+L-14320ECE	Network bandwidth per execution environment	625.0	True
+L-BA29C22B	Rate of GetDurableExecutionHistory API requests	300.0	True
+L-535CA9B6	Rate of RunMicrovm API requests	2.0	True
+L-A19E4180	Arm vCPUs for all Web Functions	2000.0	False
+L-49891FEA	RPS per 16 vCPU MicroVm	160.0	False
+L-5E779850	Network connectors	1000.0	False
+L-BAF37AA0	Rate of requests to Web Functions	100000.0	False
+L-2ACBD22F	Function and layer storage	300.0	True
+L-CD1C0CC4	Max allocated ARM_64 MicroVM memory	80.0	True
+L-74787B8A	Rate of TerminateMicrovm API requests	10.0	True
+L-9F9899B1	RPS per 4 vCPU MicroVm	40.0	False
+L-9FEEFFC0	Function timeout	900.0	False
+L-5C4B2C97	Synchronous payload	6.0	False
+L-9B52FC60	Rate of GetDurableExecution API requests	600.0	True
+L-118C44B3	Rate of ResumeMicrovm API requests	5.0	True
+L-139F9A48	Burst rate of SuspendMicrovm API requests	2.0	True
+L-2CCA0501	Burst rate of TerminateMicrovm API requests	10.0	True
+L-B2AA0F47	Rate of control plane API requests (excludes invocation, GetFunction, and GetPolicy requests)	15.0	False
+L-B99A9384	Concurrent executions	1000.0	True
+L-9A5E43A5	Burst rate of CreateMicrovmShellAuthToken API requests	5.0	True
+L-19741F6D	Concurrent connections per 16 vCPU MicroVM	128.0	False
+L-91B95582	Burst rate of RunMicrovm API requests	2.0	True
+L-0A4FC1E6	SQS Event Source Mapping throughput in default mode on Lambda Managed Instances	5.0	False
+L-E49FF7B8	Deployment package size (unzipped)	250.0	False
+L-ABBF0CF3	Maximum running durable executions	10000000.0	True
+L-B78D2ECC	Rate of CreateMicrovmShellAuthToken API requests	5.0	True
+L-75F48B05	Deployment package size (direct upload)	50.0	False
+L-D65D9F16	Burst rate of CreateMicrovmAuthToken API requests	50.0	True
+L-F864D568	Capacity providers	1000.0	True
+L-F41EF633	Rate of requests per Web Function Endpoint	10000.0	False
+L-88CBC2FA	Rate of SendDurableExecutionCallbackFailure API requests	6000.0	True
+L-2EBBB6B4	Kinesis Event Source Mapping throughput on Lambda Managed Instances	25.0	True
+L-20EE1DBE	Max allocated X86_64 MicroVM memory	80.0	True
+L-133D658A	Rate of SendDurableExecutionCallbackHeartbeat API requests	6000.0	True
+L-6581F036	Environment variable size	4.0	False
+L-37540937	Rate of GetFunction API requests	100.0	False
+L-DF87A8A6	Rate of CheckpointDurableExecution API requests	20000.0	True
+L-90045317	Rate of SuspendMicrovm API requests	2.0	True
+L-96779E29	Function versions per capacity provider	100.0	False
+L-42D0A120	Maximum number of durable operations per durable execution	30000.0	False
+L-A0D6E196	Function invocation rate to initiate durable executions	6000.0	True
+L-6A3611ED	Rate of ListDurableExecutionsByFunction API requests	300.0	True
+L-70A4FCC6	Concurrent connections per 2 vCPU MicroVM	16.0	False
+L-772D8D8F	Concurrent connections per 1 vCPU MicroVM	8.0	False
+L-50EA21A9	Rate of GetDurableExecutionState API requests	20000.0	True
+L-C952DDE4	Kafka Event Source Mappings in default mode on Lambda Managed Instances	100.0	False
+L-7712260B	Rate of CreateMicrovmAuthToken API requests	50.0	True
+L-942E56BE	Number of MicroVM images	100.0	True
+L-77C8EE9D	Processes and threads	1024.0	False
+L-07A00922	Concurrent connections per 4 vCPU MicroVM	32.0	False
+L-A723F9CC	Asynchronous invocation request throughput on Lambda Managed Instances	5.0	True
+L-865A2C6B	Rate of capacity provider read API requests	15.0	False
+L-438DAE3B	File descriptors	1024.0	False
+L-2713A7D4	Kafka Stream Event Source Mapping throughput in non-provisioned mode	5.0	False
+L-4273958C	Rate of GetPolicy API requests	15.0	False
+L-01237738	Function layers	5.0	False
+L-9F0DD1B3	Concurrent connections per 8 vCPU MicroVM	64.0	False
+L-7E8754C7	DynamoDB Event Source Mapping throughput on Lambda Managed Instances	10.0	True
+L-560437FE	Durable execution storage written in megabytes	100.0	False
+L-B6BAB649	Revisions per Web Function	50.0	False
+L-CE98C9E3	Rate of GetMicrovm API requests	100.0	True
+L-7C0F49F9	Asynchronous payload	1024.0	False
+L-3B5F93AC	Endpoints per Web Function	10.0	False
+L-07A00131	Function resource-based policy	20.0	False
+L-8E39F3F1	Deployment package size (console editor)	3.0	False
+L-F8BECE9C	Versions per MicroVM Image	50.0	True
+L-AD930C90	Test events (console editor)	10.0	False
+L-C9C2110E	Burst rate of GetMicrovm API requests	100.0	True
+L-A1AFA3CF	Concurrency scaling rate	1000.0	False
+L-4C4550DE	Rate of StopDurableExecution API requests	600.0	True
+== dynamodb (code, name, value, adjustable) ==
+L-F7858A77	Global Secondary Indexes per table	20.0	True
+L-B0A68893	Maximum number of objects per BulkPutItems operation	50000.0	True
+L-AB614373	Table-level write throughput limit	40000.0	True
+L-923BEB7A	Write throughput limit for DynamoDB Streams (Provisioned mode)	40000.0	True
+L-FBBCE3E7	Concurrent BulkPutItems operations (Accelerated performance tier)	5.0	True
+L-34F8CCC8	Account-level write throughput limit (Provisioned mode)	80000.0	True
+L-B32F4AF0	Maximum BulkPutItems data size (Standard performance tier)	100.0	True
+L-F98FE922	Maximum number of tables	2500.0	True
+L-CF0CBE56	Table-level read throughput limit	40000.0	True
+L-1BB77E89	Concurrent control plane operations	500.0	True
+L-34F6A552	Account-level read throughput limit (Provisioned mode)	80000.0	True
+L-2AFF8965	Maximum BulkPutItems data size (Accelerated performance tier)	1.0	True
+L-F3CA5463	Provisioned capacity decreases per day	27.0	True
+L-0726A3CF	Concurrent BulkPutItems operations (Standard performance tier)	5.0	True
+== apigateway (code, name, value, adjustable) ==
+L-4D98A8A5	Domain name access associations	100.0	True
+L-AA0FF27B	Regional APIs	600.0	False
+L-8E6A5A87	Maximum Iterations In Mapping Template	1000.0	False
+L-8A5B8E43	Throttle rate	10000.0	True
+L-F8A34CAF	Maximum Logo Size	200.0	False
+L-7D4D47CD	PortalProducts per account	500.0	False
+L-B4D69DB7	Maximum Custom Domain Names per Portal	1.0	False
+L-01C8A9E0	Resources/Routes per REST/WebSocket API	300.0	True
+L-FD0EB744	WebSocket message payload size	128.0	False
+L-B97207D0	Edge-optimized APIs	120.0	False
+L-8F8AAAFE	Maximum Authorizers per Portal	1.0	False
+L-65B5C802	Routes per HTTP API	300.0	True
+L-F8BD84D3	Portals per account	15.0	True
+L-E1465507	WebSocket new connections burst rate	500.0	False
+L-95BA6EA5	Stage variables per stage	100.0	False
+L-E11F7D5D	WebSocket frame size	32.0	False
+L-154598D1	ProductPages per PortalProduct	40.0	True
+L-1D180A63	API keys	10000.0	False
+L-FB4F0270	Tags Per Stage	50.0	False
+L-608BDCD4	VPC links(V2)	10.0	True
+L-9C147DE4	Edge API URL Length	8192.0	False
+L-379E48B0	Stages per API	10.0	True
+L-9ED1E49A	WebSocket new connections rate	500.0	True
+L-E9EEB922	Maximum Combined Header Size	10240.0	False
+L-CAEF46D2	Maximum Size per ProductPage body	32768.0	False
+L-A7033131	Regional API URL Length	10240.0	False
+L-05295E0B	ProductRestEndpointPages per PortalProduct	40.0	True
+L-A93447B8	Custom Domain Names	120.0	True
+L-85120D8E	PortalProducts per Portal	200.0	False
+L-E8693075	Usage plans	300.0	True
+L-68B79FF0	RoutingRules Per Domain Name	50.0	True
+L-3A613F94	Stage Variable Key Length	64.0	False
+L-20859C74	AWS Lambda authorizer result size	8.0	False
+L-A4C7274F	VPC links	20.0	True
+L-668C9B28	Subnets per VPC link(V2)	10.0	True
+L-45CC0E8B	Maximum Documentation Size per ProductRestEndpointPage	32768.0	False
+L-B2CF62DC	Stage Variable Value Length	512.0	False
+L-CC2525B6	Maximum Cached Response Size	1048576.0	False
+L-985EB478	Usage plans per API key	10.0	True
+L-24E7E662	Private custom domain names	50.0	True
+L-CDF5615A	Throttle burst rate	5000.0	False
+L-60AC41CD	WebSocket Idle Connection Timeout	600.0	False
+L-5244589D	Method ARN Length	1600.0	False
+L-E5AE38E3	Maximum integration timeout in milliseconds	29000.0	True
+L-8C2F9A1D	Maximum API caching TTL	3600.0	False
+L-46624B39	API Payload Size	10.0	False
+L-8B81B02C	Maximum resource policy size in bytes	8192.0	True
+L-A966AB5C	Private APIs	600.0	False
+L-824C9E42	Client certificates	60.0	True
+L-A6CCE716	Connection duration for WebSocket API	7200.0	False
+L-A9DBC573	API Stage throttles in a usage plan	20.0	True
+== ecs (code, name, value, adjustable) ==
+L-35D944A8	Burst rate of cluster read actions (or bucket maximum capacity)	50.0	True
+L-A04BC52C	Burst rate of task protection write actions (or bucket maximum capacity)	200.0	True
+L-C26103FB	Sustained rate of task protection write actions (or bucket refill rate)	80.0	True
+L-C3AEE9D2	Sustained rate of cluster resource modify actions (or bucket refill rate)	40.0	True
+L-A2DBEAC1	Sustained rate of service deployment read actions (or bucket refill rate)	20.0	True
+L-D5AA0F33	Sustained rate of cluster modify actions (or bucket refill rate)	1.0	True
+L-62DC78F9	Burst rate of cluster modify actions (or bucket maximum capacity)	20.0	True
+L-321A0372	Sustained rate of service read actions (or bucket refill rate)	20.0	True
+L-A2AA9478	Burst rate of service deployment read actions (or bucket maximum capacity)	50.0	True
+L-AA0D4951	Burst rate of service modify actions (or bucket maximum capacity)	50.0	True
+L-4C90BDD4	Sustained rate of task set modify actions (or bucket refill rate)	20.0	True
+L-924E3D47	Burst rate of task definition read actions (or bucket maximum capacity)	50.0	True
+L-A9E5EB0F	Sustained rate of capacity provider modify actions (or bucket refill rate)	1.0	True
+L-64FE0575	Sustained rate of cluster service resource read actions (or bucket refill rate)	1.0	True
+L-3E3D55FE	Burst rate of capacity provider modify actions (or bucket maximum capacity)	10.0	True
+L-B45594D8	Burst rate of task set modify actions (or bucket maximum capacity)	100.0	True
+L-22AE4B75	Burst rate of service read actions (or bucket maximum capacity)	100.0	True
+L-538D7426	Sustained rate of task definition read actions (or bucket refill rate)	20.0	True
+L-C5297B3A	Sustained rate of service modify actions (or bucket refill rate)	5.0	True
+L-3B4FAC68	Burst rate of cluster resource modify actions (or bucket maximum capacity)	100.0	True
+L-281CBA4C	Burst rate of cluster resource read actions (or bucket maximum capacity)	100.0	True
+L-9383BF97	Burst rate of task definition deletion actions (or bucket maximum capacity)	5.0	True
+L-CDF9F16B	Burst rate of task definition modify actions (or bucket maximum capacity)	20.0	True
+L-553993D4	Sustained rate of agent modify actions (or bucket refill rate)	120.0	True
+L-A8AC1C0F	Sustained rate of task protection read actions (or bucket refill rate)	80.0	True
+L-43D4E76A	Sustained rate of cluster read actions (or bucket refill rate)	20.0	True
+L-29793C9D	Sustained rate of task definition deletion actions (or bucket refill rate)	1.0	True
+L-886BDC21	Burst rate of agent modify actions (or bucket maximum capacity)	200.0	True
+L-1E6DEB89	Sustained rate of task definition modify actions (or bucket refill rate)	1.0	True
+L-80627E8A	Sustained rate of cluster resource read actions (or bucket refill rate)	20.0	True
+L-424FFC53	Burst rate of cluster service resource read actions (or bucket maximum capacity)	10.0	True
+L-660A3A36	Burst rate of task protection read actions (or bucket maximum capacity)	200.0	True
+L-5A5FEADE	Burst rate of capacity provider read actions (or bucket maximum capacity)	50.0	True
+L-42E25F2A	Sustained rate of capacity provider read actions (or bucket refill rate)	20.0	True
+== fargate (code, name, value, adjustable) ==
+L-FAA52651	Fargate Spot Sustained Launch Rate	20.0	True
+L-6BAD92DD	Fargate On-Demand Burst Launch Rate	100.0	True
+L-F6E37E82	Fargate Spot Burst Launch Rate	100.0	True
+L-3032A538	Fargate On-Demand vCPU resource count	140.0	True
+L-36FBB829	Fargate Spot vCPU resource count	140.0	True
+L-551A4E9D	Fargate On-Demand Sustained Launch Rate	20.0	True
+== elasticloadbalancing (code, name, value, adjustable) ==
+L-822D1B1B	Target Groups per Application Load Balancer	100.0	False
+L-1A491844	Listeners per Classic Load Balancer	100.0	True
+L-EBC0C08B	Condition Values per Rule	5.0	False
+L-CE3125E5	Registered Instances per Classic Load Balancer	1000.0	True
+L-A012D4E8	Condition Wildcards per Rule	6.0	False
+L-8A66D0E6	Reserved Application Load Balancer Capacity Units (LCU) per Region	0.0	True
+L-37E1617B	Revocation entries per trust store	500000.0	True
+L-52964454	Certificates per Network Load Balancer	25.0	True
+L-69A177A2	Network Load Balancers per Region	50.0	True
+L-B6DF7632	Listeners per Application Load Balancer	50.0	True
+L-332EE142	Revocation lists per trust store	30.0	True
+L-057ECE54	Target Groups per Action per Application Load Balancer	5.0	False
+L-723DCCB6	Reserved Network Load Balancer Capacity Units (LCU) per Region	0.0	True
+L-43FE5A42	CA certificates per trust store	25.0	True
+L-B22855CB	Target Groups per Region	3000.0	True
+L-53DA6B97	Application Load Balancers per Region	50.0	True
+L-7C45F98A	Reserved Network Load Balancer Capacity Units (LCUs) per Network Load Balancer, per availability zone	45000.0	True
+L-A0D0B863	Targets per Target Group per Region	1000.0	True
+L-E9E9831D	Classic Load Balancers per Region	20.0	True
+L-7E6692B2	Targets per Application Load Balancer	1000.0	True
+L-9365A611	Certificates per Application Load Balancer	25.0	True
+L-B211E961	Targets per Availability Zone per Network Load Balancer	500.0	True
+L-EEF1AD04	Targets per Network Load Balancer	3000.0	True
+L-F31E307C	CA certificates subject size per trust store	10000.0	True
+L-9E6F9012	Reserved Gateway Load Balancer Capacity Units (LCU) per Gateway Load Balancer, per availability zone	45000.0	True
+L-57A373D6	Listeners per Network Load Balancer	50.0	False
+L-7A15E3C5	Reserved Gateway Load Balancer Capacity Units (LCU) per Region	0.0	True
+L-0BB7B635	Reserved Application Load Balancer Capacity Units (LCU) per Application Load Balancer	15000.0	True
+L-A8F7060B	Trust stores per account	20.0	True
+L-7EED9B64	Rules per Application Load Balancer	100.0	True
+L-23568085	Network Load Balancer ENIs per VPC	1200.0	True
+== logs (code, name, value, adjustable) ==
+L-3F243AD0	DescribeLogStreams throttle limit in transactions per second	25.0	True
+L-FB8CE9B0	PutBearerTokenAuthentication throttle limit in transactions per second in a burst	10.0	False
+L-29A639F6	Batch size	1.0	False
+L-F738B5C5	DeleteDataProtectionPolicy throttle limit in transactions per second	5.0	False
+L-4A1D48B1	Log groups scanned per Live Tail session	10.0	False
+L-0397E41F	PutRetentionPolicy throttle limit in transactions per second	5.0	False
+L-AF821D83	DescribeImportTasks throttle limit in transactions per second in a burst	10.0	False
+L-E5FB5933	PutMetricFilter throttle limit in transactions per second	5.0	False
+L-FAF0999A	GetQueryResults  throttle limit in transactions per second	10.0	False
+L-C7B9AAAB	Log groups	1000000.0	True
+L-F28F0852	CancelImportTask throttle limit in transactions per second in a burst	1.0	False
+L-035ED7CA	DisassociateSourceFromS3TableIntegration throttle limit in transactions per second in a burst	10.0	False
+L-66F5762A	DeleteRetentionPolicy throttle limit in transactions per second	5.0	False
+L-91470774	Event size	1024.0	False
+L-3E4C85B1	ListTagsLogGroup throttle limit in transactions per second	5.0	False
+L-D6990B80	Live Tail concurrent sessions limit	15.0	True
+L-7E1FAE88	PutLogEvents throttle limit in transactions per second	5000.0	True
+L-EEC839DF	Active export task	1.0	False
+L-309BA0AF	PutTransformer throttle limit in transactions per second	5.0	False
+L-69BF6BAC	DescribeMetricFilters throttle limit in transactions per second	5.0	False
+L-B53B9649	logs anomaly detectors	500.0	True
+L-E6EF8674	ListTagsForResource throttle limit in transactions per second	30.0	False
+L-5D08A28D	PutBearerTokenAuthentication throttle limit in transactions per second	5.0	False
+L-C4B2839B	DescribeImportTaskBatches throttle limit in transactions per second	10.0	False
+L-4284EEDE	DescribeLogGroups throttle limit in transactions per second	10.0	True
+L-1CD226BD	TestMetricFilter throttle limit in transactions per second	5.0	False
+L-78EF23F2	PutDataProtectionPolicy throttle limit in transactions per second	5.0	False
+L-32B765B8	DisassociateSourceFromS3TableIntegration throttle limit in transactions per second	5.0	False
+L-39FFB556	StartLiveTail throttle limit in transactions per second	5.0	False
+L-6FDAA596	CreateImportTask throttle limit in transactions per second	1.0	False
+L-4FC2190A	StartQuery throttle limit in transactions per second	10.0	False
+L-97393AE2	CancelExportTask throttle limit in transactions per second	5.0	False
+L-4D2D08B8	DescribeImportTasks throttle limit in transactions per second	10.0	False
+L-07A912D5	DeleteLogGroup throttle limit in transactions per second	10.0	True
+L-A5D79081	PutSubscriptionFilter throttle limit in transactions per second	5.0	False
+L-27BFBEA7	TestTransformer throttle limit in transactions per second	5.0	False
+L-4FE15505	GetLogEvents throttle limit in transactions per second	25.0	False
+L-C029A21C	DeleteLogStream throttle limit in transactions per second	15.0	True
+L-3D5753EA	Metrics filters per log group	100.0	False
+L-D2832119	CreateLogGroup throttle limit in transactions per second	10.0	True
+L-ACAEE94E	DescribeExportTasks throttle limit in transactions per second	5.0	False
+L-55E3CA17	FilterLogEvents throttle limit in transactions per second	25.0	False
+L-B501C43C	UntagResource throttle limit in transactions per second	5.0	False
+L-EEEC3365	UntagLogGroup throttle limit in transactions per second	5.0	False
+L-170E7F59	ListSourcesForS3TableIntegration throttle limit in transactions per second	5.0	False
+L-9AE6F36A	CreateImportTask throttle limit in transactions per second in a burst	1.0	False
+L-87E7D306	Subscription filters per log group	5.0	False
+L-7EB1C513	PutDestinationPolicy throttle limit in transactions per second	5.0	False
+L-C68057D1	DeleteTransformer throttle limit in transactions per second	5.0	False
+L-363FC8B0	DeleteMetricFilter throttle limit in transactions per second	5.0	False
+L-D750499E	GetDataProtectionPolicy throttle limit in transactions per second	5.0	False
+L-BD9DB0EB	CreateExportTask throttle limit in transactions per second	5.0	False
+L-89892494	Resource policies	10.0	False
+L-15F83CC1	GetTransformer throttle limit in transactions per second	5.0	False
+L-A33040DC	Data archiving	5.0	False
+L-09AD5E48	AssociateSourceToS3TableIntegration throttle limit in transactions per second	5.0	False
+L-76507CEF	CreateLogStream throttle limit in transactions per second	50.0	True
+L-7A9B3427	PutDestination throttle limit in transactions per second	5.0	False
+L-7A4B5D2F	AssociateKmsKey throttle limit in transactions per second	5.0	False
+L-56B91A0A	DeleteSubscriptionFilter throttle limit in transactions per second	5.0	False
+L-896CA7CF	ListSourcesForS3TableIntegration throttle limit in transactions per second in a burst	10.0	False
+L-BE2A59B1	DeleteDestination throttle limit in transactions per second	5.0	False
+L-E3553944	CancelImportTask throttle limit in transactions per second	1.0	False
+L-BBECF742	TagLogGroup throttle limit in transactions per second	5.0	False
+L-956BB71D	TagResource throttle limit in transactions per second	5.0	False
+L-BEB90E24	DescribeDestinations throttle limit in transactions per second	5.0	False
+L-F3B54F77	AssociateSourceToS3TableIntegration throttle limit in transactions per second in a burst	10.0	False
+L-A68978AA	DescribeImportTaskBatches throttle limit in transactions per second in a burst	10.0	False
+L-9D43025B	DescribeSubscriptionFilters throttle limit in transactions per second	5.0	False
+== cloudformation (code, name, value, adjustable) ==
+L-28B8E003	Throttle rate limit for DeleteStackInstances	2.0	False
+L-36B104FB	Throttle rate limit for DescribeOrganizationsAccess	2.0	False
+L-86064319	Throttle rate limit for ListStackInstances	2.0	False
+L-5019DE71	Throttle rate limit for ListImports	2.0	False
+L-DCC58E6D	Module limit per account	100.0	True
+L-72B9A393	Template Parameters	200.0	False
+L-0485CB21	Stacks	2000.0	True
+L-2C86E8BE	Throttle rate limit for ListStackResources	10.0	False
+L-E141E579	Throttle rate limit for UpdateStackSet	2.0	False
+L-9643581C	Throttle rate limit for RegisterType	0.5	False
+L-7E146E2E	Version limit per module	100.0	True
+L-F5B7238C	Throttle rate limit for UpdateTerminationProtection	2.0	False
+L-05123385	Nested modules	3.0	False
+L-091DF7D9	Versions per hook	100.0	False
+L-940CC882	Throttle rate limit for RollbackStack	2.0	False
+L-8AC284BF	Throttle rate limit for ListStackInstanceResourceDrifts	2.0	False
+L-1FFB6C73	Template Mapping Attributes	200.0	False
+L-255FC6A0	Maximum dependencies per stack set	10.0	False
+L-255CB302	Throttle rate limit for DescribeTypeRegistration	2.0	False
+L-E4780309	Throttle rate limit for SignalResource	2.0	False
+L-6AD11AD7	Throttle rate limit for GetStackPolicy	2.0	False
+L-D2B2F0FF	Stacks imported using inline stack ids per stack set operation	10.0	False
+L-330C21EA	Throttle rate limit for ListStackSetOperations	2.0	False
+L-4731FE6F	Hooks per resource	100.0	False
+L-B8580123	Throttle rate limit for DescribeStackResources	10.0	False
+L-476C2455	Throttle rate limit for DescribeStackSet	2.0	False
+L-63D096B8	Template Mappings	200.0	False
+L-A2C10225	Throttle rate limit for DescribeStackResourceDrifts	2.0	False
+L-722F1E58	Template Mapping Name and Mapping Attribute Name Length	255.0	False
+L-C870E9A3	Throttle rate limit for DescribeChangeSet	2.0	False
+L-38FD7965	Template Output Name Length	255.0	False
+L-87D14FB7	Template Outputs	200.0	False
+L-E388DB0A	Hook configuration size	204.8	False
+L-3B2D14A7	Template Parameter Name Length	255.0	False
+L-84B50260	Template Logical Resource ID Length	255.0	False
+L-1DFD712D	Throttle rate limit for DescribeAccountLimits	2.0	False
+L-24E9F9ED	Hooks per account	100.0	False
+L-20C6DAFE	Throttle rate limit for PublishType	2.0	False
+L-6C32EB43	Throttle rate limit for DescribeStackDriftDetectionStatus	2.0	False
+L-40DA9BBE	Throttle rate limit for UpdateStackInstances	2.0	False
+L-146A985F	Throttle rate limit for ExecuteChangeSet	2.0	False
+L-85EB5DEC	Throttle rate limit for ListStackSetAutoDeploymentTargets	2.0	False
+L-AD7355DC	Throttle rate limit for CancelUpdateStack	2.0	False
+L-F0B38CF3	Throttle rate limit for CreateStackSet	2.0	False
+L-EC62D81A	Stack sets per administrator account	1000.0	True
+L-CF64D430	Throttle rate limit for UpdateGeneratedTemplate	2.0	False
+L-1A14E2E4	Throttle rate limit for StartResourceScan	2.0	False
+L-AC58B440	Queued operations per stack set	10000.0	False
+L-6CD0CA38	Throttle rate limit for ContinueUpdateRollback	2.0	False
+L-AF3916A4	Throttle rate limit for ListTypeRegistrations	2.0	False
+L-9C5C273A	Throttle rate limit for SetStackPolicy	2.0	False
+L-314F0FAF	Throttle rate limit for ListResourceScanRelatedResources	2.0	False
+L-F4BB1228	Throttle rate limit for DescribeStackEvents	10.0	False
+L-0BF4426F	Throttle rate limit for DescribeResourceScan	2.0	False
+L-EFC95CFF	Template Parameter Value Length	4096.0	False
+L-CCAA7E63	Throttle rate limit for DeleteChangeSet	2.0	False
+L-98DE792C	Throttle rate limit for StopStackSetOperation	2.0	False
+L-24484098	Maximum stack set dependencies per account	100.0	False
+L-81A7E618	Throttle rate limit for DetectStackSetDrift	2.0	False
+L-125EDA8C	Template Size	1.0	False
+L-BC67E796	Throttle rate limit for ListTypes	2.0	False
+L-F9FF79DB	Throttle rate limit for DescribeStackInstance	2.0	False
+L-084D8074	Throttle rate limit for DescribeGeneratedTemplate	2.0	False
+L-E466BCCD	Throttle rate limit for CreateGeneratedTemplate	2.0	False
+L-D76C738E	Throttle rate limit for ListResourceScanResources	2.0	False
+L-6286B93B	Throttle rate limit for DescribeStackSetOperation	2.0	False
+L-9C92580D	Throttle rate limit for GetTemplate	10.0	False
+L-24CF89C9	Throttle rate limit for DetectStackDrift	2.0	False
+L-7460249E	Throttle rate limit for DescribeType	2.0	False
+L-C5C9D8DB	Throttle rate limit for EstimateTemplateCost	2.0	False
+L-7D45582C	Throttle rate limit for DeleteGeneratedTemplate	2.0	False
+L-BDAD37B8	Throttle rate limit for CreateStack	2.0	False
+L-DCDA1233	Throttle rate limit for ListExports	10.0	False
+L-D663BAB9	Template Dynamic References	60.0	False
+L-56D7F024	Throttle rate limit for DeleteStackSet	2.0	False
+L-2780AB78	Throttle rate limit for GetGeneratedTemplate	2.0	False
+L-421EA159	Throttle rate limit for BatchDescribeTypeConfigurations	2.0	False
+L-D5FE38FA	Throttle rate limit for DescribeStacks	10.0	False
+L-E7256C02	Throttle rate limit for ListTypeVersions	2.0	False
+L-600058B9	Stacks imported using S3 object per stack set operation	200.0	False
+L-CD7C16FE	Throttle rate limit for CreateStackInstances	2.0	False
+L-9013C9F2	Throttle rate limit for ListStackSets	2.0	False
+L-9DE8E4FB	Resource limit per account	50.0	True
+L-23572CD8	Throttle rate limit for ListChangeSets	2.0	False
+L-3D1500B6	Throttle rate limit for CreateChangeSet	2.0	False
+L-6A4B2F69	Stack instance operations per administrator account	10000.0	True
+L-BD33AD4A	Throttle rate limit for ListResourceScans	2.0	False
+L-AF237941	Throttle rate limit for DeleteStack	2.0	False
+L-96426F7F	Throttle rate limit for GetTemplateSummary	2.0	False
+L-5E5E4FDB	Throttle rate limit for DescribeStackResource	20.0	False
+L-507712A5	Throttle rate limit for DetectStackResourceDrift	3.0	False
+L-F3F1561B	Throttle rate limit for DeregisterType	2.0	False
+L-7C7532D4	Template Description Length	1024.0	False
+L-87E26E99	Throttle rate limit for UpdateStack	2.0	False
+L-C8225BA5	Stack instances per stack set	100000.0	True
+L-5F6B90AB	Throttle rate limit for ActivateOrganizationsAccess	2.0	False
+L-B3EB153E	Throttle rate limit for SetTypeDefaultVersion	2.0	False
+L-87CC5A1D	Throttle rate limit for ListStacks	10.0	False
+L-8497B9EB	Throttle rate limit for ListStackSetOperationResults	2.0	False
+L-2E8B8349	Throttle rate limit for DescribePublisher	2.0	False
+L-EA1018E8	Version limit per resource	50.0	True
+L-05BC894F	Template Resources	500.0	False
+L-0D1C7C93	Throttle rate limit for ListGeneratedTemplates	2.0	False
+L-20DF2AC3	Throttle rate limit for ValidateTemplate	2.0	False

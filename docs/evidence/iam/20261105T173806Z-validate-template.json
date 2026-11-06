@@ -1,0 +1,36 @@
+{
+    "Parameters": [
+        {
+            "ParameterKey": "MaxSessionDuration",
+            "DefaultValue": "3600",
+            "NoEcho": false,
+            "Description": "Role limit in seconds. IAM accepts 3600 to 43200. A caller can still ask for a shorter session with --duration-seconds 900."
+        },
+        {
+            "ParameterKey": "ProjectName",
+            "DefaultValue": "kvs",
+            "NoEcho": false
+        },
+        {
+            "ParameterKey": "RequireMfa",
+            "DefaultValue": "false",
+            "NoEcho": false,
+            "Description": "Use true when the assuming principal is a human IAM user. A role session cannot present MFA."
+        },
+        {
+            "ParameterKey": "ExternalId",
+            "NoEcho": false,
+            "Description": "Shared identifier against the confused deputy problem. Not a secret."
+        },
+        {
+            "ParameterKey": "TrustedPrincipalArn",
+            "NoEcho": false,
+            "Description": "The one principal allowed to assume the role, for example arn:aws:iam::<audit account>:root."
+        }
+    ],
+    "Description": "kvs-iam-readonly. Customer managed read-only policy (metadata only, data reads denied) and a role that one trusted principal can assume with an ExternalId. Real account only. The Learner Lab sandbox refuses IAM writes.",
+    "Capabilities": [
+        "CAPABILITY_NAMED_IAM"
+    ],
+    "CapabilitiesReason": "The following resource(s) require capabilities: [AWS::IAM::ManagedPolicy]"
+}

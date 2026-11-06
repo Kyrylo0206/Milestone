@@ -1,0 +1,49 @@
+verify-network stack=kvs-network region=us-east-1 time=20261105T173702Z
+PASS  stack status is CREATE_COMPLETE or UPDATE_COMPLETE
+VPC=vpc-0579dfd470169d1f2 NAT_ENABLED=false
+PASS  VPC CIDR is 10.20.0.0/16
+PASS  VPC DNS support on
+PASS  VPC DNS hostnames on
+PASS  4 subnets in the VPC
+PASS  4 subnets span 2 distinct AZs
+PASS  public-a and private-a are in the same AZ
+PASS  public-b and private-b are in the same AZ
+PASS  public a and b are in different AZs
+PASS  public subnet 1 MapPublicIpOnLaunch
+PASS  public subnet 2 MapPublicIpOnLaunch
+PASS  private subnet 1 MapPublicIpOnLaunch
+PASS  private subnet 2 MapPublicIpOnLaunch
+PASS  public route table is associated with both public subnets
+PASS  private route table 1 is associated with private subnet 1 only
+PASS  private route table 2 is associated with private subnet 2 only
+PASS  public route table has 0.0.0.0/0 to igw-* (got 'igw-083d72b8c3db1d6f5')
+PASS  private route table 1 has no route to an igw-*
+PASS  private route table 1 has no 0.0.0.0/0 route
+PASS  private route table 1 has S3 prefix list pl-* to vpce-* (got 'pl-63a5400a' 'vpce-05dfd12cddb88479e')
+PASS  private route table 2 has no route to an igw-*
+PASS  private route table 2 has no 0.0.0.0/0 route
+PASS  private route table 2 has S3 prefix list pl-* to vpce-* (got 'pl-63a5400a' 'vpce-05dfd12cddb88479e')
+PASS  S3 endpoint type is Gateway
+PASS  S3 endpoint service name
+PASS  S3 endpoint is bound to both private route tables
+PASS  export kvs-network-VpcId exists
+PASS  export kvs-network-VpcCidr exists
+PASS  export kvs-network-PublicSubnet1Id exists
+PASS  export kvs-network-PublicSubnet2Id exists
+PASS  export kvs-network-PrivateSubnet1Id exists
+PASS  export kvs-network-PrivateSubnet2Id exists
+PASS  export kvs-network-PublicSubnetIds exists
+PASS  export kvs-network-PrivateSubnetIds exists
+PASS  export kvs-network-AvailabilityZones exists
+PASS  export kvs-network-PublicRouteTableId exists
+PASS  export kvs-network-PrivateRouteTable1Id exists
+PASS  export kvs-network-PrivateRouteTable2Id exists
+PASS  export kvs-network-S3GatewayEndpointId exists
+PASS  VPC tag Project=kvs-capstone
+PASS  VPC tag Milestone=m1
+PASS  VPC tag Environment=sandbox
+PASS  VPC tag ManagedBy=cloudformation
+PASS  VPC has an Owner tag =kyrylo
+PASS  VPC has a Name tag
+RESULT: 45 passed, 0 failed
+Evidence: /Users/admin/Milestone/Milestone/docs/evidence/verify/20261105T173659Z-kvs-network-verify.log

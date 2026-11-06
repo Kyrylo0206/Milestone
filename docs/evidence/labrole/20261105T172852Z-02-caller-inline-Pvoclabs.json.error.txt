@@ -1,0 +1,5 @@
+COMMAND: aws iam get-role-policy --role-name voclabs --policy-name Pvoclabs --output json
+EXIT: 254
+ERROR:
+
+aws: [ERROR]: An error occurred (AccessDenied) when calling the GetRolePolicy operation: User: arn:aws:sts::500819826436:assumed-role/voclabs/user5670344=kshykhalov@kse.org.ua is not authorized to perform: iam:GetRolePolicy on resource: role voclabs with an explicit deny in an identity-based policy. Go to https://us-east-1.console.aws.amazon.com/iam/home?region=us-east-1#/authorization-details/d65cd1s4e9qpm9aavdqr0gapd for complete details, or call the GetRequestAuthorizationDetails API with the following authorization id: d65cd1s4e9qpm9aavdqr0gapd
